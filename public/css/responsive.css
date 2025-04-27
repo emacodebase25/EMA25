@@ -1,0 +1,275 @@
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+	.main_bnr .top_content_bnr ul li{ font-size:15px; margin:6px 0;}
+	.mainbtn.big i.icon{ width:40px; height:40px;}
+	.top_tab_area figure img{ max-height:inherit; height:100%;}
+	.top_tab_area .srvc_info{ padding:50px;}
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+.top_content_bnr{ width:90%;}
+	.main_bnr h1,  .main_bnr h2{ font-size:36px; line-height:38px; }
+	.main_bnr .top_content_bnr ul li{ font-size:15px; margin:6px 0;}
+	.mainbtn.big i.icon{ width:45px; height:45px;}
+	.top_tab_area figure img{ max-height:inherit; height:100%;}
+	.top_tab_area .srvc_info{ padding:50px;}
+.top_content_bnr p{ padding:0; margin:30px 0; }
+
+.container{width:100%; max-width:100% !important; }
+nav ul li div.drop1_list{ top:80px;}
+.main_inc_bnr .text_area{ font-size:100px;}	
+.mid_project h3{ font-size:36px; line-height:42px;}
+.spcl_info ul.spcl_box li{ padding:15px 20px;}
+footer p, footer ul li, footer ul li a{ font-size:14px;}
+ul.why_box li h3{ font-size:20px;}
+.abt_bnr .bnr_txt{ max-width:550px;}
+}
+
+
+
+@media screen and (max-width: 991px) {
+nav .login_ul{ display:none; }	
+.mobile_nav{ display:block; margin:0px 0px 0px 0;}
+nav ul.fa-pull-right{ padding-right:15px;}
+
+nav .menu-main-menu-container{background:#fff; box-shadow:0 0 5px 0 #ccc;  margin:0; padding:0; position:absolute;  height:100vh; z-index:99999;  width:100px; left:-300px; transition: 1s; top:0;}
+nav ul li.menu-item-has-children::before{ font-size:18px; top:9px; right:15px;}
+nav { float:right; padding:0px 0 0; justify-content:flex-end; width:auto; }
+nav .menu-main-menu-container ul{ width:100%; float:left; border:none; }
+nav .menu-main-menu-container ul li{ width:100%; text-align:left; float:left;border-bottom:solid 1px #ccc !important; border-right:none; padding:0 0px; margin:0; }
+nav .menu-main-menu-container ul li span{}
+nav .menu-main-menu-container ul li a{ color:#000; font-size:16px; padding:15px 20px; width:100% !important; float:left; font-weight:500; text-align:left !important}
+nav .menu-main-menu-container ul li span.after_nv i{ transform:rotate(180deg)}
+nav ul li:hover a, nav ul li.active a, nav ul li.current-menu-item a{  border-radius: 0px; color: #c8002b;}
+.call_email{ width:auto; float:left;}
+	
+.mobile_nav span { width:100%; height:2px; background:#c8002b; float:left; margin:20px 0 0 0px; position:relative;transition: all .3s ease; font-size:0;}
+.mobile_nav span:before { content:''; position:absolute; width:100%; height:2px; background:#c8002b; left:0px; top:-9px; transition: all .4s ease; }
+.mobile_nav span:after { content:''; position:absolute; width:100%; height:2px; background:#c8002b; left:0px; bottom:-9px; transition: all .4s ease;}
+.mobile_nav.close_menu span { height:auto; font-size:24px; color:#54B74C; background:rgba(0,0,0,0); margin-top:20px; margin-left:0px; font-weight:300; }
+.mobile_nav.close_menu span:before {transform: rotate(45deg); transition: all .4s ease; top:0%; margin-top: -1px; opacity:1 }
+.mobile_nav.close_menu span:after {transform: rotate(-45deg); transition: all .4s ease; bottom: 50%; margin-bottom: -1px; opacity:1; }
+nav ul.fa-pull-right li.mb_hide { display:none;}
+nav ul li ul.sub-menu { width:100%; float:left; position:static; display:none; padding:0px 0; opacity:1; visibility:visible; transform:none; border-top:solid 1px #ccc !important; padding:10px 20px; }
+nav ul li ul.sub-menu.displ_block{ display:block;}
+nav ul li:hover div.drop1_list ul li a::after{ display:none;}
+nav ul li:hover div.drop1_list ul li h4{ width:100%; float:left; font-size:20px; color:#fff; font-weight:600; margin:0 0 15px;}
+nav ul li:hover div.drop1_list ul li a, nav ul li div.drop1_list ul li a{ color:#FFFFFF73; padding:0; font-size:14px;}
+button.sub-menu-toggle{ display:block;    position: absolute;    right: 0; max-width:50px; width:45px; height:46px; border:none; background:#004a92; color:#fff; font-size:18px;}	
+	button.sub-menu-toggle span.icon-minus{ display:none;}	
+	.after_nv button.sub-menu-toggle span.icon-minus{ display:block;}	
+	.after_nv button.sub-menu-toggle span.icon-plus{ display:none;}	
+	nav ul li::before{ display:none;}	
+	.call_email li{ padding:0 15px 0px 0;}
+	nav ul li ul.sub-menu li{ border:none !important;}
+	nav ul li ul.sub-menu li a{ padding:8px 15px;}
+nav ul.menu li a i{ float:none; margin:inherit;}
+
+h2.big-title{ font-size:45px !important; line-height:48px }
+.what_we_do p{ font-size:16px; line-height:24px;  }
+
+.talk_us p{ font-size:14px; line-height:22px; margin:0 0 15px; }
+.talk_us .talk_box .part_01 ul li span{ font-size:14px; line-height:22px;}
+footer h3{ font-size:20px;}
+
+.left_bnr_info figure{ padding:0;}
+.rgt_bnr_info{ padding:20px 0 0 25px;}
+nav ul li:hover a::after, nav ul li a.active::after{ display:none;}
+.blog_bnr .left_bnr_info{ padding:0;}
+.blog_dtls_page ul.publish{ margin:20px 0;}
+.blog_dtls_page ul.publish li b{ font-size:20px;}
+.blog_links ul li{ max-width:50%;}
+.blog_links ul li figure{ margin:0 10px;}
+.blog_links ul li .dtls{ padding:0 10px;}
+	.top_logo_area ul li img{ max-width:100%;}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.ref_form ul.form_area li{ flex:0 0 100% !important}
+	.tab_area .p-5{ padding:20px 15px !important;}
+	.location_area ul.location_list li{ width:100%;}
+	.top_overview .text_lft ul li, .world_map_area ul.form_area li, .world_map_area ul.form_area li:nth-child(9){ flex:0 0 100%; width:100%;}
+	.call_us .part_01 h2{ font-size:22px !important}
+	.top_content_bnr p label{ display:none;}
+	.mb_top{ display:block;}
+	.call_email{ padding:3px 15px; justify-content:space-between; color:#fff; width:100%;}
+	.call_email li figure span{ color:#fff; margin:0 0px 0 0; font-size:20px;}
+	.mb_top .call_email li .social_top a{ color:#fff;}
+	.call_email li{ padding:0;}
+	ul.info_graphic.portfolio_list li{ flex:0 0 100%; margin:15px 0;}
+	.call_email li:last-child{ display:none;}
+	.top_logo_area ul{ justify-content:space-between;}
+	.hide_mb{ display:none;}
+	.show_mb{ display:block;}
+	.owl-carousel .owl-nav{ top:inherit; bottom:20px;}
+	.owl-carousel .owl-nav button.owl-prev{ left:35%;}
+	.owl-carousel .owl-nav button.owl-next{ right:35%;}
+	.mobile_call{ width:70%; margin:10px 15%;}
+	.mobile_call figure img{ max-height:43px;}
+	.mobile_call figure{ flex:0 0 60px;}
+	.main_bnr .top_content_bnr p{ margin:0;}
+	.gallery_area .bwg-item {
+    max-width: 48% !important;
+    margin: 10px 1%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+	.srvc_infographics ul li{ flex:0 0 100%;}
+	.inner_bnr .top_content_bnr h1, .inner_bnr .top_content_bnr label{ font-size:32px;}
+	.top_cta a.mainbtn { display:none;}
+	.mobile_call{ display:flex; align-items:stretch;}
+	.call_mb{ display:block;}
+	.call_mb a{  background:#25d366; color:#fff; font-size:40px; border-radius:50%; width:60px; height:60px; line-height:60px; display:inline-block; text-align:center; box-shadow:0 0 12px 1px #797777;}
+	.form_cta ul li{ flex:0 0 100%; margin:5px 0; text-align:center;}
+	img.bnr_img{ min-height:220px; object-fit:cover; object-position:right top; }
+	.top_content_bnr{ width:100%; padding:25px 0;}
+	.top_head{ display:none;}
+	.call_cta{ padding:15px}
+	.call_cta h4{ font-size:32px;}
+	h2{ font-size:32px !important; line-height:36px;}
+	.call_cta h3{ font-size:16px;}
+	.top_logo_area ul, .how-box{ flex-flow:row wrap;}
+	.top_logo_area ul li, .how-box .box { flex:0 0 48%; margin:0 max-width:48%;}
+	.how-box .box .round h4{ font-size:18px; line-height:20px; min-height:40px;}
+	header .logo_area { 
+		text-align:center; 
+		padding:10px 0; 
+	    width: fit-content;
+	}
+	.no_pos{ margin-bottom:10px;}
+	header .logo_area img{ }
+	.brdr_rgt{ border:none !important }
+	footer .resource.full_mb{ margin:20px 0; }
+footer .resource.full_mb ul.menu li{ width:50% !important; }	
+.top_content_bnr p, .content_area p, .spcl_info ul.spcl_box li p, .top_stats p, .certified_area p, .industries p, .faq_home p{ font-size:15px; line-height:24px; font-weight:400; }
+.request-loader a{ padding:12px 20px; font-size:16px; }
+.top_overview, .blog_list_area{ padding:35px 0; }
+footer{ padding:30px 0 0; }
+.loader_scroll figure img{ min-width:120px; }
+.brdr_rgt{ margin:0 0 25px; }
+footer .subscribe_area{ padding:0 }
+footer figure img{ max-height:55px; }
+.loader_scroll figure{ top:-110px; }
+.top_content_bnr p{ margin:15px 0; }
+	.top_tab_area{ flex-flow:wrap;}
+	.top_tab_area figure{ width:100%; float:left;}
+	.top_tab_area .srvc_info{ width:100%; float:left; padding:25px;}
+	.tour_list_right figure{ width:100%; padding:0;}
+	.tour_list_right .list_tour{ width:100%; padding:15px;}
+	.project_list_area ul.project_list li{ flex:0 0 100%;}
+	.location_srvc ul{ justify-content:center; max-height:350px; overflow:auto;}
+	.top_overview .text_lft{ max-height:400px; overflow:auto;}
+	.testi_dtls h3{ font-size:20px;}
+	.call_email li .rt_dtls p a{ color:#fff;}
+	.location_srvc ul li{ flex:0 0 48%; margin:6px 1%;}
+.top_tab_area.srvces_main_area .tab-content{ flex-flow:row wrap;}
+.top_stats .grey_bg .box_info, .our_company .comp_box .box_info{ width:100%; padding:0; margin:0 0 20px; }
+.top_tab_area .tab-content figure, .top_tab_area.srvces_main_area .tab-content figure{flex:0 0 100%; width:100%;}
+.top_tab_area .tab-content .srvc_info, .top_tab_area.srvces_main_area .tab-content .srvc_info{flex:0 0 100%; width:100%; padding:25px 0;}
+.top_tab_area .tab-content .srvc_info h3, .top_tab_area.srvces_main_area .tab-content .srvc_info h3 { height:80px;}
+.top_tab_area .tab-content .srvc_info h3::before , .top_tab_area.srvces_main_area .tab-content .srvc_info h3::before { font-size:110px;}
+.top_tab_area .tab-content .srvc_info h3 label, .top_tab_area.srvces_main_area .tab-content .srvc_info h3 label{ font-size:20px;}
+.top_tab_area ul.nav-tabs li{ flex:1;}
+.mid_project h3{ font-size:22px; line-height:28px;}
+.mid_project::after{ display:none;}
+.mid_project .cta{ text-align:left;}
+.spcl_info ul.spcl_box li{ padding:15px 15px; flex: 0 0 100%; margin:5px 0px;}
+ul.info_graphic li{flex: 0 0 100%; margin:10px 0px;}
+.numbox{ padding:12px; }
+.our_clients ul li { flex:0 0 100% !important; line-height:100px; padding:20px;}
+.what_we_offer{ padding-top:0;}
+.talk_us .talk_box{ background:#E9E9E9 ; padding:20px;}
+.talk_us .talk_box .part_01{ width:100%; padding:0;}
+.talk_us .talk_box .part_02{ width:100%;}
+.talk_us h2{ font-size:24px !important;}
+.last_foot .last_link a{ font-size:14px;}
+.main_inc_bnr::before{ width:100%; height:200px; background: transparent linear-gradient(90deg, #258CFF 0%, #455FFF 50%, #652BFF 100%) 0% 0% no-repeat padding-box; position:absolute; content:""; left:0px; bottom:60px; z-index:-1; animation:bulb .5s .2s;animation-direction:alternate; -webkit-animation-direction:alternate; animation-fill-mode:forwards;}
+.spcl_info ul.spcl_box{ margin: 0 0 25px;}
+.what_we_offer .news_slider .slide_arrow{ left:0; top:150px;}
+.what_we_offer .news_slider p{ margin-top:200px;}
+.left_bnr_info{ padding:0;} 
+.top_stats .grey_bg ul{ height:auto !important ; padding:25px 50px; }
+.top_stats .grey_bg ul li{ flex:0 0 100%; font-size:36px; line-height:36px; margin:25px 0;}
+.top_stats .grey_bg ul li::before { top:-20px; font-size:130px;}
+.top_logo_area ul li{ margin:5px 0; }
+.video_area{ height:auto; }
+.video_area video{ height:auto; }
+.tools-icon-animator{ padding:35px 0; margin:0; }
+.top_stats ul.project_list li{ flex:0 0 100%; padding:0; margin:15px 0; }
+.top_stats ul.project_list{ margin:30px 0 0; }
+.certified_area p{ padding:0; }
+.certified_area label{ font-size:26px; }
+.certified_area ul li{ min-width:120px; }
+.abt_bnr .bnr_txt, .srvc_bnr  .bnr_txt { position:relative; left:0; margin:10px 0 0; z-index:99;}
+.infographic_area ul li .circle_part{ max-width:300px; height:300px; text-align:center !important; position:static !important; padding:40px 20px!important;}
+.infographic_area ul li{ flex:0 0 100%; text-align:center !important;}
+ul.why_box li{ flex:0 0 100%; margin:5px 0;}
+.team_area ul.our_team_list li{ flex: 0 0 100%;} 
+.rgt_bnr_info figure{ left:inherit; margin:10px 0 0;}
+.contact_us_area ul.contact_box li{ flex:0 0 100%; margin:10px 0;}
+.call_us{ margin-top:50px;}
+.call_us .part_01{ padding:0;}
+.plan_page_area .plan_box{ margin:15px 0;}
+.portfolio_list_area ul.port_list li{ flex:0 0 100%;}
+.accordion ul.ind_list li, .accordion ul.faq_list li, .testimonial_area ul.testi_area li{ flex:0 0 100%; margin:10px 0; }
+.top_tab_area .tab-content .srvc_info h3 label::before { width:40px; top:10px;}
+.blog_dtls_page ul.publish li, .blog_links ul li{ flex:0 0 100%; margin:10px 0; max-width:inherit;}
+.blog_links ul li figure{ display:none;}
+.blog_list_area ul.blog_list li{ flex:0 0 100%;}
+.main_bnr h1, .main_bnr h2{ font-size:26px !important; line-height:35px !important; min-height:70px; }
+	.main_bnr h4, .top_content_bnr .bnr_label, .top_content_bnr .top_cta{ display:none;}
+.main_bnr p, .blog_list_area p{ font-size:16px line-height:24px; }
+.top_stats{ padding:40px 0 0; }
+.spcl_info{ padding:0 0 25px; }	
+h2.big-title{ font-size:32px; }
+.faq_home label, .industries label{ font-size:24px; margin:0 0 15px; }
+.heading{ font-size:16px; padding:10px; }
+.accordion ul.faq_list, .accordion ul.ind_list{ margin:0; }
+.blog_area ul li{ flex:0  100%;}	
+	
+footer .address_detials ul li{ max-width:100%; flex:0 0 100%; margin:15px 0;}
+	footer ul.social-icon{ display:none}
+	footer figure{ text-align:center;}
+	footer .subscribe{ max-width:inherit;}
+	.contact_form ul li{ flex:0 0 100% !important; width:100% !important;}
+	
+	.why_seo_area nav{ width:100%;}
+	.why_seo_area .content-wrap{ width:100%;}
+	.why_seo_area nav ul:before{ display:none;}
+	.why_seo_area .content-wrap .inner_content{ padding:10px 0;}
+	.why_seo_area .content-wrap h2{ font-size:32px; line-height:inherit; padding:10px; }
+}
+
+
+@media screen and (max-width: 767px) {
+	.wp-block-image img {
+    width: 220px !important;
+}
+	.quick_link li {
+		width:50%;
+		float: left;
+	}
+	.world_map_area h4 {
+    font-size: 16px;
+    line-height: 25px;
+	}
+	.o_logo{
+		width:100%;
+	}
+}
+
+
+@media only screen and (max-width: 359px) {
+	.mobile_nav{ margin-right:5px;}
+.top_stats .grey_bg ul li::before { font-size:100px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.inner_bnr .top_content_bnr{
+		padding:0;
+	}
+}

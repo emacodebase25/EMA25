@@ -1,0 +1,261 @@
+ .global {
+
+    background-size: 65%;
+    background-position: top left;
+    background-repeat: no-repeat;
+		 width:100%;
+		 float:left;
+}
+	.global-text::before {
+		width:100%;
+		height:100%;
+		content:'';
+		position:absolute;
+		top:0;
+		left:0;
+		align-items:center;
+		background-image: url('../images/hire-a-marketing-consultant-call-now-1.png');
+		opacity: 0.1;
+    background-repeat: no-repeat;
+    background-position: center;
+	}
+	@media only screen and (max-width: 1920px) {
+ .common-padd-lt-rt {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+@media only screen and (max-width: 1920px) {
+ .common-padd {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1599px) {
+ .common-padd-lt-rt {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+@media only screen and (max-width: 1599px) {
+ .common-padd {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+ .global-text {
+    padding: 40px;
+    border: 2px solid #f58220;
+    background: #fff;
+    color: #244867;
+}
+@media only screen and (max-width: 1599px) {
+.global-text {
+        padding: 25px;
+    }
+}
+@media only screen and (max-width: 1599px) {
+ h4 {
+        font-size: 20px;
+    }
+}
+	
+	.global-country {
+    display: flex;
+    flex-wrap: wrap;
+	z-index: 0;
+    position: relative;
+}
+.global-country-item {
+    width: 20%;
+    font-family: 'Graphik';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.global-country-item a {
+    display: flex;
+    align-items: center;
+    color: #244867;
+	    position: relative;
+    z-index: 999;
+}
+ .global-country-item img {
+    margin-right: 5px;
+}
+	img {
+    max-width: 100%;
+    height: auto;
+}
+	
+	.wpb_text_column>.wpb_wrapper>:last-child {
+    margin-bottom: 0;
+}
+
+.city_service_list ul {
+    margin: 0;
+}
+.city_service_list ul li {
+    list-style: none;
+    width: auto;
+    display: inline-block;
+    margin: 3px;
+}
+.city_service_list ul li a {
+    color: #000;
+    width: 100%;
+    display: table;
+    padding: 10px 0 10px 25px;
+    margin: 2px 5px;
+    display: inline-block;
+    background-image: url(../images/yellow_location_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 13px;
+    filter: grayscale(100%);
+}
+.city_service_list ul li a:hover {
+    color: #da1c4a;
+    filter: grayscale(0%);
+}
+	
+	
+	.testimonial_area1{
+		width:100%;
+		padding: 60px 0;
+		float:left;
+    background-size: cover;
+	}
+	.review-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+		background: #fff;
+    }
+    .review-card img {
+      width: 50px !important;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .review-card .verified-badge {
+      color: #1da1f2;
+    }
+    .review-card .stars {
+      color: #ffc107;
+    }
+    .review-card .footer {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .review-card .footer img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .review-card .footer .time {
+      color: gray;
+      font-size: 0.9em;
+    }
+	.footer i{
+		border: 0px solid #fff;
+    width: 35px ! Important;
+    height: 35px !important;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+        margin: 0 10px 0 0px;
+    display: block;
+    line-height: 35px;
+    color: #fff;
+    vertical-align: middle;
+    transition: .3s;
+    background: #da1c4a;
+    font-size: 18px;
+	}
+	
+	.seo_logos.a_seo_logo
+	{
+		background: #ffffff;
+	}
+	.a_seo_logo .logo_list li figure img {
+    max-width: 100%;
+    width: 150px;
+	}
+	.a_seo_logo .logo_list li p{
+		font-size:18px;
+		font-weight:600;
+	}
+	.a_seo_logo .logo_list.location_logo li figure {
+    margin-bottom: 15px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #e39cac;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.audit_form ul li:nth-child(5) {
+    flex: 0 0 100%;
+}
+	.audit_form ul li {
+    margin: 5px;
+    flex: 0 0 100%;
+	 width: 100% !important;
+}
+	.what_offer .dtls h3{
+		text-align:center;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+		top:15px;
+	}
+	.srvc_info h2{
+		padding-top:25px;
+	}
+}
+
+	@media only screen and (max-width: 767px) {
+	
+	.world_map_area ul.form_area li{
+			margin-left:20px !important;
+			margin-right:20px !important;
+		}
+		.re_for{
+			margin-top:28px !important;
+		}
+		    .main_bnr h1, .main_bnr h2 {
+        min-height: 0;
+        margin: 0;
+    }
+		header .logo_area{
+			width:fit-content;
+		}
+				}	
+
+
+
+0l {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    margin: 0 0 25px;
+    padding: 0 0 0px;
+}
+ 0l li {
+    width: 100%;
+    float: left;
+    margin: 7px 0;
+    padding: 0 0 0 30px;
+}

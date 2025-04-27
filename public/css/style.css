@@ -1,0 +1,28 @@
+.content_area {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    margin: 0 0 25px;
+    padding: 0 0 0px;
+}
+	.content_area li {
+    width: 100%;
+    float: left;
+    margin: 7px 0;
+    padding: 0 0 0 30px;
+}
+/*06-01-2025*/
+table#tablepress-1 tbody tr td a.esp_btn{
+		    background: #da1c4a;
+			padding: 5px 5px;
+			font-size: 10px;
+			font-weight: 600;
+			color: #fff;
+			text-transform: uppercase;
+			display: inline-block;
+			letter-spacing: 0.5px;
+	}
+.linkbuilding .form-control{height:45px;}
+
