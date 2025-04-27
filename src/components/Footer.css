@@ -149,3 +149,42 @@
   margin-top: 0;
   padding: 1.25em 2.375em;
 }
+.outer_logo{
+	background:#fff;
+	border-radius:10px;
+	padding: 15px 20px;
+}
+	.o_logo{
+		width:135px;
+	}
+	@media screen and (max-width: 767px) {
+	.o_logo{
+		width:100%;
+		margin-top:10px;
+	}
+}
+	
+.footerBottomImageBox img {
+    max-width: 250px;
+    object-fit: contain;
+}
+	.quick_link a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+	.quick_link a:hover {
+    color: #da1c4a;
+}
+	.modal-dialog {
+		max-width: 900px;
+	}
+	.modal .audit_form h3{
+		display:none;
+}
+	.f-16{
+		    font-size: 1rem;
+		color:#544d4d;
+		padding:15px 0;
+		    float: left;
+}

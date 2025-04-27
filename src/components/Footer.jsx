@@ -1,6 +1,54 @@
 import React from "react";
 
 const Footer = () => {
+
+  const seoLinks = [
+    { href: "/adult-seo-services-philippines/", label: "Adult SEO Services Philippines" },
+    { href: "/adult-seo-company-montenegro/", label: "Adult SEO Services Montenegro" },
+    { href: "/adult-seo-company-slovenia/", label: "Adult SEO Services Slovenia" },
+    { href: "/adult-seo-company-portugal/", label: "Adult SEO Services Portugal" },
+    { href: "/adult-seo-company-malta/", label: "Adult SEO Services Malta" },
+    { href: "/adult-seo-services-lebanon/", label: "Adult SEO Services Lebanon" },
+    { href: "/adult-seo-services-panama/", label: "Adult SEO Services Panama" },
+    { href: "/adult-seo-services-peru/", label: "Adult SEO Services Peru" },
+    { href: "/adult-seo-services-indonesia/", label: "Adult SEO Services Indonesia" },
+    { href: "/adult-seo-services-greece/", label: "Adult SEO Services Greece" },
+    { href: "/adult-seo-services-turkey/", label: "Adult SEO Services Turkey" },
+    { href: "/adult-seo-services-india/", label: "Adult SEO Services India" },
+    { href: "/adult-seo-services-south-korea/", label: "Adult SEO Services South Korea" },
+    { href: "/adult-seo-services-switzerland/", label: "Adult SEO Services Switzerland" },
+    { href: "/adult-seo-services-brazil/", label: "Adult SEO Services Brazil" },
+    { href: "/adult-seo-services-thailand/", label: "Adult SEO Services Thailand" },
+    { href: "/adult-seo-services-italy/", label: "Adult SEO Services Italy" },
+    { href: "/adult-seo-services-singapore/", label: "Adult SEO Services Singapore" },
+    { href: "/adult-seo-services-poland/", label: "Adult SEO Services Poland" },
+    { href: "/adult-seo-services-new-zealand/", label: "Adult SEO Services New Zealand" },
+    { href: "/adult-seo-services-japan/", label: "Adult SEO Services Japan" },
+    { href: "/adult-seo-services-hungary/", label: "Adult SEO Services Hungary" },
+    { href: "/adult-seo-services-finland/", label: "Adult SEO Services Finland" },
+    { href: "/adult-seo-services-estonia/", label: "Adult SEO Services Estonia" },
+    { href: "/adult-seo-services-bulgaria/", label: "Adult SEO Services Bulgaria" },
+    { href: "/adult-seo-services-belgium/", label: "Adult SEO Services Belgium" },
+    { href: "/adult-seo-services-austria/", label: "Adult SEO Services Austria" },
+    { href: "/adult-seo-services-spain/", label: "Adult SEO Services Spain" },
+    { href: "/adult-seo-services-romania/", label: "Adult SEO Services Romania" },
+    { href: "/adult-seo-services-germany/", label: "Adult SEO Services Germany" },
+    { href: "/adult-seo-services-denmark/", label: "Adult SEO Services Denmark" },
+    { href: "/adult-seo-services-russia/", label: "Adult SEO Services Russia" },
+    { href: "/adult-seo-services-canada/", label: "Adult SEO Services Canada" },
+    { href: "/adult-seo-services-sweden/", label: "Adult SEO Services Sweden" },
+    { href: "/adult-seo-services-ireland/", label: "Adult SEO Services Ireland" },
+    { href: "/adult-seo-services-china/", label: "Adult SEO Services China" },
+    { href: "/adult-seo-luxembourg/", label: "Adult SEO Services Luxembourg" },
+    { href: "/escort-marketing-netherlands/", label: "Adult SEO Services Netherlands" },
+    { href: "/adult-seo-services-australia/", label: "Adult SEO Services Australia" },
+    { href: "/adult-seo-services-tanzania/", label: "Adult SEO Services Tanzania" },
+    { href: "/adult-seo-services-uruguay/", label: "Adult SEO Services Uruguay" },
+    { href: "/adult-seo-services-armenia/", label: "Adult SEO Services Armenia" },
+    { href: "/adult-seo-services-usa/", label: "Adult SEO Services USA" },
+  ];
+
+
   return (
     <footer className="footer">
       <div className="container">
@@ -139,35 +187,40 @@ const Footer = () => {
 
           {/* SEO Services Global */}
           <div className="col-lg-12 pt-3 mb-5">
-            <h3 style={{ textAlign: "center" }}>SEO Services for Global Community</h3>
-            <div className="row" style={{ color: "white" }}>
-              <div className="col-lg-4">
-                <div className="quick_link">
-                  <a href="/adult-seo-services-philippines/">Adult SEO Services Philippines</a>
-                </div>
+      <h3 style={{ textAlign: "center" }}>SEO Services for Global Community</h3>
+      <div className="row" style={{ color: "white" }}>
+        {seoLinks.map((link, index) => (
+          <div className="col-lg-4" key={index}>
+            <div className="quick_link">
+              <a href={link.href}>{link.label}</a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+          {/* pay via */}
+          <div className="row">
+      <div className="col-md-12">
+        <div className="last_footer">
+          <div className="row">
+            <div className="col-lg-6">
+              <div id="footer-2">
+                <aside id="block-24" className="widget widget_block">
+                  <p>© 2023 Escort Marketing Agency. All Rights Reserved</p>
+                </aside>
               </div>
-              <div className="col-lg-4">
-                <div className="quick_link">
-                  <a href="/adult-seo-company-montenegro/">Adult SEO Services Montenegro</a>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="quick_link">
-                  <a href="/adult-seo-company-slovenia/">Adult SEO Services Slovenia</a>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="quick_link">
-                  <a href="/adult-seo-company-portugal/">Adult SEO Services Portugal</a>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="quick_link">
-                  <a href="/adult-seo-company-malta/">Adult SEO Services Malta</a>
-                </div>
+            </div>
+            <div className="col-lg-6 d-flex align-items-center justify-content-end d-none gap-2">
+              <div className="footerBottomImageBox">
+                <span>Pay Us Via</span>
+                <img src="images/payments-ezgif.png" alt="payments image" />
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
         </div>
       </div>
