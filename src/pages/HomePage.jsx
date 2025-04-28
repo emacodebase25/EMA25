@@ -539,8 +539,8 @@ const PlatformLogo = ({ image, name }) => (
 );
 
 const PortfolioCarousel = () => (
-  <Carousel id="demo" className="carousel slide">
-    <Carousel.Item className="carousel-item active">
+  <Carousel id="demo" className="carousel slide portfolioCarousel">
+    <Carousel.Item className="carousel-item">
       <img src="images/4.jpg" alt="" />
     </Carousel.Item>
     <Carousel.Item className="carousel-item">
@@ -564,6 +564,7 @@ const PortfolioCarousel = () => (
     <Carousel.Item className="carousel-item">
       <img src="images/port_03.png" alt="" />
     </Carousel.Item>
+     
   </Carousel>
 );
 

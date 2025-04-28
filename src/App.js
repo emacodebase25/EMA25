@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./assets/css/style_1.css";
+import "./assets/css/responsive.css";
+import "./assets/css/font-awesome.min.css";
 import Header from './components/Header';
 import TopHeader from './components/TopHeader';
 import Footer from './components/Footer';

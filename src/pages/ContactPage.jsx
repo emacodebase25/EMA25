@@ -1,8 +1,8 @@
 import React from "react";
 import escortBannerImg from "../assets/images/escort-banner.jpg";
 import BannerSection from "../components/Bannar";
-// import "../assets/css/style_1.css";
-// import "font-awesome/css/font-awesome.min.css";
+import "../assets/css/style_1.css";
+import "font-awesome/css/font-awesome.min.css";
 import ProjectFormSection from "../components/ProjectFormSection";
 import BlogArea from "../components/BlogArea";
 import SEOLogos from "../components/SEOLogos";
