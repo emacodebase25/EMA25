@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "../assets/css/style_1.css"
 import "font-awesome/css/font-awesome.min.css";
 import BannarSection from "../components/Bannar";
 import AuditForm from "../components/AuditForm";

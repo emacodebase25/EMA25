@@ -10,7 +10,7 @@ h1 h2 h3 h4 h5 h6{
 ul, ul li, li { list-style-type:none; }
 ul, ol{ padding:0; margin:0;}
 a{transition:ease-in .3s;}
-a, a:hover, a:focus, a:focus, a:active{ text-decoration:none !important; outline:none; color:inherit; }
+a, a:hover, a:focus, a:focus, a:active{ text-decoration:none; outline:none; color:inherit; }
 input:focus, select:focus, button:focus{ outline:none;}
 .container{ max-width:1280px;} 
 .call_mb{ position:fixed; right:10px; bottom:50px; z-index:9999; }
@@ -391,7 +391,7 @@ ul.logo_list li figure img{ max-width:100%; width:100%; height:auto; max-height:
 
 .tour_list_right .list_tour .location li::after {
     content: '';
-    background: url(../images/list_arrow.png) no-repeat;
+    /* background: url(../images/list_arrow.png) no-repeat; */
     position: absolute;
     width: 19px;
     height: 12px;
@@ -579,7 +579,7 @@ ul.logo_list li figure img{ max-width:100%; width:100%; height:auto; max-height:
 .mid_project{ width:100%; float:left; background: linear-gradient(117deg, #6900cd 0%, #a131a3 50%, #542877 100%) 0% 0% no-repeat; min-height:100px; position:relative; padding:50px 0; margin:50px 0 1px;}
 .mid_project h3{ font-size:48px; line-height:54px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-weight:700}
 .mid_project h3 span{-webkit-text-stroke: 1px #fff; color:transparent;}
-.mid_project::after{ content:''; background:url(../images/mid_project.png) no-repeat right; background-size:cover; position:absolute; width:35%; height:100%; right:0; top:0;  }
+/* .mid_project::after{ content:''; background:url(../images/mid_project.png) no-repeat right; background-size:cover; position:absolute; width:35%; height:100%; right:0; top:0;  } */
 .mid_project .cta{ width:100%; float:left; position:relative; z-index:5; text-align:center; margin:50px 0 0;}
 .mid_project .cta a{ border:solid 1px #da1c4a; color:#da1c4a; text-transform:uppercase; font-weight:500; padding:10px 20px; letter-spacing:1px; border-radius: 30px;}
 .mid_project .cta a:hover{background: #da1c4a; color:#fff; }
@@ -685,7 +685,7 @@ ul.logo_list li figure img{ max-width:100%; width:100%; height:auto; max-height:
 .talk_us h2{ position:relative; font-size:48px; z-index:2   }
 .talk_us label{ text-transform:uppercase;width:100%; float:left; font-size:18px; font-weight:700; margin:25px 0;}
 .talk_us p{font-size:18px; line-height:24px;  margin:0px 0 40px; width:100%; float:left; letter-spacing:.5px; font-weight:500;}
-.talk_us .talk_box{ width:100%; float:left; background:#E9E9E9 url(../images/talk_us.jpg) no-repeat right; min-height:500px; background-size:auto 100%; padding:50px; }
+/* .talk_us .talk_box{ width:100%; float:left; background:#E9E9E9 url(../images/talk_us.jpg) no-repeat right; min-height:500px; background-size:auto 100%; padding:50px; } */
 .talk_us .talk_box .part_01{ width:50%; float:left; padding-right:30px;}
 .talk_us .talk_box .part_01 ul{ width:100%; float:left; margin-bottom:10px;}
 .talk_us .talk_box .part_01 ul li{  width:100%; float:left;  margin:10px 0; display:flex; flex-flow:row; align-items:center;}
@@ -2725,7 +2725,7 @@ section.banner-div-all {  	background-size: cover;}
 
 .banner-div-all .top-banner-div-health h3 {font-size:21px;font-weight: 300 !important; padding-top: 20px; line-height: 1.5; color: #000;}
 
- .background-3{  background-image: url(../assets/back_cta3.png);    padding: 4rem 0;background-repeat: no-repeat;background-position: 100%;}
+ /* .background-3{  background-image: url(../assets/back_cta3.png);    padding: 4rem 0;background-repeat: no-repeat;background-position: 100%;} */
 
 .banr-div-btm {
     background: #ebebeb !important;
@@ -3043,7 +3043,7 @@ section.banner-div-all {  	background-size: cover;}
 
 	height: 30px;
 
-	background: url(../images/sprite-new-min.png) no-repeat -234px -6px;
+	/* background: url(../images/sprite-new-min.png) no-repeat -234px -6px; */
 
 	display: inline-block;
 
@@ -3090,8 +3090,4 @@ ol {
     padding: 0 0 0 30px;
 	     list-style-type: auto;
 }
-
-a{
-    text-decoration: none !important;
-}
-/* anwesa 27-04 */
+   
