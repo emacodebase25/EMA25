@@ -6,15 +6,31 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ServicesWeOffer = () => {
   const settings = {
-    dots: true,
+    dots: false,
     loop: true,
+    arrows: true,
     infinite: true,
     speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false,
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   };
 
   const services = [
@@ -58,7 +74,8 @@ const ServicesWeOffer = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="all_srvc">
-              <Slider {...settings} className="all_categories owl-carousel owl-theme">
+              <Slider {...settings} className="">
+                {/* all_categories owl-carousel owl-theme */}
                 {services.map((service, index) => (
                   <div className="item" key={index}>
                     <figure>
