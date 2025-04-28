@@ -85,6 +85,12 @@ body.search-results .entry-footer{
 header.sticky{ 
     top:0;
 }
+
+.gtranslate-position{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media (max-width: 991px) {
     .top_header {
         display:block;

@@ -115,7 +115,7 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
 	a {
 		background: transparent;
 		font-weight: bold;
-		text-decoration: underline;
+		text-decoration: none !important;
 		text-align: left;
 	}
 

@@ -20,7 +20,7 @@ const TopHeader = () => {
             </div>
           </div>
 
-          <div>
+          <div className="gtranslate-position">
             <div className="gtranslate_wrapper" id="gt-wrapper-62989213"></div>
           </div>
 

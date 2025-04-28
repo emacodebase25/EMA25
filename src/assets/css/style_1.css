@@ -10,7 +10,7 @@ h1 h2 h3 h4 h5 h6{
 ul, ul li, li { list-style-type:none; }
 ul, ol{ padding:0; margin:0;}
 a{transition:ease-in .3s;}
-a, a:hover, a:focus, a:focus, a:active{ text-decoration:none; outline:none; color:inherit; }
+a, a:hover, a:focus, a:focus, a:active{ text-decoration:none !important; outline:none; color:inherit; }
 input:focus, select:focus, button:focus{ outline:none;}
 .container{ max-width:1280px;} 
 .call_mb{ position:fixed; right:10px; bottom:50px; z-index:9999; }
@@ -3091,5 +3091,7 @@ ol {
 	     list-style-type: auto;
 }
 
-
+a{
+    text-decoration: none !important;
+}
 /* anwesa 27-04 */
