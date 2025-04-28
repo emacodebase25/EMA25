@@ -5,7 +5,8 @@ import TopHeader from './components/TopHeader';
 import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
-// import AboutPage from './pages/AboutPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         <Header />      
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="/about-us" element={<AboutPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>

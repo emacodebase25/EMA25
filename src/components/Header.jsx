@@ -38,8 +38,8 @@ const Header = () => {
 
               <div className="menu-main-menu-container">
                 <ul id="menu-main-menu" className="nav-menu">
-                  <li><a href="https://escortmarketing.agency/">Home</a></li>
-                  <li><a href="https://escortmarketing.agency/about-us/">About</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about-us">About</a></li>
 
                   {/* Services Menu with Submenu */}
                   <li className={`menu-item-has-children ${isSubMenuOpen ? 'open' : ''}`}>
@@ -84,7 +84,7 @@ const Header = () => {
                   <li><a href="https://escortmarketing.agency/faqs/">FAQ</a></li>
                   <li><a href="https://escortmarketing.agency/blog/">Blog</a></li>
                   <li><a href="https://escortmarketing.agency/pricing/">Pricing</a></li>
-                  <li><a href="https://escortmarketing.agency/contact-us/">Contact</a></li>
+                  <li><a href="/contact-us/">Contact</a></li>
                   <li><a href="https://escortmarketing.agency/contact-us/">Get a Quote</a></li>
                 </ul>
               </div>
