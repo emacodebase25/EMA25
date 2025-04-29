@@ -57,7 +57,7 @@ nav ul li:hover div.drop1_list ul li a::after{ display:none;}
 nav ul li:hover div.drop1_list ul li h4{ width:100%; float:left; font-size:20px; color:#fff; font-weight:600; margin:0 0 15px;}
 nav ul li:hover div.drop1_list ul li a, nav ul li div.drop1_list ul li a{ color:#FFFFFF73; padding:0; font-size:14px;}
 button.sub-menu-toggle{ display:block;    position: absolute;    right: 0; max-width:50px; width:45px; height:46px; border:none; background:#004a92; color:#fff; font-size:18px;}	
-	button.sub-menu-toggle span.icon-minus{ display:none;}	
+	/* button.sub-menu-toggle span.icon-minus{ display:none;}	 */
 	.after_nv button.sub-menu-toggle span.icon-minus{ display:block;}	
 	.after_nv button.sub-menu-toggle span.icon-plus{ display:none;}	
 	nav ul li::before{ display:none;}	
@@ -83,6 +83,9 @@ nav ul li:hover a::after, nav ul li a.active::after{ display:none;}
 .blog_links ul li figure{ margin:0 10px;}
 .blog_links ul li .dtls{ padding:0 10px;}
 	.top_logo_area ul li img{ max-width:100%;}
+	nav ul li ul.sub-menu {
+    left: 0px;
+}
 }
 
 
@@ -91,7 +94,7 @@ nav ul li:hover a::after, nav ul li a.active::after{ display:none;}
 	.ref_form ul.form_area li{ flex:0 0 100% !important}
 	.tab_area .p-5{ padding:20px 15px !important;}
 	.location_area ul.location_list li{ width:100%;}
-	.top_overview .text_lft ul li, .world_map_area ul.form_area li, .world_map_area ul.form_area li:nth-child(9){ flex:0 0 100%; width:100%;}
+	.top_overview .text_lft ul li, .world_map_area ul.form_area li, .world_map_area ul.form_area li:nth-child(9){ flex:0 0 100%; width:100%; margin: 8px 0 !important;}
 	.call_us .part_01 h2{ font-size:22px !important}
 	.top_content_bnr p label{ display:none;}
 	.mb_top{ display:block;}
@@ -132,7 +135,7 @@ nav ul li:hover a::after, nav ul li a.active::after{ display:none;}
 	h2{ font-size:32px !important; line-height:36px;}
 	.call_cta h3{ font-size:16px;}
 	.top_logo_area ul, .how-box{ flex-flow:row wrap;}
-	.top_logo_area ul li, .how-box .box { flex:0 0 48%; margin:0 max-width:48%;}
+	.top_logo_area ul li, .how-box .box { flex:0 0 48%; margin:0; max-width:48%;}
 	.how-box .box .round h4{ font-size:18px; line-height:20px; min-height:40px;}
 	header .logo_area { 
 		text-align:center; 
@@ -221,14 +224,14 @@ ul.why_box li{ flex:0 0 100%; margin:5px 0;}
 .blog_list_area ul.blog_list li{ flex:0 0 100%;}
 .main_bnr h1, .main_bnr h2{ font-size:26px !important; line-height:35px !important; min-height:70px; }
 	.main_bnr h4, .top_content_bnr .bnr_label, .top_content_bnr .top_cta{ display:none;}
-.main_bnr p, .blog_list_area p{ font-size:16px line-height:24px; }
+.main_bnr p, .blog_list_area p{ font-size:16px; line-height:24px; }
 .top_stats{ padding:40px 0 0; }
 .spcl_info{ padding:0 0 25px; }	
 h2.big-title{ font-size:32px; }
 .faq_home label, .industries label{ font-size:24px; margin:0 0 15px; }
 .heading{ font-size:16px; padding:10px; }
 .accordion ul.faq_list, .accordion ul.ind_list{ margin:0; }
-.blog_area ul li{ flex:0  100%;}	
+.blog_area ul li{ flex:0 0 100%; max-width: 100%;}	
 	
 footer .address_detials ul li{ max-width:100%; flex:0 0 100%; margin:15px 0;}
 	footer ul.social-icon{ display:none}
@@ -241,6 +244,14 @@ footer .address_detials ul li{ max-width:100%; flex:0 0 100%; margin:15px 0;}
 	.why_seo_area nav ul:before{ display:none;}
 	.why_seo_area .content-wrap .inner_content{ padding:10px 0;}
 	.why_seo_area .content-wrap h2{ font-size:32px; line-height:inherit; padding:10px; }
+
+	
+	.home_port img {
+    min-height: 289px;
+    max-height: 289px;
+}
+.home_port .carousel-control-next{ right:-17px;}
+.home_port .carousel-control-prev{ left:-17px;}
 }
 
 
@@ -260,8 +271,24 @@ footer .address_detials ul li{ max-width:100%; flex:0 0 100%; margin:15px 0;}
 		width:100%;
 	}
 }
+@media screen and (max-width: 575px) {
+	.home_port img {
+    min-height: 222px;
+    max-height: 222px;
+}
+}
 
-
+@media screen and (max-width: 480px) {
+	.home_port img {
+    min-height: 185px;
+    max-height: 185px;
+}
+.portfolioCarousel .carousel-control-prev-icon,
+.portfolioCarousel .carousel-control-next-icon {
+	width: 18px !important;
+	height: 18px !important;
+}
+}
 @media only screen and (max-width: 359px) {
 	.mobile_nav{ margin-right:5px;}
 .top_stats .grey_bg ul li::before { font-size:100px;}

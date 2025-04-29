@@ -1307,11 +1307,12 @@ ul.why_box li p{ margin:0;width:100%; float:left; font-size:16px; line-height:24
 
 ul.form_area {
     width: 100%;
-    float: left;
+    float:none;
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
-    justify-content: space-between
+    justify-content: space-between;
+    margin: 0 0 !important;
 }
 
 .world_map_area ul.form_area li {
@@ -1668,14 +1669,31 @@ footer .address_detials ul li i {
 .audit_form ul li{ margin:5px; flex:0 0 32%;}
 /* .audit_form ul li:nth-child(5){ flex:0 0 50%;}
 .audit_form ul li:nth-child(6){ flex:0 0 15%;} */
-.audit_form ul li input, .audit_form ul li textarea{ height:45px; color:#000; width:100%; padding:0 15px;}
+.audit_form ul li input, .audit_form ul li textarea {
+    height: 45px;
+    color: #000;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.4;
+}
 .audit_form ul li input.wpcf7-submit{ background:#000; color:#fff; cursor:pointer; border:none; font-weight:600; font-size:18px;}
 
 .smo_icons{ width:100%; float:left; text-align:center;}
 .smo_icons ul{ width:100%; float:left; padding:0; margin:25px 0;  }
 .smo_icons ul li{ display:inline-block; margin:0 5px;}
 .smo_icons ul li a{ display:inline-block; width:60px; height:60px; text-align:center; line-height:60px; border-radius:10px; background:#000; color:#fff; font-size:30px; }
-.cta_link{ width:100%; float:left; margin:0 0 35px;}
+.cta_link {
+    width: 100%;
+    float: left;
+    margin: 0 0 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
 .smo_icons ul li a.twitter{background:#1da1f2;}
 .smo_icons ul li a.instagram{background:#262626;}
 .smo_icons ul li a.facebook{background:#3b5998;}
@@ -2364,8 +2382,8 @@ ul.logo_list.location_logo li figure{ min-height:150px; line-height:150px; backg
 .home_port .carousel-inner{ border-radius:20px; box-shadow:0 0 15px 0 #ccc; margin:15px 0 0;}
 .home_port  .carousel-indicators li{ background:#333;}
 .home_port .carousel-control-next, .home_port .carousel-control-prev{ width:auto; opacity:1; font-size:24px; color:#000;}
-.home_port .carousel-control-next{ right:-30px;}
-.home_port .carousel-control-prev{ left:-30px;}
+.home_port .carousel-control-next{ right:-45px;}
+.home_port .carousel-control-prev{ left:-45px;}
 .ref_form{ width:100%; float:left; text-align:center;}
 .ref_form p{ font-size:18px; color:#000;}
 .ref_form ul.form_area{ background:#eee; padding:20px; text-align:left; flex-flow:row wrap;  border-radius:12px;}
@@ -3117,4 +3135,29 @@ ol {
 }
 .slick-prev:before, .slick-next:before{
     opacity: 0 !important;
+}
+
+.portfolioCarousel .carousel-indicators{
+    display: none;
+}
+.portfolioCarousel .carousel-control-prev,
+.portfolioCarousel .carousel-control-next{
+    font-size: 0;
+}
+
+.portfolioCarousel .carousel-control-prev-icon{
+    background-image: url(../images/ow-left.png);
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.portfolioCarousel .carousel-control-next-icon{
+    background-image: url(../images/ow-right.png);
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.footerBottomImageBox img {
+    max-width: 250px;
+    object-fit: contain;
 }
