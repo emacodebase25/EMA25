@@ -156,6 +156,154 @@ const EscortBlogPage = () => {
                 )}
               </div>
             </div>
+
+            <div className="col-md-3">
+              <div className="side_nav">
+                <h3>Latest Articles</h3>
+                <div id="sidebar" role="complementary">
+                  <ul>
+                    <section
+                      id="block-35"
+                      className="widget widget_block widget_recent_entries"
+                    >
+                      <ul className="wp-block-latest-posts__list wp-block-latest-posts">
+                        <li>
+                          <a
+                            className="wp-block-latest-posts__post-title"
+                            href="https://escortmarketing.agency/escort-marketing-tips-for-tulsa-usa/"
+                          >
+                            Boost Your Independent Escort Business in Tulsa:
+                            Effective Digital Marketing Tips
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="wp-block-latest-posts__post-title"
+                            href="https://escortmarketing.agency/build-adult-brand-tulsa/"
+                          >
+                            How to Create a Strong Brand for Your Adult Business
+                            in Tulsa
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="wp-block-latest-posts__post-title"
+                            href="https://escortmarketing.agency/5-website-essentials-for-a-high-end-escort-brand/"
+                          >
+                            5 Website Essentials for a High-End Escort Brand
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="wp-block-latest-posts__post-title"
+                            href="https://escortmarketing.agency/seo-checklist-for-gfe-providers/"
+                          >
+                            The SEO Checklist for GFE Providers (2025)
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="wp-block-latest-posts__post-title"
+                            href="https://escortmarketing.agency/travel-companion-seo/"
+                          >
+                            Why Every Travel Companion Needs Local SEO in Major
+                            Cities
+                          </a>
+                        </li>
+                      </ul>
+                    </section>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Leave a Message Form */}
+              <div className="side_nav">
+                <h3>Leave a Message</h3>
+                <form
+                  className="wpcf7-form init"
+                  noValidate
+                  aria-label="Contact form"
+                >
+                  <div className="contact_form">
+                    <ul>
+                      <li>
+                        <p>
+                          <label>Name*</label>
+                          <br />
+                          <input
+                            type="text"
+                            name="text-141"
+                            className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                            required
+                            placeholder="Enter Name*"
+                          />
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <label>Email*</label>
+                          <br />
+                          <input
+                            type="email"
+                            name="email-931"
+                            className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
+                            required
+                            placeholder="Enter Email*"
+                          />
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <label>Phone*</label>
+                          <br />
+                          <input
+                            type="tel"
+                            name="tel-997"
+                            className="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control"
+                            required
+                            placeholder="Enter Phone No*"
+                          />
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <label>Website Url</label>
+                          <br />
+                          <input
+                            type="text"
+                            name="text-142"
+                            className="wpcf7-form-control wpcf7-text form-control"
+                            placeholder="Enter Website Url"
+                          />
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <label>Enter Your Idea*</label>
+                          <br />
+                          <textarea
+                            name="textarea-724"
+                            rows="3"
+                            className="wpcf7-form-control wpcf7-textarea form-control"
+                            placeholder="Enter Your Idea*"
+                            required
+                          ></textarea>
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <input
+                            type="submit"
+                            value="Send Message"
+                            className="wpcf7-form-control has-spinner wpcf7-submit sbmt_btn"
+                          />
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>

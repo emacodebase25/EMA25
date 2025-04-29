@@ -11,24 +11,36 @@ import ServicesWeOffer from "../components/ServicesWeOffer";
 import BlogArea from "../components/BlogArea";
 import ProjectFormSection from "../components/ProjectFormSection";
 import bannerImage from "../assets/images/bnr_01.webp";
+import PlatformLogoCarousel from "../components/PlatfromLogoCarousal";
 const faqList = [
   {
     question: "What are the key components of Escort SEO?",
     answer: (
       <>
         Key components of{" "}
-        <a href="https://escortmarketing.agency/escort-seo/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://escortmarketing.agency/escort-seo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Escort SEO
         </a>{" "}
-        include keyword research, on-page optimization, technical SEO, content creation, link building, and local SEO. These elements work together to improve a website’s search engine rankings and attract targeted traffic.
+        include keyword research, on-page optimization, technical SEO, content
+        creation, link building, and local SEO. These elements work together to
+        improve a website’s search engine rankings and attract targeted traffic.
       </>
     ),
   },
   {
-    question: "Is SEO different for escort websites compared to other industries?",
+    question:
+      "Is SEO different for escort websites compared to other industries?",
     answer: (
       <>
-        While many SEO principles remain the same across industries, escort websites often face unique challenges due to the sensitive nature of the services offered. SEO strategies for escort websites may need to be tailored to comply with legal regulations and address specific industry nuances.
+        While many SEO principles remain the same across industries, escort
+        websites often face unique challenges due to the sensitive nature of the
+        services offered. SEO strategies for escort websites may need to be
+        tailored to comply with legal regulations and address specific industry
+        nuances.
       </>
     ),
   },
@@ -37,10 +49,17 @@ const faqList = [
     answer: (
       <>
         Keyword research for{" "}
-        <a href="https://escortmarketing.agency/escort-seo/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://escortmarketing.agency/escort-seo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Escort SEO
         </a>{" "}
-        involves identifying relevant search terms and phrases that potential clients are likely to use. Tools like SEMrush, Ahrefs, SpyFu, or SERanking can be used to identify high-volume keywords with manageable competition.
+        involves identifying relevant search terms and phrases that potential
+        clients are likely to use. Tools like SEMrush, Ahrefs, SpyFu, or
+        SERanking can be used to identify high-volume keywords with manageable
+        competition.
       </>
     ),
   },
@@ -48,7 +67,11 @@ const faqList = [
     question: "What are some on-page SEO best practices for escort websites?",
     answer: (
       <>
-        On-page SEO best practices for escort websites include optimizing meta tags (title tags, meta descriptions), using relevant keywords in headings and body content, optimizing image alt text, creating unique and valuable content, and ensuring a user-friendly website structure and navigation.
+        On-page SEO best practices for escort websites include optimizing meta
+        tags (title tags, meta descriptions), using relevant keywords in
+        headings and body content, optimizing image alt text, creating unique
+        and valuable content, and ensuring a user-friendly website structure and
+        navigation.
       </>
     ),
   },
@@ -57,10 +80,16 @@ const faqList = [
     answer: (
       <>
         Link building plays a crucial role in{" "}
-        <a href="https://escortmarketing.agency/escort-seo/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://escortmarketing.agency/escort-seo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Escort SEO
         </a>{" "}
-        by helping to increase a website’s authority and credibility in the eyes of search engines. Quality backlinks from reputable websites can improve search engine rankings and drive more organic traffic to the site.
+        by helping to increase a website’s authority and credibility in the eyes
+        of search engines. Quality backlinks from reputable websites can improve
+        search engine rankings and drive more organic traffic to the site.
       </>
     ),
   },
@@ -68,20 +97,27 @@ const faqList = [
     question: "What role does local SEO play in escort marketing?",
     answer: (
       <>
-        Local SEO is essential for escort websites as it helps them target potential clients in specific geographic locations. Optimizing for local search involves creating location-specific content, claiming and optimizing Google My Business listings, and earning citations from local directories.
+        Local SEO is essential for escort websites as it helps them target
+        potential clients in specific geographic locations. Optimizing for local
+        search involves creating location-specific content, claiming and
+        optimizing Google My Business listings, and earning citations from local
+        directories.
       </>
     ),
   },
   {
-    question: "Are there any specific SEO strategies for promoting escort services on social media platforms?",
+    question:
+      "Are there any specific SEO strategies for promoting escort services on social media platforms?",
     answer: (
       <>
-        Yes, social media can play a significant role in promoting escort services. SEO strategies for social media may include optimizing profiles with relevant keywords, sharing high-quality content, engaging with followers, and leveraging hashtags to increase visibility.
+        Yes, social media can play a significant role in promoting escort
+        services. SEO strategies for social media may include optimizing
+        profiles with relevant keywords, sharing high-quality content, engaging
+        with followers, and leveraging hashtags to increase visibility.
       </>
     ),
   },
 ];
-
 
 const EscortHomePage = () => {
   return (
@@ -308,39 +344,8 @@ const EscortHomePage = () => {
                           increase your earnings with tailored growth solutions.
                         </strong>
 
-                        <div className="logo_list location_logo al_cat_logo owl-carousel owl-theme">
-                          <PlatformLogo
-                            image="images/fansly_light_v3-1024x286.webp"
-                            name="Fansly"
-                          />
-                          <PlatformLogo
-                            image="images/1024fans.png"
-                            name="1024FANS"
-                          />
-                          <PlatformLogo
-                            image="images/flirtback-logo-light.png"
-                            name="FlirtBack"
-                          />
-                          <PlatformLogo
-                            image="images/loyalfans.png"
-                            name="LoyalFans"
-                          />
-                          <PlatformLogo
-                            image="images/peach.49f1951.png"
-                            name="Peach"
-                          />
-                          <PlatformLogo
-                            image="images/unfilter-1024x182.png"
-                            name="Unflitrd"
-                          />
-                          <PlatformLogo
-                            image="images/xgirl-hub.png"
-                            name="XGirlHub"
-                          />
-                          <PlatformLogo
-                            image="images/logo123.png"
-                            name="XXX Follow"
-                          />
+                        <div className="logo_list location_logo al_cat_logo ">
+                          <PlatformLogoCarousel />
                         </div>
                       </div>
                     </div>
@@ -548,7 +553,7 @@ const EscortHomePage = () => {
                   </div>
                 </div>
               </div>
-              <FAQSection faqList={faqList}/>
+              <FAQSection faqList={faqList} />
             </div>
           </section>
         </div>
@@ -613,14 +618,7 @@ const SocialMediaItem = ({ image, title, content }) => (
   </li>
 );
 
-const PlatformLogo = ({ image, name }) => (
-  <li className="item">
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
-    <p>{name}</p>
-  </li>
-);
+
 
 const PortfolioCarousel = () => (
   <Carousel id="demo" className="carousel slide portfolioCarousel">

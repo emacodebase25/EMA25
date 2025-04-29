@@ -10,6 +10,7 @@ const EscortFAQPage = () => {
 
 const [activeTab, setActiveTab] = useState("seo");
 
+
 const FaqList = {
   seo: [
     {
