@@ -11,6 +11,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import EscortPricingPage from './pages/Pricing';
+import EscortFAQPage from './pages/FAQ';
+import EscortBlogPage from './pages/Blog';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path="/about-us" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/pricing" element={<EscortPricingPage />} />
+          <Route path="/faqs" element={<EscortFAQPage />} />
+          <Route path="/blog" element={<EscortBlogPage />} />
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>

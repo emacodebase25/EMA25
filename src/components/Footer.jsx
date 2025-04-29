@@ -1,4 +1,5 @@
 import React from "react";
+import payImg from "../assets/images/payments-ezgif.png"
 
 const Footer = () => {
 
@@ -132,20 +133,20 @@ const Footer = () => {
           <div className="col-lg-3 pt-3">
             <h3>Quick Links</h3>
             <ul className="quick_link">
-              <li><a href="/about-us/">About</a></li>
-              <li><a href="/faqs/">FAQ</a></li>
-              <li><a href="/blog/">Blog</a></li>
-              <li><a href="/pricing/">Pricing</a></li>
-              <li><a href="/contact-us/">Contact</a></li>
-              <li><a href="/careers/">Careers</a></li>
-              <li><a href="/portfolio/">Portfolio</a></li>
-              <li><a href="/ema-guest-blogging-guidelines/">Guest Blogging Guidelines</a></li>
-              <li><a href="/referral/">Referral</a></li>
-              <li><a href="/important-update-regarding-scammers/">Important Update Regarding Scammers</a></li>
-              <li><a href="/sitemap/">Sitemap</a></li>
-              <li><a href="/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="/request-free-seo-analysis/">Request Free SEO Analysis</a></li>
-              <li><a href="/social-feed/">Social Feed</a></li>
+              <li><a href="/about-us">About</a></li>
+              <li><a href="/faqs">FAQ</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/pricing">Pricing</a></li>
+              <li><a href="/contact-us">Contact</a></li>
+              <li><a href="/careers">Careers</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/ema-guest-blogging-guidelines">Guest Blogging Guidelines</a></li>
+              <li><a href="/referral">Referral</a></li>
+              <li><a href="/important-update-regarding-scammers">Important Update Regarding Scammers</a></li>
+              <li><a href="/sitemap">Sitemap</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/request-free-seo-analysis">Request Free SEO Analysis</a></li>
+              <li><a href="/social-feed">Social Feed</a></li>
             </ul>
           </div>
 
@@ -214,7 +215,7 @@ const Footer = () => {
             <div className="col-lg-6 d-flex align-items-center justify-content-end d-none gap-2">
               <div className="footerBottomImageBox">
                 <span>Pay Us Via</span>
-                <img src="images/payments-ezgif.png" alt="payments image" />
+                <img src={payImg} alt="payments image" />
               </div>
             </div>
           </div>
