@@ -183,21 +183,30 @@
 	{
 		background: #ffffff;
 	}
-	.a_seo_logo .logo_list li figure img {
-    max-width: 100%;
-    width: 150px;
-	}
-	.a_seo_logo .logo_list li p{
+	.a_seo_logo .logo_list li figure img,
+    .a_seo_logo .logo_list figure img {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+        max-height: calc(150px - 24px);
+    }
+	.a_seo_logo .logo_list li p,
+    .a_seo_logo .logo_list p{
 		font-size:18px;
 		font-weight:600;
 	}
-	.a_seo_logo .logo_list.location_logo li figure {
-    margin-bottom: 15px;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-	background: #e39cac;
-}
+	.a_seo_logo .logo_list.location_logo li figure,
+    .a_seo_logo .logo_list.location_logo figure {
+        min-height: 150px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #e39cac;
+        border-radius: 20px;
+        padding: 12px;
+    }
+
 
 
 
