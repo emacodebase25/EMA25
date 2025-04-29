@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(true);
@@ -83,8 +84,8 @@ const Header = () => {
 
                   <li><a href="https://escortmarketing.agency/faqs/">FAQ</a></li>
                   <li><a href="https://escortmarketing.agency/blog/">Blog</a></li>
-                  <li><a href="https://escortmarketing.agency/pricing/">Pricing</a></li>
-                  <li><a href="/contact-us/">Contact</a></li>
+                  <li><Link to="/pricing">Pricing</Link></li>
+                  <li><Link to="/contact-us">Contact</Link></li>
                   <li><a href="https://escortmarketing.agency/contact-us/">Get a Quote</a></li>
                 </ul>
               </div>
