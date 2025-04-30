@@ -202,26 +202,26 @@ const Footer = () => {
 
           {/* pay via */}
           <div className="row">
-      <div className="col-md-12">
-        <div className="last_footer">
-          <div className="row">
-            <div className="col-lg-6">
-              <div id="footer-2">
-                <aside id="block-24" className="widget widget_block">
-                  <p>© 2023 Escort Marketing Agency. All Rights Reserved</p>
-                </aside>
-              </div>
-            </div>
-            <div className="col-lg-6 d-flex align-items-center justify-content-end d-none gap-2">
-              <div className="footerBottomImageBox">
-                <span>Pay Us Via</span>
-                <img src={payImg} alt="payments image" />
+            <div className="col-md-12">
+              <div className="last_footer">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div id="footer-2">
+                      <aside id="block-24" className="widget widget_block">
+                        <p>© 2023 Escort Marketing Agency. All Rights Reserved</p>
+                      </aside>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 d-flex align-items-center justify-content-end gap-2">
+                    <div className="footerBottomImageBox">
+                      <span>Pay Us Via</span>
+                      <img src={payImg} alt="payments image" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
         </div>
       </div>

@@ -13,6 +13,15 @@ import ContactPage from './pages/ContactPage';
 import EscortPricingPage from './pages/Pricing';
 import EscortFAQPage from './pages/FAQ';
 import EscortBlogPage from './pages/Blog';
+import EscortCareersPage from './pages/careers';
+import EscortPortFolioPage from './pages/PortFolio';
+import EscortReferralPage from './pages/Referral';
+import EscortScammerUpdatePage from './pages/ScammerUpdate';
+import EscortGuestBloggingGuidlinePage from './pages/GuestBloggingGuidline';
+import EscortPrivacyPolicyPage from './pages/PrivacyPolicy';
+import EscortRequestForSEOPage from './pages/RequestForSEO';
+import EscortSocialFeedPage from './pages/SocialFeed';
+import EscortSiteMapPage from './pages/SiteMap';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -28,6 +37,15 @@ function App() {
           <Route path="/pricing" element={<EscortPricingPage />} />
           <Route path="/faqs" element={<EscortFAQPage />} />
           <Route path="/blog" element={<EscortBlogPage />} />
+          <Route path='/careers' element={<EscortCareersPage />} />
+          <Route path='/portfolio' element={<EscortPortFolioPage />} />
+          <Route path='/referral' element={<EscortReferralPage />} />
+          <Route path='/important-update-regarding-scammers' element={<EscortScammerUpdatePage />} />
+          <Route path='/ema-guest-blogging-guidelines' element={<EscortGuestBloggingGuidlinePage />} />
+          <Route path='/privacy-policy' element={<EscortPrivacyPolicyPage />} />
+          <Route path='/request-free-seo-analysis' element={<EscortRequestForSEOPage />} />
+          <Route path='/social-feed' element={<EscortSocialFeedPage />} />
+          <Route path='/sitemap' element={<EscortSiteMapPage />} />
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>

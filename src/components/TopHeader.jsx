@@ -66,7 +66,7 @@ const TopHeader = () => {
                   </li>
                   <li>
                     <a
-                      href="https://escortmarketing.agency/sitemap.rss"
+                      href="/sitemap"
                       aria-label="RSS"
                     >
                       <i className="fa fa-rss" aria-hidden="true"></i>

@@ -6,24 +6,13 @@ import BannerSection from "../components/Bannar";
 import SEOLogos from "../components/SEOLogos";
 import BlogCard from "../components/BlogCard";
 
-const mockArticles = [
-  {
-    id: 1,
-    title: "First Blog Post",
-    content: "This is the content of the first post.",
-  },
-  {
-    id: 2,
-    title: "Second Blog Post",
-    content: "This is the content of the second post.",
-  },
-];
-
 const EscortBlogPage = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
+  const [topFiveBlogs, setTopFiveBlogs] = useState([]);
+
 
   const fetchBlogs = async (page) => {
     try {
@@ -31,8 +20,9 @@ const EscortBlogPage = () => {
         `https://escortmarketing.agency/wp-json/wp/v2/posts?per_page=8&page=${page}&_embed`
       );
       setBlogs(response.data);
-      console.log(currentPage);
-      console.log(response.data[0].title);
+      if (page === 1) {
+        setTopFiveBlogs(response.data.slice(0, 5));
+      }
       setTotalPages(response.data.totalPages || 9);
     } catch (error) {
       console.error("Error fetching blogs:", error);
@@ -49,15 +39,10 @@ const EscortBlogPage = () => {
     }
   };
 
-  const filteredArticles = mockArticles.filter((article) =>
-    article.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
   return (
     <>
       {/* banner section */}
       <BannerSection bannerImage={escortBannerImg}>
-        {/* Dynamic content passed as children */}
         <div>
           <h1>Blog</h1>
           <div className="breadcrumb_main">
@@ -161,58 +146,25 @@ const EscortBlogPage = () => {
               <div className="side_nav">
                 <h3>Latest Articles</h3>
                 <div id="sidebar" role="complementary">
-                  <ul>
-                    <section
-                      id="block-35"
-                      className="widget widget_block widget_recent_entries"
-                    >
-                      <ul className="wp-block-latest-posts__list wp-block-latest-posts">
-                        <li>
+                  <section
+                    id="block-35"
+                    className="widget widget_block widget_recent_entries"
+                  >
+                    <ul className="wp-block-latest-posts__list wp-block-latest-posts">
+                      {topFiveBlogs.map((blog, index) => (
+                        <li key={index}>
                           <a
                             className="wp-block-latest-posts__post-title"
-                            href="https://escortmarketing.agency/escort-marketing-tips-for-tulsa-usa/"
+                            href={blog.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
-                            Boost Your Independent Escort Business in Tulsa:
-                            Effective Digital Marketing Tips
+                            {blog.title.rendered}
                           </a>
                         </li>
-                        <li>
-                          <a
-                            className="wp-block-latest-posts__post-title"
-                            href="https://escortmarketing.agency/build-adult-brand-tulsa/"
-                          >
-                            How to Create a Strong Brand for Your Adult Business
-                            in Tulsa
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="wp-block-latest-posts__post-title"
-                            href="https://escortmarketing.agency/5-website-essentials-for-a-high-end-escort-brand/"
-                          >
-                            5 Website Essentials for a High-End Escort Brand
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="wp-block-latest-posts__post-title"
-                            href="https://escortmarketing.agency/seo-checklist-for-gfe-providers/"
-                          >
-                            The SEO Checklist for GFE Providers (2025)
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="wp-block-latest-posts__post-title"
-                            href="https://escortmarketing.agency/travel-companion-seo/"
-                          >
-                            Why Every Travel Companion Needs Local SEO in Major
-                            Cities
-                          </a>
-                        </li>
-                      </ul>
-                    </section>
-                  </ul>
+                      ))}
+                    </ul>
+                  </section>
                 </div>
               </div>
 
