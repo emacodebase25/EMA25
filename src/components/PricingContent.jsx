@@ -1073,12 +1073,12 @@ export default function PricingTable() {
                         <ul>
                           {tabs.map(tab => (
                             <li key={tab.id} className={activeTab === tab.id ? "tab-current" : ""}>
-                              <button 
+                              <a 
                                 className="title-tab"
                                 onClick={() => handleTabClick(tab.id)}
                               >
                                 <span>{tab.name}</span>
-                              </button>
+                              </a>
                             </li>
                           ))}
                         </ul>

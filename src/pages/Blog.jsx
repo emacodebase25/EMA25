@@ -1,37 +1,28 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import axios from "axios";
 import escortBannerImg from "../assets/images/escort-banner.jpg";
 import BannerSection from "../components/Bannar";
 import SEOLogos from "../components/SEOLogos";
 import BlogCard from "../components/BlogCard";
+import useBlogStore from "../stores/blogStore";
 
 const EscortBlogPage = () => {
-  const [blogs, setBlogs] = useState([]);
+  const { blogPosts, fetchBlogs } = useBlogStore();
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [topFiveBlogs, setTopFiveBlogs] = useState([]);
 
-
-  const fetchBlogs = async (page) => {
-    try {
-      const response = await axios.get(
-        `https://escortmarketing.agency/wp-json/wp/v2/posts?per_page=8&page=${page}&_embed`
-      );
-      setBlogs(response.data);
-      if (page === 1) {
-        setTopFiveBlogs(response.data.slice(0, 5));
-      }
-      setTotalPages(response.data.totalPages || 9);
-    } catch (error) {
-      console.error("Error fetching blogs:", error);
-    }
-  };
+  useEffect(() => {
+    if (currentPage === 1 && blogPosts.length > 0) {
+      setTopFiveBlogs(blogPosts.slice(0, 5));
+    }  
+    setTotalPages(9); 
+  }, [blogPosts]);
 
   useEffect(() => {
-    fetchBlogs(currentPage);
-  }, [currentPage]);
+    fetchBlogs(currentPage, 8);
+  }, [currentPage, fetchBlogs]);
 
   const handlePageChange = (pageNum) => {
     if (pageNum >= 1 && pageNum <= totalPages) {
@@ -93,7 +84,7 @@ const EscortBlogPage = () => {
           <div className="row mb-3">
             <div className="col-lg-9">
               <div className="row">
-                {blogs.map((blog, index) => {
+                {blogPosts.map((blog, index) => {
                   const img =
                     blog._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
                     "Not found";

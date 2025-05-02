@@ -6,7 +6,7 @@ const BlogArea = () => {
   const {blogPosts, fetchBlogs} = useBlogStore();
  
   useEffect(() => {
-    fetchBlogs();
+    fetchBlogs(1, 3);
   }, [fetchBlogs]);
 
   const getExcerptPreview = (html, wordLimit = 50) => {
