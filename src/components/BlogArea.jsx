@@ -3,11 +3,13 @@ import { useEffect } from "react";
 import useBlogStore from "../stores/blogStore";
 
 const BlogArea = () => {
-  const {blogPosts, fetchBlogs} = useBlogStore();
+  const {latestBlogs, fetchBlogs} = useBlogStore();
  
   useEffect(() => {
-    fetchBlogs(1, 3);
-  }, [fetchBlogs]);
+    if (latestBlogs.length === 0) {
+      fetchBlogs(); 
+    }
+  }, []);
 
   const getExcerptPreview = (html, wordLimit = 50) => {
     const tempElement = document.createElement("div");
@@ -26,7 +28,7 @@ const BlogArea = () => {
           <div className="col-lg-12">
             <h2 className="text-center">Latest News & Updates</h2>
             <ul>
-              {blogPosts.map((post, index) => {
+              {latestBlogs.map((post, index) => {
                 const img =
                   post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
                   "Not found";

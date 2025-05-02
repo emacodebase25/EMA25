@@ -14,15 +14,21 @@ const EscortBlogPage = () => {
   const [topFiveBlogs, setTopFiveBlogs] = useState([]);
 
   useEffect(() => {
+    if (currentPage === 1 && blogPosts.length === 0) {
+      fetchBlogs(currentPage, 8);
+    } else if (currentPage !== 1) {
+      fetchBlogs(currentPage, 8);
+    }
+  }, [currentPage]);
+  
+  useEffect(() => {
+    console.log(blogPosts)
     if (currentPage === 1 && blogPosts.length > 0) {
       setTopFiveBlogs(blogPosts.slice(0, 5));
-    }  
-    setTotalPages(9); 
-  }, [blogPosts]);
-
-  useEffect(() => {
-    fetchBlogs(currentPage, 8);
-  }, [currentPage, fetchBlogs]);
+    }
+    setTotalPages(9);
+  }, [blogPosts, currentPage]);
+  
 
   const handlePageChange = (pageNum) => {
     if (pageNum >= 1 && pageNum <= totalPages) {

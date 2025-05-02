@@ -22,6 +22,7 @@ import EscortPrivacyPolicyPage from './pages/PrivacyPolicy';
 import EscortRequestForSEOPage from './pages/RequestForSEO';
 import EscortSocialFeedPage from './pages/SocialFeed';
 import EscortSiteMapPage from './pages/SiteMap';
+import EscortSEOPage from './pages/EscortSeo';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           <Route path='/request-free-seo-analysis' element={<EscortRequestForSEOPage />} />
           <Route path='/social-feed' element={<EscortSocialFeedPage />} />
           <Route path='/sitemap' element={<EscortSiteMapPage />} />
+          <Route path='/escort-seo' element={<EscortSEOPage />} />
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
