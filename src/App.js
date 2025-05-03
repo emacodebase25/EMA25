@@ -25,6 +25,7 @@ import EscortSocialFeedPage from './pages/SocialFeed';
 import EscortSiteMapPage from './pages/SiteMap';
 import EscortSEOPage from './pages/EscortSeo';
 import EscortSEOLayOutPage from './pages/SEOLayOut';
+import EscortNotFoundpage from './components/NotFoundPage';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -53,7 +54,7 @@ function App() {
           <Route path='/seo/:seo_page' element={<EscortSEOLayOutPage />} />
 
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
-          {/* <Route path="*" element={<NotFoundPage />} /> */}
+          <Route path="*" element={<EscortNotFoundpage />} />
         </Routes>
         
         <Footer />
