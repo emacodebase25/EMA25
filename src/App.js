@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import "./assets/css/style_1.css";
 // import "./assets/css/responsive.css";
 // import "./assets/css/font-awesome.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header';
 import TopHeader from './components/TopHeader';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ import EscortRequestForSEOPage from './pages/RequestForSEO';
 import EscortSocialFeedPage from './pages/SocialFeed';
 import EscortSiteMapPage from './pages/SiteMap';
 import EscortSEOPage from './pages/EscortSeo';
+import EscortSEOLayOutPage from './pages/SEOLayOut';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -48,6 +50,8 @@ function App() {
           <Route path='/social-feed' element={<EscortSocialFeedPage />} />
           <Route path='/sitemap' element={<EscortSiteMapPage />} />
           <Route path='/escort-seo' element={<EscortSEOPage />} />
+          <Route path='/seo/:seo_page' element={<EscortSEOLayOutPage />} />
+
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>

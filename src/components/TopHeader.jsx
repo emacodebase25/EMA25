@@ -12,7 +12,7 @@ const TopHeader = () => {
               <div className="col-lg-4 col-md-6 d-flex justify-content-center">
                 <div className="a_detials">
                   <figure>
-                    <img src="images/uk.png" alt="" />
+                    <img src="/images/uk.png" alt="" />
                     <a href="tel:+19295782749">+19295782749</a>
                   </figure>
                 </div>

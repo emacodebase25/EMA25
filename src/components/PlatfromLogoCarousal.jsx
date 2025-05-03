@@ -43,24 +43,24 @@ const PlatformLogoCarouse = () => {
     ]
   };
   const logos = [
-    { image: "images/fansly_light_v3-1024x286.webp", name: "Fansly" },
-    { image: "images/1024fans.png", name: "1024FANS" },
-    { image: "images/flirtback-logo-light.png", name: "FlirtBack" },
-    { image: "images/loyalfans.png", name: "LoyalFans" },
-    { image: "images/peach.49f1951.png", name: "Peach" },
-    { image: "images/unfilter-1024x182.png", name: "Unflitrd" },
-    { image: "images/xgirl-hub.png", name: "XGirlHub" },
-    { image: "images/logo123.png", name: "XXX Follow" }
+    { image: "/images/fansly_light_v3-1024x286.webp", name: "Fansly" },
+    { image: "/images/1024fans.png", name: "1024FANS" },
+    { image: "/images/flirtback-logo-light.png", name: "FlirtBack" },
+    { image: "/images/loyalfans.png", name: "LoyalFans" },
+    { image: "/images/peach.49f1951.png", name: "Peach" },
+    { image: "/images/unfilter-1024x182.png", name: "Unflitrd" },
+    { image: "/images/xgirl-hub.png", name: "XGirlHub" },
+    { image: "/images/logo123.png", name: "XXX Follow" }
   ];
   return (
     <Slider {...settings} className="">
     {/* all_categories owl-carousel owl-theme */}
-    {logos.map((logos, index) => (
+    {logos.map((logo, index) => (
       <div className="item" key={index}>
       <figure>
-        <img src={logos.image} alt={logos.name} />
+        <img src={logo.image} alt={logo.name} />
       </figure>
-      <p>{logos.name}</p>
+      <p>{logo.name}</p>
       </div>
     ))}
   </Slider>

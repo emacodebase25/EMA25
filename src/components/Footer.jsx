@@ -4,49 +4,49 @@ import payImg from "../assets/images/payments-ezgif.png"
 const Footer = () => {
 
   const seoLinks = [
-    { href: "/adult-seo-services-philippines/", label: "Adult SEO Services Philippines" },
-    { href: "/adult-seo-company-montenegro/", label: "Adult SEO Services Montenegro" },
-    { href: "/adult-seo-company-slovenia/", label: "Adult SEO Services Slovenia" },
-    { href: "/adult-seo-company-portugal/", label: "Adult SEO Services Portugal" },
-    { href: "/adult-seo-company-malta/", label: "Adult SEO Services Malta" },
-    { href: "/adult-seo-services-lebanon/", label: "Adult SEO Services Lebanon" },
-    { href: "/adult-seo-services-panama/", label: "Adult SEO Services Panama" },
-    { href: "/adult-seo-services-peru/", label: "Adult SEO Services Peru" },
-    { href: "/adult-seo-services-indonesia/", label: "Adult SEO Services Indonesia" },
-    { href: "/adult-seo-services-greece/", label: "Adult SEO Services Greece" },
-    { href: "/adult-seo-services-turkey/", label: "Adult SEO Services Turkey" },
-    { href: "/adult-seo-services-india/", label: "Adult SEO Services India" },
-    { href: "/adult-seo-services-south-korea/", label: "Adult SEO Services South Korea" },
-    { href: "/adult-seo-services-switzerland/", label: "Adult SEO Services Switzerland" },
-    { href: "/adult-seo-services-brazil/", label: "Adult SEO Services Brazil" },
-    { href: "/adult-seo-services-thailand/", label: "Adult SEO Services Thailand" },
-    { href: "/adult-seo-services-italy/", label: "Adult SEO Services Italy" },
-    { href: "/adult-seo-services-singapore/", label: "Adult SEO Services Singapore" },
-    { href: "/adult-seo-services-poland/", label: "Adult SEO Services Poland" },
-    { href: "/adult-seo-services-new-zealand/", label: "Adult SEO Services New Zealand" },
-    { href: "/adult-seo-services-japan/", label: "Adult SEO Services Japan" },
-    { href: "/adult-seo-services-hungary/", label: "Adult SEO Services Hungary" },
-    { href: "/adult-seo-services-finland/", label: "Adult SEO Services Finland" },
-    { href: "/adult-seo-services-estonia/", label: "Adult SEO Services Estonia" },
-    { href: "/adult-seo-services-bulgaria/", label: "Adult SEO Services Bulgaria" },
-    { href: "/adult-seo-services-belgium/", label: "Adult SEO Services Belgium" },
-    { href: "/adult-seo-services-austria/", label: "Adult SEO Services Austria" },
-    { href: "/adult-seo-services-spain/", label: "Adult SEO Services Spain" },
-    { href: "/adult-seo-services-romania/", label: "Adult SEO Services Romania" },
-    { href: "/adult-seo-services-germany/", label: "Adult SEO Services Germany" },
-    { href: "/adult-seo-services-denmark/", label: "Adult SEO Services Denmark" },
-    { href: "/adult-seo-services-russia/", label: "Adult SEO Services Russia" },
-    { href: "/adult-seo-services-canada/", label: "Adult SEO Services Canada" },
-    { href: "/adult-seo-services-sweden/", label: "Adult SEO Services Sweden" },
-    { href: "/adult-seo-services-ireland/", label: "Adult SEO Services Ireland" },
-    { href: "/adult-seo-services-china/", label: "Adult SEO Services China" },
-    { href: "/adult-seo-luxembourg/", label: "Adult SEO Services Luxembourg" },
-    { href: "/escort-marketing-netherlands/", label: "Adult SEO Services Netherlands" },
-    { href: "/adult-seo-services-australia/", label: "Adult SEO Services Australia" },
-    { href: "/adult-seo-services-tanzania/", label: "Adult SEO Services Tanzania" },
-    { href: "/adult-seo-services-uruguay/", label: "Adult SEO Services Uruguay" },
-    { href: "/adult-seo-services-armenia/", label: "Adult SEO Services Armenia" },
-    { href: "/adult-seo-services-usa/", label: "Adult SEO Services USA" },
+    { href: "/seo/philippines", label: "Adult SEO Services Philippines" },
+    { href: "/seo/montenegro", label: "Adult SEO Services Montenegro" },
+    { href: "/seo/slovenia", label: "Adult SEO Services Slovenia" },
+    { href: "/seo/portugal", label: "Adult SEO Services Portugal" },
+    { href: "/seo/malta", label: "Adult SEO Services Malta" },
+    { href: "/seo/lebanon", label: "Adult SEO Services Lebanon" },
+    { href: "/seo/panama", label: "Adult SEO Services Panama" },
+    { href: "/seo/peru", label: "Adult SEO Services Peru" },
+    { href: "/seo/indonesia", label: "Adult SEO Services Indonesia" },
+    { href: "/seo/greece", label: "Adult SEO Services Greece" },
+    { href: "/seo/turkey", label: "Adult SEO Services Turkey" },
+    { href: "/seo/india", label: "Adult SEO Services India" },
+    { href: "/seo/south-korea", label: "Adult SEO Services South Korea" },
+    { href: "/seo/switzerland", label: "Adult SEO Services Switzerland" },
+    { href: "/seo/brazil", label: "Adult SEO Services Brazil" },
+    { href: "/seo/thailand", label: "Adult SEO Services Thailand" },
+    { href: "/seo/italy", label: "Adult SEO Services Italy" },
+    { href: "/seo/singapore", label: "Adult SEO Services Singapore" },
+    { href: "/seo/poland", label: "Adult SEO Services Poland" },
+    { href: "/seo/new-zealand", label: "Adult SEO Services New Zealand" },
+    { href: "/seo/japan", label: "Adult SEO Services Japan" },
+    { href: "/seo/hungary", label: "Adult SEO Services Hungary" },
+    { href: "/seo/finland", label: "Adult SEO Services Finland" },
+    { href: "/seo/estonia", label: "Adult SEO Services Estonia" },
+    { href: "/seo/bulgaria", label: "Adult SEO Services Bulgaria" },
+    { href: "/seo/belgium", label: "Adult SEO Services Belgium" },
+    { href: "/seo/austria", label: "Adult SEO Services Austria" },
+    { href: "/seo/spain", label: "Adult SEO Services Spain" },
+    { href: "/seo/romania", label: "Adult SEO Services Romania" },
+    { href: "/seo/germany", label: "Adult SEO Services Germany" },
+    { href: "/seo/denmark", label: "Adult SEO Services Denmark" },
+    { href: "/seo/russia", label: "Adult SEO Services Russia" },
+    { href: "/seo/canada", label: "Adult SEO Services Canada" },
+    { href: "/seo/sweden", label: "Adult SEO Services Sweden" },
+    { href: "/seo/ireland", label: "Adult SEO Services Ireland" },
+    { href: "/seo/china", label: "Adult SEO Services China" },
+    { href: "/seo/adult-seo-luxembourg", label: "Adult SEO Services Luxembourg" },
+    { href: "/seo/escort-marketing-netherlands", label: "Adult SEO Services Netherlands" },
+    { href: "/seo/australia", label: "Adult SEO Services Australia" },
+    { href: "/seo/tanzania", label: "Adult SEO Services Tanzania" },
+    { href: "/seo/uruguay", label: "Adult SEO Services Uruguay" },
+    { href: "/seo/armenia", label: "Adult SEO Services Armenia" },
+    { href: "/seo/usa", label: "Adult SEO Services USA" },
   ];
 
 
@@ -114,13 +114,13 @@ const Footer = () => {
             <div className="row pt-3 pb-3">
               <div className="col-lg-4">
                 <div className="outer_logo">
-                  <img src="images/01.jpeg" className="img-fluid" alt="Logo 1" />
+                  <img src="/images/01.jpeg" className="img-fluid" alt="Logo 1" />
                 </div>
               </div>
               <div className="col-lg-3">
                 <div className="outer_logo o_logo">
                   <img
-                    src="images/WhatsApp-Image-2024-06-15-at-5.40.jpg"
+                    src="/images/WhatsApp-Image-2024-06-15-at-5.40.jpg"
                     className="img-fluid"
                     alt="Logo 2"
                   />

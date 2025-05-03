@@ -20,11 +20,11 @@ const Header = () => {
                     <img
                       width="863"
                       height="287"
-                      src="images/logo.png"
+                      src="/images/logo.png"
                       className="custom-logo"
                       alt="Logo"
                       decoding="async"
-                      srcSet="images/logo.png 863w, images/logo-300x100.png 300w, images/logo-768x255.png 768w"
+                      srcSet="/images/logo.png 863w, /images/logo-300x100.png 300w, /images/logo-768x255.png 768w"
                       sizes="(max-width: 863px) 100vw, 863px"
                     />
                   </span>
