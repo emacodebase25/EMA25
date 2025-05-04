@@ -62,22 +62,24 @@ const Header = () => {
                     {/* Submenu */}
                     {isSubMenuOpen && (
                       <ul className="sub-menu">
-                        <li><a href="https://escortmarketing.agency/enterprise-seo-services/">Enterprise SEO Services</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-seo/">Adult SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-e-commerce-seo/">Adult E-Commerce SEO</a></li>
-                        <li><a href="/escort-seo">Escort SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-link-building/">Adult Link Building</a></li>
-                        <li><a href="https://escortmarketing.agency/porn-tube-seo/">Porn Tube SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-website-design/">Adult Website Design</a></li>
-                        <li><a href="https://escortmarketing.agency/webcams-seo/">Adult Webcams SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-social-media-marketing/">Escort Social Media Marketing</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-android-app-development-agency/">Adult Android App Development Agency</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-dating-websites-seo/">Adult Dating SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/adult-content-writing-services/">Adult Content Writing Services</a></li>
-                        <li><a href="https://escortmarketing.agency/pornstar-seo/">Porn Star SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/erotic-massage-seo/">Erotic Massage SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/strippers-seo/">Strippers SEO</a></li>
-                        <li><a href="https://escortmarketing.agency/brothel-seo/">Brothel SEO</a></li>
+                        <li><Link to="/independent-escort-seo">Independent Escort SEO</Link></li>
+                        <li><Link to="/escortdirectoryseo">Escort Directory SEO</Link></li>
+                        <li><Link to="/escortseo">Escort SEO</Link></li>
+                        <li><Link to="/enterpriseseoservices">Enterprise SEO Services</Link></li>
+                        <li><Link to="/adultseo">Adult SEO</Link></li>
+                        <li><Link to="/adultlinkbuilding">Adult Link Building</Link></li>
+                        <li><Link to="/ecommerceSEO">Adult E-Commerce SEO</Link></li>
+                        <li><Link to="/porntubeSEO">Porn Tube SEO</Link></li>
+                        <li><Link to="">Adult Website Design</Link></li>
+                        <li><Link to="">Adult Webcams SEO</Link></li>
+                        <li><Link to="">Escort Social Media Marketing</Link></li>
+                        <li><Link to="">Adult Android App Development Agency</Link></li>
+                        <li><Link to="">Adult Dating SEO</Link></li>
+                        <li><Link to="">Adult Content Writing Services</Link></li>
+                        <li><Link to="">Porn Star SEO</Link></li>
+                        <li><Link to="">Erotic Massage SEO</Link></li>
+                        <li><Link to="">Strippers SEO</Link></li>
+                        <li><Link to="">Brothel SEO</Link></li>
                       </ul>
                     )}
                   </li>
