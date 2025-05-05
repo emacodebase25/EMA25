@@ -34,6 +34,16 @@ import Adultseo from './pages/adultseo';
 import Enterpriseseoservices from './pages/Enterpriseseoservices';
 import EcommerceSEO from './pages/Ecommerceseo';
 import PorntubeSEO from './pages/porntubeseo';
+import Adultweb from './pages/Adultweb';
+import Adultwebcam from './pages/Adultwebcam';
+import EroticMessage from './pages/Eroticmessage';
+import Brothel from './pages/Brothel';
+import Strippers from './pages/Strippers';
+import Pornstar from './pages/Pornstar';
+import Contentwriting from './pages/Contentwriting';
+import Adultdating from './pages/Adultdating';
+import Androidappdev from './pages/Androidappdev';
+import Socialmediamarketing from './pages/Socialmediamarketing';
 // import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -91,6 +101,29 @@ function App() {
           <Route path='/ecommerceSEO' element={<EcommerceSEO />} />
 
           <Route path='/porntubeSEO' element={<PorntubeSEO />} />
+
+          <Route path='/adultweb' element={<Adultweb />} />
+
+          <Route path='/adultwebcam' element={<Adultwebcam />} />
+
+          <Route path='/eroticMessage' element={<EroticMessage />} />
+
+          <Route path='/brothel' element={<Brothel />} />
+
+          <Route path='/strippers' element={<Strippers />} />
+
+          <Route path='/pornstar' element={<Pornstar />} />
+
+          <Route path='/contentwriting' element={<Contentwriting />} />
+
+          <Route path='/adultdating' element={<Adultdating />} />
+
+          <Route path='/androidappdev' element={<Androidappdev />} />
+
+          <Route
+            path='/socialmediamarketing'
+            element={<Socialmediamarketing />}
+          />
 
           {/* <Route path="/services" element={<EscortServicesPage />} /> */}
           <Route path='*' element={<EscortNotFoundpage />} />

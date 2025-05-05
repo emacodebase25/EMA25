@@ -70,16 +70,16 @@ const Header = () => {
                         <li><Link to="/adultlinkbuilding">Adult Link Building</Link></li>
                         <li><Link to="/ecommerceSEO">Adult E-Commerce SEO</Link></li>
                         <li><Link to="/porntubeSEO">Porn Tube SEO</Link></li>
-                        <li><Link to="">Adult Website Design</Link></li>
-                        <li><Link to="">Adult Webcams SEO</Link></li>
-                        <li><Link to="">Escort Social Media Marketing</Link></li>
-                        <li><Link to="">Adult Android App Development Agency</Link></li>
-                        <li><Link to="">Adult Dating SEO</Link></li>
-                        <li><Link to="">Adult Content Writing Services</Link></li>
-                        <li><Link to="">Porn Star SEO</Link></li>
-                        <li><Link to="">Erotic Massage SEO</Link></li>
-                        <li><Link to="">Strippers SEO</Link></li>
-                        <li><Link to="">Brothel SEO</Link></li>
+                        <li><Link to="/adultweb">Adult Website Design</Link></li>
+                        <li><Link to="/adultwebcam">Adult Webcams SEO</Link></li>
+                        <li><Link to="/socialmediamarketing">Escort Social Media Marketing</Link></li>
+                        <li><Link to="/androidappdev">Adult Android App Development Agency</Link></li>
+                        <li><Link to="/adultdating">Adult Dating SEO</Link></li>
+                        <li><Link to="/contentwriting">Adult Content Writing Services</Link></li>
+                        <li><Link to="/pornstar">Porn Star SEO</Link></li>
+                        <li><Link to="/eroticmessage">Erotic Massage SEO</Link></li>
+                        <li><Link to="/strippers">Strippers SEO</Link></li>
+                        <li><Link to="/brothel">Brothel SEO</Link></li>
                       </ul>
                     )}
                   </li>
