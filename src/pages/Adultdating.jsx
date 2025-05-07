@@ -2,6 +2,7 @@ import React from "react";
 import BlogArea from "../components/BlogArea";
 import Testimonials from "../components/Testimonials";
 import SEOLogos from "../components/SEOLogos";
+import OurServices from "../components/OuerService";
 
 
 const Adultdating = () => {
@@ -1295,115 +1296,7 @@ const Adultdating = () => {
 
             <Testimonials />
 
-            <section className=" our-services main_our_serv_section">
-                <div className="container">
-                    <h2 className="text-center  mb-5">Our Services</h2>
-                    <div className="row ">
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/enterprise-seo-services/ ">Enterprise SEO</a></h4>
-                                <p className="text-body-secondary">Scalable SEO solutions for large-scale adult businesses.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-seo/ ">Adult SEO</a></h4>
-                                <p className="text-body-secondary">Customized SEO strategies for adult content websites.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-e-commerce-seo/ ">Adult E-Commerce SEO</a></h4>
-                                <p className="text-body-secondary">Boost traffic and sales for adult online stores.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/escort-seo/ ">Escort SEO</a></h4>
-                                <p className="text-body-secondary">Enhance visibility for escort agencies and independent escorts.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-link-building/ ">Adult Link Building</a></h4>
-                                <p className="text-body-secondary">High-quality link-building services for adult websites.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/porn-tube-seo/ ">Porn Tube SEO</a></h4>
-                                <p className="text-body-secondary">Optimize video platforms to rank higher in search results.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/webcams-seo/ ">Adult Webcams SEO</a></h4>
-                                <p className="text-body-secondary">Drive traffic to adult webcam platforms with tailored SEO.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-social-media-marketing/ ">Adult Social Media Marketing</a></h4>
-                                <p className="text-body-secondary">Expand your escort business with strategic social media campaigns.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-android-app-development-agency/ ">Adult Android App Development Agency</a></h4>
-                                <p className="text-body-secondary">Custom Android app development for adult businesses.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-content-writing-services/ ">Adult Content Writing Services</a></h4>
-                                <p className="text-body-secondary">Engaging, SEO-friendly content tailored for adult websites.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/adult-dating-websites-seo/ ">Adult Dating SEO</a></h4>
-                                <p className="text-body-secondary">Optimize dating platforms to connect with more users.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/pornstar-seo/ ">Porn Star SEO</a></h4>
-                                <p className="text-body-secondary">Build personal brands and increase online visibility for adult performers.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/erotic-massage-seo/ ">Erotic Massage SEO</a></h4>
-                                <p className="text-body-secondary">Increase clientele for erotic massage services with targeted SEO.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/strippers-seo/ ">Strippers SEO</a></h4>
-                                <p className="text-body-secondary">Expand the reach of strip clubs and independent performers.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/brothel-seo/ ">Brothel SEO</a></h4>
-                                <p className="text-body-secondary">Drive traffic and improve rankings for brothel websites.</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/independent-escort-seo/ ">Independent Escort SEO</a></h4>
-                                <p className="text-body-secondary"># No. 1 SEO Agency for Independent Escorts</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="service-con">
-                                <h4 className="fw-semibold mb-0 text-body-emphasis"><a href="https://escortmarketing.agency/escort-directory-seo/ ">Escort Directory SEO</a></h4>
-                                <p className="text-body-secondary">Maximize Visibility, Increase Traffic, and Drive Conversions for Your Escort Directory Business.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <OurServices />
 
 
             <section className="conecct">

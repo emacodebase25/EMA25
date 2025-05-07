@@ -32,7 +32,7 @@ import Escortdirectoryseo from './pages/escortdirectoryseo';
 import Adultlinkbuilding from './pages/Adultlinkbuilding';
 import Adultseo from './pages/adultseo';
 import Enterpriseseoservices from './pages/Enterpriseseoservices';
-import EcommerceSEO from './pages/EcommerceSEO';
+import EcommerceSEO from './pages/Ecommerceseo';
 import PorntubeSEO from './pages/porntubeseo';
 import Adultwebcam from './pages/Adultwebcam';
 import Androidappdev from './pages/Androidappdev';
@@ -44,7 +44,6 @@ import Strippers from './pages/Strippers';
 import EroticMessage from './pages/Eroticmessage';
 import Adultweb from './pages/Adultweb';
 import Brothel from './pages/Brothel';
-
 
 function App() {
   return (
@@ -87,7 +86,10 @@ function App() {
 
           <Route path='/escort-seo' element={<Escortseo />} />
 
-          <Route path='/escort-directory-seo' element={<Escortdirectoryseo />} />
+          <Route
+            path='/escort-directory-seo'
+            element={<Escortdirectoryseo />}
+          />
 
           <Route path='/adult-link-building' element={<Adultlinkbuilding />} />
 
@@ -102,16 +104,25 @@ function App() {
 
           <Route path='/porn-tube-seo' element={<PorntubeSEO />} />
           <Route path='/webcams-seo' element={<Adultwebcam />} />
-          <Route path='/adult-android-app-development-agency' element={<Androidappdev />} />
-          <Route path='/adult-social-media-marketing' element={<Socialmediamarketing />} />
+          <Route
+            path='/adult-android-app-development-agency'
+            element={<Androidappdev />}
+          />
+          <Route
+            path='/adult-social-media-marketing'
+            element={<Socialmediamarketing />}
+          />
           <Route path='/adult-dating-websites-seo' element={<Adultdating />} />
-          <Route path='/adult-content-writing-services' element={<Contentwriting />} />
+          <Route
+            path='/adult-content-writing-services'
+            element={<Contentwriting />}
+          />
           <Route path='/pornstar-seo' element={<Pornstar />} />
           <Route path='/strippers-seo' element={<Strippers />} />
           <Route path='/erotic-massage-seo' element={<EroticMessage />} />
-          <Route path="/adult-website-design" element={<Adultweb />} />
-          <Route path="/brothel-seo" element={<Brothel />} />
-          
+          <Route path='/adult-website-design' element={<Adultweb />} />
+          <Route path='/brothel-seo' element={<Brothel />} />
+
           <Route path='*' element={<EscortNotFoundpage />} />
         </Routes>
 

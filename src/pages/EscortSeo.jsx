@@ -5,6 +5,7 @@ import Tools from '../components/Tools';
 import Servicesoffer from '../components/Servicesoffer';
 import BlogArea from '../components/BlogArea';
 import SEOLogos from '../components/SEOLogos';
+import { Link } from 'react-router-dom';
 
 const Escortseo = () => {
     return (
@@ -398,23 +399,23 @@ const Escortseo = () => {
             </section>
 
 
-            <section class="py-5 about_project_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" class="img-fluid" />
+            <section className="py-5 about_project_section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" className="img-fluid" />
                         </div>
-                        <div class="col-sm-8">
-                            <div class="escorform">
+                        <div className="col-sm-8">
+                            <div className="escorform">
                                 <h2>Shine like a star!</h2>
                                 <h4>Let EMA be the silent force behind your spotlight.</h4>
 
-                                <div class="wpcf7 no-js" id="wpcf7-f6345-o2" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
+                                <div className="wpcf7 no-js" id="wpcf7-f6345-o2" lang="en-US" dir="ltr">
+                                    <div className="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="/independent-escort-seo/#wpcf7-f6345-o2" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                    <form action="/independent-escort-seo/#wpcf7-f6345-o2" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                         <div style={{ display: " none" }}>
                                             <input type="hidden" name="_wpcf7" value="6345" />
                                             <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -424,51 +425,51 @@ const Escortseo = () => {
                                             <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                             <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                         </div>
-                                        <ul class="form_area row">
-                                            <li class="col-lg-6">
-                                                <p><label>Name</label><span class="wpcf7-form-control-wrap" data-name="text-769"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
+                                        <ul className="form_area row">
+                                            <li className="col-lg-6">
+                                                <p><label>Name</label><span className="wpcf7-form-control-wrap" data-name="text-769"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Phone Number</label><span class="wpcf7-form-control-wrap" data-name="number-898"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Phone Number</label><span className="wpcf7-form-control-wrap" data-name="number-898"><input className="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Email</label><span class="wpcf7-form-control-wrap" data-name="email-157"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Email</label><span className="wpcf7-form-control-wrap" data-name="email-157"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6 re_for">
+                                            <li className="col-lg-6 re_for">
                                                 <p><label>Select Services</label><br />
-                                                    <span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
+                                                    <span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Select Budget</label><span class="wpcf7-form-control-wrap" data-name="text-775"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Select Budget</label><span className="wpcf7-form-control-wrap" data-name="text-775"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Enter Website URL</label><span class="wpcf7-form-control-wrap" data-name="text-154"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Enter Website URL</label><span className="wpcf7-form-control-wrap" data-name="text-154"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>When would you like to start with this project?</label><span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
+                                            <li className="col-lg-12">
+                                                <p><label>When would you like to start with this project?</label><span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>Message</label><span class="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
+                                            <li className="col-lg-12">
+                                                <p><label>Message</label><span className="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" className="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
+                                            <li className="col-lg-6">
 
                                             </li>
-                                            <li class="col-lg-12" style={{ flex: " inherit" }}>
-                                                <div class="cta_area">
-                                                    <p><input class="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
+                                            <li className="col-lg-12" style={{ flex: " inherit" }}>
+                                                <div className="cta_area">
+                                                    <p><input className="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        <div className="wpcf7-response-output" aria-hidden="true"></div>
                                     </form>
                                 </div>
                             </div>
@@ -626,7 +627,7 @@ const Escortseo = () => {
                                 <h2 className="h6 text-uppercase font-weight-bold mb-4">Low Competition </h2>
                                 <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
                                 <div className="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire Escort SEO Experts</a></p>
+                                <p><Link to="/contact-us" className="btn btn-primary btn-block p-2 shadow rounded-pill" >Hire Escort SEO Experts</Link></p>
                                 <ul className="list-unstyled my-5 text-small text-left">
                                     <li><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
                                     <li><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 15</li>
@@ -651,7 +652,7 @@ const Escortseo = () => {
                                 <h2 className="h6 text-uppercase font-weight-bold mb-4">Medium Competition </h2>
                                 <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
                                 <div className="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire Escort SEO Experts</a></p>
+                                <p><Link to="/contact-us" className="btn btn-primary btn-block p-2 shadow rounded-pill" >Hire Escort SEO Experts</Link></p>
                                 <ul className="list-unstyled my-5 text-small text-left">
                                     <li><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
                                     <li><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 25</li>
@@ -676,7 +677,7 @@ const Escortseo = () => {
                                 <h2 className="h6 text-uppercase font-weight-bold mb-4">High Competition</h2>
                                 <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
                                 <div className="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire Escort SEO Experts</a></p>
+                                <p><Link to="/contact-us" className="btn btn-primary btn-block p-2 shadow rounded-pill" >Hire Escort SEO Experts</Link></p>
                                 <ul className="list-unstyled my-5 text-small text-left">
                                     <li><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
                                     <li><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 35</li>
@@ -830,23 +831,23 @@ const Escortseo = () => {
                 </div>
             </section>
 
-            <section class="py-5 about_project_section about_project_section_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" class="img-fluid" />
+            <section className="py-5 about_project_section about_project_section_2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" className="img-fluid" />
                         </div>
-                        <div class="col-sm-8">
-                            <div class="escorform">
+                        <div className="col-sm-8">
+                            <div className="escorform">
                                 <h2>Shine like a star!</h2>
                                 <h4>Let EMA be the silent force behind your spotlight.</h4>
 
-                                <div class="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
+                                <div className="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
+                                    <div className="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                         <div style={{ display: " none" }}>
                                             <input type="hidden" name="_wpcf7" value="6345" />
                                             <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -856,51 +857,51 @@ const Escortseo = () => {
                                             <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                             <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                         </div>
-                                        <ul class="form_area row">
-                                            <li class="col-lg-6">
-                                                <p><label>Name</label><span class="wpcf7-form-control-wrap" data-name="text-769"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
+                                        <ul className="form_area row">
+                                            <li className="col-lg-6">
+                                                <p><label>Name</label><span className="wpcf7-form-control-wrap" data-name="text-769"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Phone Number</label><span class="wpcf7-form-control-wrap" data-name="number-898"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Phone Number</label><span className="wpcf7-form-control-wrap" data-name="number-898"><input className="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Email</label><span class="wpcf7-form-control-wrap" data-name="email-157"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Email</label><span className="wpcf7-form-control-wrap" data-name="email-157"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6 re_for">
+                                            <li className="col-lg-6 re_for">
                                                 <p><label>Select Services</label><br />
-                                                    <span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
+                                                    <span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Select Budget</label><span class="wpcf7-form-control-wrap" data-name="text-775"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Select Budget</label><span className="wpcf7-form-control-wrap" data-name="text-775"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Enter Website URL</label><span class="wpcf7-form-control-wrap" data-name="text-154"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Enter Website URL</label><span className="wpcf7-form-control-wrap" data-name="text-154"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>When would you like to start with this project?</label><span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
+                                            <li className="col-lg-12">
+                                                <p><label>When would you like to start with this project?</label><span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>Message</label><span class="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
+                                            <li className="col-lg-12">
+                                                <p><label>Message</label><span className="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" className="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
+                                            <li className="col-lg-6">
 
                                             </li>
-                                            <li class="col-lg-12" style={{ flex: " inherit" }}>
-                                                <div class="cta_area">
-                                                    <p><input class="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
+                                            <li className="col-lg-12" style={{ flex: " inherit" }}>
+                                                <div className="cta_area">
+                                                    <p><input className="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        <div className="wpcf7-response-output" aria-hidden="true"></div>
                                     </form>
                                 </div>
                             </div>
@@ -909,302 +910,302 @@ const Escortseo = () => {
                 </div>
             </section>
 
-            <section id="areas_serve__new" class="areas_serve__new" style={{ background: " #ffffff" }}>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="LtitleWrapper">
-                                <h2 class="titleh2 text-center">Location Based SEO Services</h2>
+            <section id="areas_serve__new" className="areas_serve__new" style={{ background: " #ffffff" }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="LtitleWrapper">
+                                <h2 className="titleh2 text-center">Location Based SEO Services</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style={{ alignitems: "center", justifycontent: "center" }}>
-                        <div class="col-md-10">
+                    <div className="row" style={{ alignitems: "center", justifycontent: "center" }}>
+                        <div className="col-md-10">
 
-                            <div class="locationrow" style={{ justifycontent: "center" }}>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-armenia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                            <div className="locationrow" style={{ justifycontent: "center" }}>
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-armenia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Armenia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-australia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-australia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Australia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-austria/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-austria/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Austria.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-belgium/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-belgium/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Belgium.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-brazil/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-brazil/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Brazil.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-bulgaria/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-bulgaria/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Bulgaria.jpg" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-canada/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-canada/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Canada.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-china/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-china/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/China.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-denmark/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-denmark/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Denmark.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-estonia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-estonia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Estonia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-finland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-finland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Finland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-germany/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-germany/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Germany.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-Greece/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-Greece/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Greece-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-hungary/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-hungary/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Hungary.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-india/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-india/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/India-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-ireland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-ireland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Ireland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-italy/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-italy/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Italy.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-japan/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-japan/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Japan.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-lebanon/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-lebanon/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Lebanon.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-luxembourg/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-luxembourg/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Luxembourg.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-malta/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-malta/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Malta.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-montenegro/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-montenegro/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Montenegro-flag.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/escort-marketing-netherlands/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/escort-marketing-netherlands/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Netherlands.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-new-zealand/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-new-zealand/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/New-Zealand.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-panama/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-panama/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Panama.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-peru/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-peru/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Peru.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-philippines/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-philippines/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/philippines-flag-1.jpg" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-poland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-poland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Poland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-romania/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-romania/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Romania.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-russia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-russia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Russia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-singapore/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-singapore/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Singapore.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-slovenia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-slovenia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Slovenia-1.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-south-korea/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-south-korea/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/South-Korea.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-spain/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-spain/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Spain.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-Sweden/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-Sweden/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Sweden.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-switzerland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-switzerland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Switzerland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-tanzania/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-tanzania/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Tanzania.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-thailand/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-thailand/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Thailand.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-turkey/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-turkey/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Turkey-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-uruguay/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-uruguay/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Uruguay.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-usa/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-usa/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/USA.webp" />
                                         </div>
                                     </a>
@@ -1260,7 +1261,7 @@ const Escortseo = () => {
                     </div>
                     <div className="row get_started_btn_div">
                         <div className="top_cta">
-                            <a className="mainbtn big" style={{ marginTop: "0", marginBottom: "15px" }} href="https://escortmarketing.agency/contact-us/" target="_blank" rel="noopener" plerdy-tracking-id="65531133701">CONTACT US TO OUTRANK YOUR COMPETITORS</a>
+                            <Link to="/contact-us" className="mainbtn big" style={{ marginTop: "0", marginBottom: "15px" }} target="_blank" rel="noopener" plerdy-tracking-id="65531133701">CONTACT US TO OUTRANK YOUR COMPETITORS</Link>
                         </div>
                     </div>
                 </div>
