@@ -15,7 +15,7 @@ const Footer = () => {
     { href: "/seo/greece", label: "Adult SEO Services Greece" },
     { href: "/seo/turkey", label: "Adult SEO Services Turkey" },
     { href: "/seo/india", label: "Adult SEO Services India" },
-    { href: "/seo/south-korea", label: "Adult SEO Services South Korea" },
+    { href: "/seo/south_korea", label: "Adult SEO Services South Korea" },
     { href: "/seo/switzerland", label: "Adult SEO Services Switzerland" },
     { href: "/seo/brazil", label: "Adult SEO Services Brazil" },
     { href: "/seo/thailand", label: "Adult SEO Services Thailand" },
@@ -88,7 +88,7 @@ const Footer = () => {
                   </figure>
                   <div className="rt_dtls">
                     <p>
-                      <a href="mailto:info@escortmarketing.agency">
+                      <a href="mailto:info@escortmarketing.agency" target="_blank" rel="noopener noreferrer">
                         info@escortmarketing.agency
                       </a>
                     </p>
@@ -100,7 +100,7 @@ const Footer = () => {
                   </figure>
                   <div className="rt_dtls">
                     <p>
-                      <a href="tel:19295782749">+1 929 578 2749</a>
+                      <a href="tel:19295782749" target="_blank" rel="noopener noreferrer">+1 929 578 2749</a>
                     </p>
                   </div>
                 </li>
@@ -135,52 +135,52 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul className="quick_link">
               <li>
-                <a href="/about-us">About</a>
+                <a href="/about-us" target="_blank" rel="noopener noreferrer">About</a>
               </li>
               <li>
-                <a href="/faqs">FAQ</a>
+                <a href="/faqs" target="_blank" rel="noopener noreferrer">FAQ</a>
               </li>
               <li>
-                <a href="/blog">Blog</a>
+                <a href="/blog" target="_blank" rel="noopener noreferrer">Blog</a>
               </li>
               <li>
-                <a href="/pricing">Pricing</a>
+                <a href="/pricing" target="_blank" rel="noopener noreferrer">Pricing</a>
               </li>
               <li>
-                <a href="/contact-us">Contact</a>
+                <a href="/contact-us" target="_blank" rel="noopener noreferrer">Contact</a>
               </li>
               <li>
-                <a href="/careers">Careers</a>
+                <a href="/careers" target="_blank" rel="noopener noreferrer">Careers</a>
               </li>
               <li>
-                <a href="/portfolio">Portfolio</a>
+                <a href="/portfolio" target="_blank" rel="noopener noreferrer">Portfolio</a>
               </li>
               <li>
-                <a href="/ema-guest-blogging-guidelines">
+                <a href="/ema-guest-blogging-guidelines" target="_blank" rel="noopener noreferrer">
                   Guest Blogging Guidelines
                 </a>
               </li>
               <li>
-                <a href="/referral">Referral</a>
+                <a href="/referral" target="_blank" rel="noopener noreferrer">Referral</a>
               </li>
               <li>
-                <a href="/important-update-regarding-scammers">
+                <a href="/important-update-regarding-scammers" target="_blank" rel="noopener noreferrer">
                   Important Update Regarding Scammers
                 </a>
               </li>
               <li>
-                <a href="/sitemap">Sitemap</a>
+                <a href="/sitemap" target="_blank" rel="noopener noreferrer">Sitemap</a>
               </li>
               <li>
-                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
               </li>
               <li>
-                <a href="/request-free-seo-analysis">
+                <a href="/request-free-seo-analysis" target="_blank" rel="noopener noreferrer">
                   Request Free SEO Analysis
                 </a>
               </li>
               <li>
-                <a href="/social-feed">Social Feed</a>
+                <a href="/social-feed" target="_blank" rel="noopener noreferrer">Social Feed</a>
               </li>
             </ul>
           </div>
@@ -190,61 +190,61 @@ const Footer = () => {
             <h3>Services</h3>
             <ul className="quick_link">
               <li>
-                <a href="/adult-seo/">Adult SEO</a>
+                <a href="/adult-seo/" target="_blank" rel="noopener noreferrer">Adult SEO</a>
               </li>
               <li>
-                <a href="/adult-e-commerce/">Adult E-Commerce SEO</a>
+                <a href="/adult-e-commerce/" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</a>
               </li>
               <li>
-                <a href="/escort-seo/">Escort SEO</a>
+                <a href="/escort-seo/" target="_blank" rel="noopener noreferrer">Escort SEO</a>
               </li>
               <li>
-                <a href="/escort-social-media-marketing/">
+                <a href="/adult-social-media-marketing/" target="_blank" rel="noopener noreferrer">
                   Escort Social Media Marketing
                 </a>
               </li>
               <li>
-                <a href="/adult-android-app-development-agency/">
+                <a href="/adult-android-app-development-agency/" target="_blank" rel="noopener noreferrer">
                   Adult Android App Development
                 </a>
               </li>
               <li>
-                <a href="/adult-content-writing-services/">
+                <a href="/adult-content-writing-services/" target="_blank" rel="noopener noreferrer">
                   Adult Content Writing
                 </a>
               </li>
               <li>
-                <a href="/strippers-seo/">Strippers SEO</a>
+                <a href="/strippers-seo/" target="_blank" rel="noopener noreferrer">Strippers SEO</a>
               </li>
               <li>
-                <a href="/adult-dating-seo/">Adult Dating SEO</a>
+                <a href="/adult-dating-websites-seo/" target="_blank" rel="noopener noreferrer">Adult Dating SEO</a>
               </li>
               <li>
-                <a href="/webcams-seo/">Adult Webcams SEO</a>
+                <a href="/webcams-seo/" target="_blank" rel="noopener noreferrer">Adult Webcams SEO</a>
               </li>
               <li>
-                <a href="/pornstar-seo/">Porn Star SEO</a>
+                <a href="/pornstar-seo/" target="_blank" rel="noopener noreferrer">Porn Star SEO</a>
               </li>
               <li>
-                <a href="/porn-tube-seo/">Tube SEO</a>
+                <a href="/porn-tube-seo/" target="_blank" rel="noopener noreferrer">Tube SEO</a>
               </li>
               <li>
-                <a href="/erotic-massage-seo/">Erotic Massage SEO</a>
+                <a href="/erotic-massage-seo/" target="_blank" rel="noopener noreferrer">Erotic Massage SEO</a>
               </li>
               <li>
-                <a href="/brothel-seo/">Brothel SEO</a>
+                <a href="/brothel-seo/" target="_blank" rel="noopener noreferrer">Brothel SEO</a>
               </li>
               <li>
-                <a href="/adult-link-building/">Adult Link Building</a>
+                <a href="/adult-link-building/" target="_blank" rel="noopener noreferrer">Adult Link Building</a>
               </li>
               <li>
-                <a href="/adult-website-design/">Adult Web Design</a>
+                <a href="/adult-website-design/" target="_blank" rel="noopener noreferrer">Adult Web Design</a>
               </li>
               <li>
-                <a href="/independent-escort-seo/">Independent Escort SEO</a>
+                <a href="/independent-escort-seo/" target="_blank" rel="noopener noreferrer">Independent Escort SEO</a>
               </li>
               <li>
-                <a href="/escort-directory-seo/">Escort Directory SEO</a>
+                <a href="/escort-directory-seo/" target="_blank" rel="noopener noreferrer">Escort Directory SEO</a>
               </li>
             </ul>
           </div>
@@ -281,10 +281,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="skype:live:.cid.3022ec909df75187?chat">Skype</a>
+                <a href="skype:live:.cid.3022ec909df75187?chat" target="_blank" rel="noopener noreferrer">Skype</a>
               </li>
               <li>
-                <a href="/feed/">RSS</a>
+                <a href="/feed/" target="_blank" rel="noopener noreferrer">RSS</a>
               </li>
             </ul>
           </div>
@@ -298,7 +298,7 @@ const Footer = () => {
               {seoLinks.map((link, index) => (
                 <div className="col-lg-4" key={index}>
                   <div className="quick_link">
-                    <a href={link.href}>{link.label}</a>
+                    <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
                   </div>
                 </div>
               ))}

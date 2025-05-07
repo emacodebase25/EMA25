@@ -3,82 +3,84 @@ import Testimonials from "../components/Testimonials";
 import BlogArea from "../components/BlogArea";
 import SEOLogos from "../components/SEOLogos";
 import Servicesoffer from "../components/Servicesoffer";
+import PlatformLogoCarouse from "../components/PlatfromLogoCarousal";
+
 
 
 const Socialmediamarketing = () => {
     return (
         <>
-            <section class="banner-div-all">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-12">
-                            <div class="top-banner-div-health">
-                                <h1 class="first-line-award" plerdy-tracking-id="33700645801">#No 1 Adult Social Media Marketing Agency</h1>
-                                <h2 class="ppc-step" plerdy-tracking-id="42548861701">Dominate the Adult Social Media Scene with Escort Marketing Agency</h2>
+            <section className="banner-div-all">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-8 col-sm-12">
+                            <div className="top-banner-div-health">
+                                <h1 className="first-line-award" plerdy-tracking-id="33700645801">#No 1 Adult Social Media Marketing Agency</h1>
+                                <h2 className="ppc-step" plerdy-tracking-id="42548861701">Dominate the Adult Social Media Scene with Escort Marketing Agency</h2>
                                 <h3 plerdy-tracking-id="82312529001">In the competitive world of adult entertainment, a strong social media strategy is essential. We deliver high-impact social media marketing solutions tailored specifically for the adult industry.</h3>
-                                <div class="row pt-4">
-                                    <div class="col-md-12 col-12">
-                                        <div class="bottom-line-style">
-                                            <div class="row">
-                                                <div class="col-md-1 col-1">
-                                                    <i class="fa fa-bar-chart-o"></i> </div>
-                                                <div class="col-md-11 col-11">
+                                <div className="row pt-4">
+                                    <div className="col-md-12 col-12">
+                                        <div className="bottom-line-style">
+                                            <div className="row">
+                                                <div className="col-md-1 col-1">
+                                                    <i className="fa fa-bar-chart-o"></i> </div>
+                                                <div className="col-md-11 col-11">
                                                     <p><b>Boost Your Online Visibility</b></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-12">
-                                        <div class="bottom-line-style">
-                                            <div class="row">
-                                                <div class="col-md-1 col-1">
-                                                    <i class="fa fa-bullhorn"></i> </div>
-                                                <div class="col-md-11 col-11">
+                                    <div className="col-md-12 col-12">
+                                        <div className="bottom-line-style">
+                                            <div className="row">
+                                                <div className="col-md-1 col-1">
+                                                    <i className="fa fa-bullhorn"></i> </div>
+                                                <div className="col-md-11 col-11">
                                                     <p><b>Increase Engagement & Followers </b></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-12">
-                                        <div class="bottom-line-style">
-                                            <div class="row">
-                                                <div class="col-md-1 col-1">
-                                                    <i class="fa fa-desktop"></i> </div>
-                                                <div class="col-md-11 col-11">
+                                    <div className="col-md-12 col-12">
+                                        <div className="bottom-line-style">
+                                            <div className="row">
+                                                <div className="col-md-1 col-1">
+                                                    <i className="fa fa-desktop"></i> </div>
+                                                <div className="col-md-11 col-11">
                                                     <p><b>Drive More Bookings & Revenue</b></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-12">
-                                        <div class="bottom-line-style">
-                                            <div class="row">
-                                                <div class="col-md-1 col-1">
-                                                    <i class="fa fa-flag"></i> </div>
-                                                <div class="col-md-11 col-11">
+                                    <div className="col-md-12 col-12">
+                                        <div className="bottom-line-style">
+                                            <div className="row">
+                                                <div className="col-md-1 col-1">
+                                                    <i className="fa fa-flag"></i> </div>
+                                                <div className="col-md-11 col-11">
                                                     <p><b>Build a Strong Brand Identity </b></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row pt-3 pb-3 align-center banr-div-btm" style={{ background: "#fff" }}>
-                                    <div class="col-12 col-md-4 align-center ">
-                                        <div class="block-bnr">
+                                <div className="row pt-3 pb-3 align-center banr-div-btm" style={{ background: "#fff" }}>
+                                    <div className="col-12 col-md-4 align-center ">
+                                        <div className="block-bnr">
                                             <h4 style={{ textalign: "center" }} plerdy-tracking-id="19550590101">
                                                 7+ </h4>
                                             <p style={{ textalign: "center" }}>Years of Experience</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-4 align-center border-left border-right">
-                                        <div class="block-bnr">
+                                    <div className="col-12 col-md-4 align-center border-left border-right">
+                                        <div className="block-bnr">
                                             <h4 style={{ textalign: "center" }} plerdy-tracking-id="92037338601">
                                                 280+ </h4>
                                             <p style={{ textalign: "center" }}>Case Studies</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-4 align-center ">
-                                        <div class="block-bnr">
+                                    <div className="col-12 col-md-4 align-center ">
+                                        <div className="block-bnr">
                                             <h4 style={{ textalign: "center" }} plerdy-tracking-id="19551005901">
                                                 9860+ </h4>
                                             <p style={{ textalign: "center" }}>Keyword Ranked</p>
@@ -88,14 +90,14 @@ const Socialmediamarketing = () => {
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-12">
+                        <div className="col-md-4 col-sm-12">
 
-                            <div class="wpcf7 no-js" id="wpcf7-f6330-o1" lang="en-US" dir="ltr">
-                                <div class="screen-reader-response">
+                            <div className="wpcf7 no-js" id="wpcf7-f6330-o1" lang="en-US" dir="ltr">
+                                <div className="screen-reader-response">
                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                     <ul></ul>
                                 </div>
-                                <form action="/adult-social-media-marketing/#wpcf7-f6330-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                <form action="/adult-social-media-marketing/#wpcf7-f6330-o1" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                     <div style={{ display: " none" }}>
                                         <input type="hidden" name="_wpcf7" value="6330" />
                                         <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -105,40 +107,40 @@ const Socialmediamarketing = () => {
                                         <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                         <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                     </div>
-                                    <div class="auditfffr">
-                                        <h3 class="text-center text-white">Free Audit Now
+                                    <div className="auditfffr">
+                                        <h3 className="text-center text-white">Free Audit Now
                                         </h3>
-                                        <div class="row ">
-                                            <div class="col-lg-12">
-                                                <p><span class="wpcf7-form-control-wrap" data-name="text-784"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter Name" value="" type="text" name="text-784" /></span>
+                                        <div className="row ">
+                                            <div className="col-lg-12">
+                                                <p><span className="wpcf7-form-control-wrap" data-name="text-784"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter Name" value="" type="text" name="text-784" /></span>
                                                 </p>
                                             </div>
-                                            <div class="col-lg-12">
-                                                <p><span class="wpcf7-form-control-wrap" data-name="email-627"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter Email" value="" type="email" name="email-627" /></span>
+                                            <div className="col-lg-12">
+                                                <p><span className="wpcf7-form-control-wrap" data-name="email-627"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter Email" value="" type="email" name="email-627" /></span>
                                                 </p>
                                             </div>
-                                            <div class="col-lg-12">
-                                                <p><span class="wpcf7-form-control-wrap" data-name="number-381"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number" aria-invalid="false" placeholder="Enter Phone" value="" type="number" name="number-381" /></span>
+                                            <div className="col-lg-12">
+                                                <p><span className="wpcf7-form-control-wrap" data-name="number-381"><input className="wpcf7-form-control wpcf7-number wpcf7-validates-as-number" aria-invalid="false" placeholder="Enter Phone" value="" type="number" name="number-381" /></span>
                                                 </p>
                                             </div>
-                                            <div class="col-lg-12">
-                                                <p><span class="wpcf7-form-control-wrap" data-name="text-153"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter Website Url" value="" type="text" name="text-153" /></span>
+                                            <div className="col-lg-12">
+                                                <p><span className="wpcf7-form-control-wrap" data-name="text-153"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter Website Url" value="" type="text" name="text-153" /></span>
                                                 </p>
                                             </div>
-                                            <div class="col-lg-12">
-                                                <p><span class="wpcf7-form-control-wrap" data-name="textarea-69"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Message" name="textarea-69"></textarea></span>
+                                            <div className="col-lg-12">
+                                                <p><span className="wpcf7-form-control-wrap" data-name="textarea-69"><textarea cols="40" rows="10" className="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Message" name="textarea-69"></textarea></span>
                                                 </p>
                                             </div>
-                                            <div class="col-lg-12 ">
+                                            <div className="col-lg-12 ">
 
                                             </div>
-                                            <div class="col-lg-12 ">
-                                                <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Send" />
+                                            <div className="col-lg-12 ">
+                                                <p><input className="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Send" />
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                    <div className="wpcf7-response-output" aria-hidden="true"></div>
                                 </form>
                             </div>
                         </div>
@@ -146,121 +148,102 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="what_offer seo_logos a_seo_logo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2>Maximize Your Earnings with Expert Adult Social Media Marketing Grow Your Brand on Redditt, Redgifs, Snapchat, Sharesome, OnlyFans, Tumblr, Instagram & More!
-                            </h2>
-                            <strong> Are you an adult content creator looking to scale your online presence and boost your revenue? Escort Marketing Agency provides expert social media marketing strategies tailored for adult platforms like Redditt, Redgifs, Snapchat, Sharesome, OnlyFans, and more. Whether you're new to adult content or looking to scale your earnings, our expert team will help you dominate Redditt, Redgifs, OnlyFans, and other premium platforms.</strong>
+            {/* Platform Logos Section */}
+            <section className="what_offer seo_logos a_seo_logo">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <h2>
+                        Maximize Your Earnings with Expert Adult Social Media Marketing Grow Your Brand on Redditt, Redgifs, Snapchat, Sharesome, OnlyFans, Tumblr, Instagram & More!
+                        </h2>
+                        <strong>
+                          Escort Marketing Agency specializes in marketing
+                          solutions for adult and escort creators, helping you
+                          manage and grow your presence on platforms like
+                          OnlyFans, Fansly, Flirtback, FanCentro, LoyalFans,
+                          LoverFans, and many more. We offer expert strategies
+                          to boost your visitors and maximize revenue across
+                          popular adult social media and content-sharing
+                          channels. Let us help you expand your reach and
+                          increase your earnings with tailored growth solutions.
+                        </strong>
 
-                            <ul class="logo_list location_logo al_cat_logo owl-carousel owl-theme">
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/fansly_light_v3-1024x286.webp" alt="Fansly" /></figure>
-                                    <p>Fansly</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/1024fans.png" alt="1024FANS" /></figure>
-                                    <p>1024FANS</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/flirtback-logo-light.png" alt="FlirtBack" /></figure>
-                                    <p>FlirtBack</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/loyalfans.png" alt="LoyalFans" /></figure>
-                                    <p>LoyalFans</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/peach.49f1951.png" alt="Peach" /></figure>
-                                    <p>Peach</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/unfilter-1024x182.png" alt="Unflitrd" /></figure>
-                                    <p>Unflitrd</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/xgirl-hub.png" alt="XGirlHub" /></figure>
-                                    <p>XGirlHub</p>
-                                </li>
-                                <li class="item">
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/10/logo123.png" alt="XXX Follow" /></figure>
-                                    <p>XXX Follow</p>
-                                </li>
-                            </ul>
+                        <div className="logo_list location_logo al_cat_logo ">
+                          <PlatformLogoCarouse />
                         </div>
+                      </div>
                     </div>
-                </div>
-            </section>
+                  </div>
+                </section>
 
 
 
 
-            <section class="py-5">
-                <div class="container">
-                    <h2 class="text-center">Why Social Media Marketing is Important for Adult & Escort Websites</h2>
-                    <p class="text-center">Social media marketing empowers adult and escort websites to reach highly specific audiences, engage directly with clients, and drive sustainable revenue growth.</p>
-                    <div class="row">
-                        <div class="col-sm-4 servicecard">
+            <section className="py-5">
+                <div className="container">
+                    <h2 className="text-center">Why Social Media Marketing is Important for Adult & Escort Websites</h2>
+                    <p className="text-center">Social media marketing empowers adult and escort websites to reach highly specific audiences, engage directly with clients, and drive sustainable revenue growth.</p>
+                    <div className="row">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Targeted Audience Reach </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Social media platforms enable adult and escort websites to reach highly specific demographics using advanced targeting tools. Tailored content and strategic ads capture potential clients interested in adult services.
                                     This focused approach minimizes wasted exposure, maximizes engagement, and efficiently uses marketing budgets while establishing a strong presence among users who value premium content and discreet, professional
                                     services, ensuring lasting impact.</p>
                             </div>
 
                         </div>
-                        <div class="col-sm-4 servicecard">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Discreet Promotion </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Discreet promotion on social media safeguards adult and escort brands while connecting with clients in sensitive industries. Platforms and privacy settings allow content to reach interested audiences without compromising
                                     personal privacy or brand integrity. This approach respects client confidentiality and industry regulations, enabling marketers to share creative content that piques interest while maintaining a secure, professional
                                     image that inspires trust.</p>
                             </div>
 
                         </div>
-                        <div class="col-sm-4 servicecard">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Direct Fan Interaction </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Direct fan interaction through social media transforms passive followers into engaged clients for adult and escort brands. Interactive features such as live chats, direct messaging, and comments facilitate personalized
                                     conversations. This level of engagement builds trust, improves customer satisfaction, and fosters loyalty. Authentic interactions provide feedback and allow brands to adapt content strategies to resonate with
                                     their audience, increasing success.</p>
                             </div>
 
                         </div>
-                        <div class="col-sm-4 servicecard">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Monetization Opportunities </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Social media platforms offer multiple monetization opportunities for adult and escort websites through premium content, exclusive subscriptions, and pay-per-view features. Creative marketing strategies can convert
                                     casual followers into paying customers. Strategic partnerships and sponsored posts further boost revenue streams while maintaining authenticity. By leveraging these opportunities from<strong> a reputed </strong><strong>adult industry social media marketing agency</strong>,
                                     brands increase income and create a sustainable business model that supports ongoing growth effectively.</p>
                             </div>
 
                         </div>
-                        <div class="col-sm-4 servicecard">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Community Building </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Social media platforms offer multiple monetization opportunities for adult and escort websites through premium content, exclusive subscriptions, and pay-per-view features. Creative marketing strategies can convert
                                     casual followers into paying customers. Strategic partnerships and sponsored posts further boost revenue streams while maintaining authenticity. By leveraging these opportunities from<strong> a reputed </strong><strong>adult industry social media marketing agency</strong>,
                                     brands increase income and create a sustainable business model that supports ongoing growth effectively.</p>
                             </div>
 
                         </div>
-                        <div class="col-sm-4 servicecard">
+                        <div className="col-sm-4 servicecard">
 
-                            <div class="servheading">
+                            <div className="servheading">
                                 Viral Potential </div>
-                            <div class="servdescription">
+                            <div className="servdescription">
                                 <p>Viral potential on social media enables adult and escort brands to expand their reach rapidly. Creative, provocative content can capture public attention and be shared widely, exponentially increasing visibility.
                                     This organic amplification drives traffic and attracts new clients, while strategic use of trending hashtags and timely posts enhances engagement. Innovative content exceptionally fuels sustained viral momentum
                                     for continued brand growth.</p>
@@ -268,7 +251,7 @@ const Socialmediamarketing = () => {
 
                         </div>
                     </div>
-                    <p class="text-center">
+                    <p className="text-center">
 
                     </p>
                 </div>
@@ -276,17 +259,17 @@ const Socialmediamarketing = () => {
 
 
 
-            <section class="top_overview srvc_info_area">
-                <div class="container">
-                    <div class="row align_center">
-                        <div class="col-lg-12">
-                            <div class="text_lft">
-                                <h3 class="ig_heading" plerdy-tracking-id="88072746001"><strong>How Does Social Media Work for Adult and Escort Sites? </strong></h3>
+            <section className="top_overview srvc_info_area">
+                <div className="container">
+                    <div className="row align_center">
+                        <div className="col-lg-12">
+                            <div className="text_lft">
+                                <h3 className="ig_heading" plerdy-tracking-id="88072746001"><strong>How Does Social Media Work for Adult and Escort Sites? </strong></h3>
                             </div>
-                            <ul class="info_graphic main_srvc">
+                            <ul className="info_graphic main_srvc">
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Targeted Audience Reach</h3>
                                         <p>
                                             <p>Social media platforms empower adult and escort brands to connect with precisely defined audiences through targeted methods. Leveraging demographics, interests, and location data, Escort Marketing Agency
@@ -297,7 +280,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Discreet Content Sharing</h3>
                                         <p>
                                             <p>Discreet content sharing on social media enables adult and escort sites to promote services without exposing sensitive details. Escort Marketing Agency crafts content that respects privacy and industry
@@ -308,7 +291,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Direct Client Engagement</h3>
                                         <p>
                                             <p>Direct client engagement via social media channels allows adult and escort websites to establish personal connections with potential customers. Escort Marketing Agency implements interactive strategies
@@ -319,7 +302,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Subscription-Based Monetization</h3>
                                         <p>
                                             <p>Subscription-based monetization empowers adult and escort websites to generate steady revenue through exclusive content offerings. Escort Marketing Agency leverages social media platforms to funnel followers
@@ -330,7 +313,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Real-Time Interaction</h3>
                                         <p>
                                             <p>Real-time interaction on social media enables communication between adult and escort websites and their clients. Escort Marketing Agency uses live chats, instant messaging, and prompt responses to address
@@ -340,7 +323,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Niche Community Building</h3>
                                         <p>
                                             <p>Niche community building on social media creates dedicated groups around adult and escort services. Escort Marketing Agency cultivates forums, interest groups, and channels where clients exchange experiences
@@ -351,7 +334,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Hashtag and Trend Utilization</h3>
                                         <p>
                                             <p>Hashtag and trend utilization on social media boosts visibility and engagement for adult and escort websites. Escort Marketing Agency strategically incorporates trending hashtags, ensuring posts align
@@ -362,7 +345,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Influencer Collaborations</h3>
                                         <p>
                                             <p>Influencer collaborations enable adult and escort brands to tap into established networks on social media. Escort Marketing Agency partners with top influencers to create compelling content that resonates
@@ -373,7 +356,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Viral Content Amplification</h3>
                                         <p>
                                             <p>Viral content amplification leverages the rapid sharing capabilities of social media to increase visibility for adult and escort websites exponentially. Escort Marketing Agency crafts shareable content
@@ -384,7 +367,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Cross-Platform Integration</h3>
                                         <p>
                                             <p>Cross-platform integration enables adult and escort websites to create a cohesive online presence across diverse social media channels. Escort Marketing Agency synchronizes content and branding strategies,
@@ -395,7 +378,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Privacy and Confidentiality Controls</h3>
                                         <p>
                                             <p>Privacy and confidentiality controls on social media safeguard sensitive information for adult and escort websites. Escort Marketing Agency implements secure practices and compliance measures to protect
@@ -406,7 +389,7 @@ const Socialmediamarketing = () => {
                                 </li>
                                 <li>
                                     <figure><img src="" alt="" /></figure>
-                                    <div class="dtls">
+                                    <div className="dtls">
                                         <h3>Data-Driven Strategy Optimization</h3>
                                         <p>
                                             <p>Data-driven strategy optimization harnesses analytics and performance metrics to refine marketing efforts for adult and escort websites. Escort Marketing Agency utilizes insights to adjust targeting,
@@ -422,23 +405,23 @@ const Socialmediamarketing = () => {
             </section>
 
 
-            <section class="py-5 about_project_section about_project_section_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" class="img-fluid" />
+            <section className="py-5 about_project_section about_project_section_2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" className="img-fluid" />
                         </div>
-                        <div class="col-sm-8">
-                            <div class="escorform">
+                        <div className="col-sm-8">
+                            <div className="escorform">
                                 <h2>Shine like a star!</h2>
                                 <h4>Let EMA be the silent force behind your spotlight.</h4>
 
-                                <div class="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
+                                <div className="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
+                                    <div className="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                         <div style={{ display: " none" }}>
                                             <input type="hidden" name="_wpcf7" value="6345" />
                                             <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -448,51 +431,51 @@ const Socialmediamarketing = () => {
                                             <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                             <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                         </div>
-                                        <ul class="form_area row">
-                                            <li class="col-lg-6">
-                                                <p><label>Name</label><span class="wpcf7-form-control-wrap" data-name="text-769"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
+                                        <ul className="form_area row">
+                                            <li className="col-lg-6">
+                                                <p><label>Name</label><span className="wpcf7-form-control-wrap" data-name="text-769"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Phone Number</label><span class="wpcf7-form-control-wrap" data-name="number-898"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Phone Number</label><span className="wpcf7-form-control-wrap" data-name="number-898"><input className="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Email</label><span class="wpcf7-form-control-wrap" data-name="email-157"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Email</label><span className="wpcf7-form-control-wrap" data-name="email-157"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6 re_for">
+                                            <li className="col-lg-6 re_for">
                                                 <p><label>Select Services</label><br />
-                                                    <span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
+                                                    <span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Select Budget</label><span class="wpcf7-form-control-wrap" data-name="text-775"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Select Budget</label><span className="wpcf7-form-control-wrap" data-name="text-775"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Enter Website URL</label><span class="wpcf7-form-control-wrap" data-name="text-154"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Enter Website URL</label><span className="wpcf7-form-control-wrap" data-name="text-154"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>When would you like to start with this project?</label><span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
+                                            <li className="col-lg-12">
+                                                <p><label>When would you like to start with this project?</label><span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>Message</label><span class="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
+                                            <li className="col-lg-12">
+                                                <p><label>Message</label><span className="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" className="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
+                                            <li className="col-lg-6">
 
                                             </li>
-                                            <li class="col-lg-12" style={{ flex: " inherit" }}>
-                                                <div class="cta_area">
-                                                    <p><input class="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
+                                            <li className="col-lg-12" style={{ flex: " inherit" }}>
+                                                <div className="cta_area">
+                                                    <p><input className="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        <div className="wpcf7-response-output" aria-hidden="true"></div>
                                     </form>
                                 </div>
                             </div>
@@ -501,132 +484,132 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="py-5 our-services main_wss_section">
-                <div class="container">
-                    <h2 class="text-center mb-5">Why Choose EMA for Adult And Escort Social Media Marketing? </h2>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundiimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png)" }}></i>
+            <section className="py-5 our-services main_wss_section">
+                <div className="container">
+                    <h2 className="text-center mb-5">Why Choose EMA for Adult And Escort Social Media Marketing? </h2>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundiimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png)" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Specialized Expertise in Adult Marketing                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA’s team delivers unparalleled specialized expertise in adult marketing by leveraging extensive industry experience, innovative strategies, and a deep understanding of regulatory challenges. Our experts craft
                                         compelling campaigns that resonate with targeted audiences, ensuring compliance and discretion at every step. With proven results and client-focused approaches, we empower adult and escort brands to achieve
                                         maximum engagement and sustainable growth successfully.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png)" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png)" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Tailored, Niche-Specific Strategies                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>At EMA, we design tailored, niche-specific strategies that align with each client’s unique brand identity and market position. Our approach involves thorough research, audience segmentation, and campaign development
                                         to target specific demographics. By customizing every element of our marketing efforts, we ensure that adult and escort brands capture attention, drive conversions, and secure long-term competitive advantages
                                         in a dynamic marketplace.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png)" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png)" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Multi-Platform Integration Mastery                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA excels in multi-platform integration mastery by seamlessly aligning marketing strategies across diverse social media channels. Our holistic approach ensures consistent brand messaging, maximizing reach and
                                         engagement. By leveraging the unique strengths of each platform, we create synergistic campaigns that amplify visibility, enhance user experience, and drive conversions. This cohesive integration strengthens
                                         brand identity while adapting to evolving digital landscapes.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png)" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png)" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Data-Driven, ROI-Focused Campaigns                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA harnesses advanced analytics to drive data-driven, ROI-focused campaigns that deliver measurable results. Our team continuously monitors performance metrics and refines strategies, ensuring each marketing
                                         dollar is optimized. By integrating quantitative insights with creative expertise, we create compelling campaigns that boost visibility and maximize conversions. This rigorous approach ensures sustained
                                         profitability and strategic growth for adult and escort brands remarkably.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url()" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url()" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Innovative, Trend-Savvy Content Creation                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA pioneers innovative, trend-savvy content creation that captivates adult and escort audiences. Our creative team stays ahead of industry trends to produce engaging, provocative material that resonates with
                                         target demographics. Through continuous experimentation and adaptation, we generate fresh ideas and unique visual narratives. This forward-thinking approach attracts attention, cultivates brand loyalty,
                                         and drives measurable engagement across platforms with outstanding creativity.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url()" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url()" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Transparent Analytics &amp; Reporting                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA offers transparent analytics and reporting that empower clients with insights into campaign performance. Our comprehensive data tracking and customized reports enable adult and escort brands to understand
                                         key metrics and optimize strategies. We maintain full disclosure of performance indicators, ensuring trust and accountability. This commitment to transparency drives continuous improvement and fosters long-term
                                         client relationships built on measurable success.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url()" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url()" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Agile, Adaptive Marketing Solutions                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA delivers agile, adaptive marketing solutions tailored for the evolving adult and escort industry. Our flexible approach adjusts to market trends and regulatory changes, ensuring campaigns remain effective
                                         and compliant. By integrating feedback and adaptive tactics, we continuously refine strategies to meet client needs. This responsiveness drives rapid growth, strengthens brand resilience, and maintains competitive
                                         advantages in dynamic digital landscapes.</p>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="service-con">
-                                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i class="fa" style={{ backgroundimage: "url()" }}></i>
+                        <div className="col-sm-3">
+                            <div className="service-con">
+                                <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i className="fa" style={{ backgroundimage: "url()" }}></i>
                                 </div>
-                                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                                <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
                                         Proven Industry Success                                </a>
                                 </h4>
-                                <p class="text-body-secondary">
+                                <p className="text-body-secondary">
                                     <p>EMA’s proven industry success stems from a consistent track record of delivering impactful, measurable results for adult and escort brands. Our innovative strategies, creative campaigns, and diligent performance
                                         monitoring have set industry benchmarks. Trusted by numerous clients, we leverage our expertise to drive growth, enhance brand visibility, and secure market leadership. Our commitment to excellence fuels
                                         success and client satisfaction.</p>
@@ -637,92 +620,92 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="tab_area">
-                <h2 class="text-center h2_title">ESCORT SOCIAL MEDIA MARKETING​ Pricing</h2>
-                <div class="container py-5">
-                    <div class="row text-center align-items-end">
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div class="bg-white p-5 rounded-lg shadow">
-                                <h2 class="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L1</h2>
-                                <h3 class="h3 text-uppercase font-weight-bold mb-4"></h3>
-                                <div class="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a class="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
-                                <ul class="list-unstyled my-5 text-small text-left">
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 55</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>20% Dedicated Paid Link-Building Budget</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Up to 10000 Words PM words of Content per Month</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Website Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Content Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>2 Months of SEO Plans &amp; Targets</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Free Website Development Support for Up To 50 Hrs</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Analytics and Reporting</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
+            <section className="tab_area">
+                <h2 className="text-center h2_title">ESCORT SOCIAL MEDIA MARKETING​ Pricing</h2>
+                <div className="container py-5">
+                    <div className="row text-center align-items-end">
+                        <div className="col-lg-4 mb-5 mb-lg-0">
+                            <div className="bg-white p-5 rounded-lg shadow">
+                                <h2 className="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L1</h2>
+                                <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
+                                <div className="custom-separator my-4 mx-auto bg-primary"> </div>
+                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
+                                <ul className="list-unstyled my-5 text-small text-left">
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 55</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>20% Dedicated Paid Link-Building Budget</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Up to 10000 Words PM words of Content per Month</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Website Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Content Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>2 Months of SEO Plans &amp; Targets</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Free Website Development Support for Up To 50 Hrs</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Analytics and Reporting</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
                                 </ul>
 
 
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div class="bg-white p-5 rounded-lg shadow">
-                                <h2 class="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L2</h2>
-                                <h3 class="h3 text-uppercase font-weight-bold mb-4"></h3>
-                                <div class="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a class="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
-                                <ul class="list-unstyled my-5 text-small text-left">
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 75</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>25% Dedicated Paid Link-Building Budget</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Up to 12000 Words PM words of Content per Month</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Website Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Content Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>6 Months of SEO Plans &amp; Targets</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Free Website Development Support for Up To 70 Hrs</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Analytics and Reporting</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
+                        <div className="col-lg-4 mb-5 mb-lg-0">
+                            <div className="bg-white p-5 rounded-lg shadow">
+                                <h2 className="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L2</h2>
+                                <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
+                                <div className="custom-separator my-4 mx-auto bg-primary"> </div>
+                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
+                                <ul className="list-unstyled my-5 text-small text-left">
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 75</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>25% Dedicated Paid Link-Building Budget</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Up to 12000 Words PM words of Content per Month</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Website Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Content Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>6 Months of SEO Plans &amp; Targets</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Free Website Development Support for Up To 70 Hrs</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Analytics and Reporting</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
                                 </ul>
 
 
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div class="bg-white p-5 rounded-lg shadow">
-                                <h2 class="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L3</h2>
-                                <h3 class="h3 text-uppercase font-weight-bold mb-4"></h3>
-                                <div class="custom-separator my-4 mx-auto bg-primary"> </div>
-                                <p><a class="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
-                                <ul class="list-unstyled my-5 text-small text-left">
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 85</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>30% Dedicated Paid Link-Building Budget</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Up to 14000 Words PM words of Content per Month</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Website Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Content Audit</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>12 Months SEO Plans &amp; Targets</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>SEO Website Development</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Advanced Analytics and Reporting</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
-                                    <li class="mb-3"><i class="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
+                        <div className="col-lg-4 mb-5 mb-lg-0">
+                            <div className="bg-white p-5 rounded-lg shadow">
+                                <h2 className="h6 text-uppercase font-weight-bold mb-4">Enterprise SEO L3</h2>
+                                <h3 className="h3 text-uppercase font-weight-bold mb-4"></h3>
+                                <div className="custom-separator my-4 mx-auto bg-primary"> </div>
+                                <p><a className="btn btn-primary btn-block p-2 shadow rounded-pill" href="https://escortmarketing.agency/contact-us/">Hire ESCORT SOCIAL MEDIA MARKETING​ Experts</a></p>
+                                <ul className="list-unstyled my-5 text-small text-left">
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Keyword Research</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>No. Of Keywords/Phrases: 85</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>30% Dedicated Paid Link-Building Budget</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Dedicated SEO Team and Account Manager</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Up to 14000 Words PM words of Content per Month</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Competitor Analysis</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Website Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Backlink Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Content Audit</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>12 Months SEO Plans &amp; Targets</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>On-page and Off-page SEO</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Technical SEO Optimization</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>SEO Website Development</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Advanced Analytics and Reporting</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Daily Updates (Mon – Fri)</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>SEMrush Fixes</li>
+                                    <li className="mb-3"><i className="fa fa-check mr-2 text-primary"></i>Weekly Performance Reports</li>
                                 </ul>
 
 
@@ -736,19 +719,19 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="content_page_area online_visibility_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="top_head_cont">
+            <section className="content_page_area online_visibility_section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="top_head_cont">
                                 <h2 plerdy-tracking-id="38607703901"><strong>Maximizing ROI with Enterprise SEO Services</strong></h2>
                                 <p><strong></strong></p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="content_area">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="content_area">
                                 <h3 plerdy-tracking-id="33351286401"><strong></strong></h3>
                                 <ul>
                                     <li><strong>ROI for Adult Social Media Marketing : </strong>Escort websites partnering with Escort Marketing Agency gain a powerful competitive edge through targeted, effective social media strategies that boost
@@ -765,97 +748,97 @@ const Socialmediamarketing = () => {
                                     dominance with excellence.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
                             <figure><img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" alt="" /></figure>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="top_overview srvc_info_area brand_section">
-                <div class="container">
-                    <div class="row align_center">
-                        <div class="col-lg-12">
-                            <div class="techbrand my-5 py-5">
-                                <h2 class="text-center mb-3">PLATFORMS WE OPTIMIZE</h2>
-                                <ul class="techbrand">
+            <section className="top_overview srvc_info_area brand_section">
+                <div className="container">
+                    <div className="row align_center">
+                        <div className="col-lg-12">
+                            <div className="techbrand my-5 py-5">
+                                <h2 className="text-center mb-3">PLATFORMS WE OPTIMIZE</h2>
+                                <ul className="techbrand">
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-5.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-13.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-1.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-9.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-4.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-8.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-15.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-12.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-19.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-18.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-16.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-3.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-20.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-17.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-11.svg" alt="" />
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="brnimg">
+                                        <div className="brnimg">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Artboard-7-1.svg" alt="" />
                                         </div>
                                     </li>
@@ -866,33 +849,33 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="section-blue design-tools seo-tools">
-                <div class="container relative">
-                    <h2 class="section-title text-center text-shadow">SEO Services Tools</h2>                            <div>
-                        <p class="text-center line-height-1-6">SEO only becomes difficult when you don’t know it. Strategize with the Best SEO Agency in India.</p>
+            <section className="section-blue design-tools seo-tools">
+                <div className="container relative">
+                    <h2 className="section-title text-center text-shadow">SEO Services Tools</h2>                            <div>
+                        <p className="text-center line-height-1-6">SEO only becomes difficult when you don’t know it. Strategize with the Best SEO Agency in India.</p>
                     </div>
-                    <div class="row g-1 text-center">
-                        <div class="col">
-                            <div class="card p-2">
-                                <div class="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" class="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/screaming.jpg" /></div>
+                    <div className="row g-1 text-center">
+                        <div className="col">
+                            <div className="card p-2">
+                                <div className="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" className="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/screaming.jpg" /></div>
                                 <h6>Screaming Frog</h6>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card p-2">
-                                <div class="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" class="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/semrush.jpg" /></div>
+                        <div className="col">
+                            <div className="card p-2">
+                                <div className="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" className="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/semrush.jpg" /></div>
                                 <h6>Semrush</h6>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card p-2">
-                                <div class="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" class="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/ahrefs.jpg" /></div>
+                        <div className="col">
+                            <div className="card p-2">
+                                <div className="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" className="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/ahrefs.jpg" /></div>
                                 <h6>Ahrefs</h6>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card p-2">
-                                <div class="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" class="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/moz.jpg" /></div>
+                        <div className="col">
+                            <div className="card p-2">
+                                <div className="icon-box mx-auto mb-3"><img alt="SEO-Toolbox" className="img-fluid rounded-3" src="https://escortmarketing.agency/wp-content/uploads/2025/01/moz.jpg" /></div>
                                 <h6>Moz</h6>
                             </div>
                         </div>
@@ -900,11 +883,11 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="content_page_area about_company_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="content_area">
+            <section className="content_page_area about_company_section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="content_area">
                                 <h3><strong>A Deep Dive into Adult Social Media Marketing: Exploring Top Platforms and Strategies</strong></h3>
                                 <p>Adult social media marketing has emerged as a dynamic and transformative approach for brands operating within sensitive industries. With unique challenges and niche audiences, adult brands must navigate strict guidelines,
                                     evolving regulations, and market trends to stay relevant and profitable. Today’s digital landscape offers a multitude of platforms that cater specifically to adult content and services. In this comprehensive
@@ -1036,8 +1019,8 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="resultexpect what_results_section">
-                <div class="container">
+            <section className="resultexpect what_results_section">
+                <div className="container">
                     <p><strong>What Adult and Escort Business Owners Can Expect From EMA?</strong></p>
                     <p>EMA&#8217;s expert-tailored marketing strategies for the adult and escort industry for growth and elevated brand visibility.</p>
                     <ul>
@@ -1051,23 +1034,23 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section class="py-5 about_project_section about_project_section_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" class="img-fluid" />
+            <section className="py-5 about_project_section about_project_section_2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" className="img-fluid" />
                         </div>
-                        <div class="col-sm-8">
-                            <div class="escorform">
+                        <div className="col-sm-8">
+                            <div className="escorform">
                                 <h2>Shine like a star!</h2>
                                 <h4>Let EMA be the silent force behind your spotlight.</h4>
 
-                                <div class="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
+                                <div className="wpcf7 no-js" id="wpcf7-f6345-o3" lang="en-US" dir="ltr">
+                                    <div className="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                    <form action="/independent-escort-seo/#wpcf7-f6345-o3" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                         <div style={{ display: " none" }}>
                                             <input type="hidden" name="_wpcf7" value="6345" />
                                             <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -1077,51 +1060,51 @@ const Socialmediamarketing = () => {
                                             <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                             <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                         </div>
-                                        <ul class="form_area row">
-                                            <li class="col-lg-6">
-                                                <p><label>Name</label><span class="wpcf7-form-control-wrap" data-name="text-769"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
+                                        <ul className="form_area row">
+                                            <li className="col-lg-6">
+                                                <p><label>Name</label><span className="wpcf7-form-control-wrap" data-name="text-769"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Enter Your Name Here" value="" type="text" name="text-769" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Phone Number</label><span class="wpcf7-form-control-wrap" data-name="number-898"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Phone Number</label><span className="wpcf7-form-control-wrap" data-name="number-898"><input className="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone Number" value="" type="number" name="number-898" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Email</label><span class="wpcf7-form-control-wrap" data-name="email-157"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Email</label><span className="wpcf7-form-control-wrap" data-name="email-157"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="abc@gmail.com" value="" type="email" name="email-157" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6 re_for">
+                                            <li className="col-lg-6 re_for">
                                                 <p><label>Select Services</label><br />
-                                                    <span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
+                                                    <span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="Adult SEO">Adult SEO</option><option value="Adult E-Commerce SEO">Adult E-Commerce SEO</option><option value="Escort SEO">Escort SEO</option><option value="ESCORT SOCIAL MEDIA MARKETING">ESCORT SOCIAL MEDIA MARKETING</option><option value="Adult Android App Development Agency">Adult Android App Development Agency</option><option value="Adult Content Writing">Adult Content Writing</option><option value="Strippers SEO">Strippers SEO</option><option value="Adult Dating SEO">Adult Dating SEO</option><option value="Adult Webcams SEO">Adult Webcams SEO</option><option value="Porn Star SEO">Porn Star SEO</option><option value="Tube SEO">Tube SEO</option><option value="Erotic Massage SEO">Erotic Massage SEO</option><option value="Brothel SEO">Brothel SEO</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Select Budget</label><span class="wpcf7-form-control-wrap" data-name="text-775"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Select Budget</label><span className="wpcf7-form-control-wrap" data-name="text-775"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Your Budget" value="" type="text" name="text-775" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
-                                                <p><label>Enter Website URL</label><span class="wpcf7-form-control-wrap" data-name="text-154"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
+                                            <li className="col-lg-6">
+                                                <p><label>Enter Website URL</label><span className="wpcf7-form-control-wrap" data-name="text-154"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>When would you like to start with this project?</label><span class="wpcf7-form-control-wrap" data-name="select-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
+                                            <li className="col-lg-12">
+                                                <p><label>When would you like to start with this project?</label><span className="wpcf7-form-control-wrap" data-name="select-service"><select className="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="select-service"><option value="">&#8212;Please choose an option&#8212;</option><option value="ASAP">ASAP</option><option value="1 - 2 weeks">1 - 2 weeks</option><option value="2 - 4 weeks">2 - 4 weeks</option><option value="1 - 2 months">1 - 2 months</option><option value="+2 months (Just exploring)">+2 months (Just exploring)</option></select></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-12">
-                                                <p><label>Message</label><span class="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
+                                            <li className="col-lg-12">
+                                                <p><label>Message</label><span className="wpcf7-form-control-wrap" data-name="textarea-132"><textarea cols="40" rows="10" className="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Describe Your Requirement" name="textarea-132"></textarea></span>
                                                 </p>
                                             </li>
-                                            <li class="col-lg-6">
+                                            <li className="col-lg-6">
 
                                             </li>
-                                            <li class="col-lg-12" style={{ flex: " inherit" }}>
-                                                <div class="cta_area">
-                                                    <p><input class="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
+                                            <li className="col-lg-12" style={{ flex: " inherit" }}>
+                                                <div className="cta_area">
+                                                    <p><input className="wpcf7-form-control has-spinner wpcf7-submit sbmt" type="submit" value="Send My Free Proposal" />
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        <div className="wpcf7-response-output" aria-hidden="true"></div>
                                     </form>
                                 </div>
                             </div>
@@ -1130,302 +1113,302 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <section id="areas_serve__new" class="areas_serve__new" style={{ background: " #ffffff" }}>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="LtitleWrapper">
-                                <h2 class="titleh2 text-center">Location Based SEO Services</h2>
+            <section id="areas_serve__new" className="areas_serve__new" style={{ background: " #ffffff" }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="LtitleWrapper">
+                                <h2 className="titleh2 text-center">Location Based SEO Services</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style={{ alignitems: "center", justifycontent: "center" }}>
-                        <div class="col-md-10">
+                    <div className="row" style={{ alignitems: "center", justifycontent: "center" }}>
+                        <div className="col-md-10">
 
-                            <div class="locationrow" style={{ justifycontent: "center" }}>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-armenia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                            <div className="locationrow" style={{ justifycontent: "center" }}>
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-armenia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Armenia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-australia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-australia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Australia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-austria/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-austria/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Austria.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-belgium/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-belgium/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Belgium.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-brazil/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-brazil/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Brazil.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-bulgaria/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-bulgaria/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Bulgaria.jpg" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-canada/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-canada/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Canada.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-china/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-china/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/China.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-denmark/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-denmark/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Denmark.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-estonia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-estonia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Estonia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-finland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-finland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Finland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-germany/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-germany/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Germany.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-Greece/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-Greece/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Greece-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-hungary/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-hungary/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Hungary.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-india/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-india/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/India-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-ireland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-ireland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Ireland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-italy/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-italy/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Italy.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-japan/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-japan/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Japan.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-lebanon/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-lebanon/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Lebanon.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-luxembourg/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-luxembourg/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Luxembourg.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-malta/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-malta/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Malta.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-montenegro/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-montenegro/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Montenegro-flag.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/escort-marketing-netherlands/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/escort-marketing-netherlands/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Netherlands.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-new-zealand/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-new-zealand/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/New-Zealand.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-panama/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-panama/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Panama.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-peru/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-peru/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Peru.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-philippines/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-philippines/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/philippines-flag-1.jpg" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-poland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-poland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Poland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-romania/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-romania/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Romania.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-russia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-russia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Russia.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-singapore/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-singapore/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Singapore.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-company-slovenia/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-company-slovenia/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Slovenia-1.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-south-korea/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-south-korea/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/South-Korea.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-spain/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-spain/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Spain.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-Sweden/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-Sweden/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Sweden.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-switzerland/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-switzerland/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Switzerland.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-tanzania/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-tanzania/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Tanzania.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-thailand/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-thailand/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Thailand.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-turkey/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-turkey/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Turkey-.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-uruguay/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-uruguay/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/Uruguay.webp" />
                                         </div>
                                     </a>
                                 </div>
-                                <div class="locationcol areas__wrapper">
-                                    <a href="https://escortmarketing.agency/adult-seo-services-usa/" class="areas_item">
-                                        <div class="areas_img_wrapp">
+                                <div className="locationcol areas__wrapper">
+                                    <a href="https://escortmarketing.agency/adult-seo-services-usa/" className="areas_item">
+                                        <div className="areas_img_wrapp">
                                             <img src="https://escortmarketing.agency/wp-content/uploads/2025/01/USA.webp" />
                                         </div>
                                     </a>
@@ -1443,110 +1426,65 @@ const Socialmediamarketing = () => {
             <Servicesoffer />
 
 
-            <section class="conecct">
-                <div class="container">
-                    <h2 class="mb-5 text-center">Historic SEO Success for Discreet Visibility</h2>
-                    <p class="text-center">At Escort Marketing Agency, 2019 marked a ground-breaking year in elevating the digital presence of independent escort professionals. We prioritize discretion and measurable impact, empowering clients to thrive in competitive
-                        markets while safeguarding their privacy. Below are our cumulative 2019 results across all partnerships:</p>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="icontextwrap blue">
-                                <div class="imagewrap"> <img alt="Traffic-light" nitro-lazy-src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/Traffic-light.svg" class="lazyloaded" decoding="async"
-                                    nitro-lazy-empty="" id="MzI1Nzo3Mw==-1" src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/Traffic-light.svg" /> </div>
-                                <div class="text-wrap">
-                                    <p>Discreet Page Visits :</p>
-                                    <h2>58,867</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="icontextwrap orange">
-                                <div class="imagewrap"> <img alt="totalleads" nitro-lazy-src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/totalleads.svg" class="lazyloaded" decoding="async"
-                                    nitro-lazy-empty="" id="MzI3MTo2Nw==-1" src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/totalleads.svg" /> </div>
-                                <div class="text-wrap">
-                                    <p>Exclusive Client Inquiries:</p>
-                                    <h2>824,312</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="icontextwrap lightblue">
-                                <div class="imagewrap"> <img alt="/keywordlead.svg" nitro-lazy-src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/keywordlead.svg" class="lazyloaded" decoding="async"
-                                    nitro-lazy-empty="" id="MzI4NTo3NA==-1" src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-d7c956b/thriveagency.com/files/keywordlead.svg" /> </div>
-                                <div class="text-wrap">
-                                    <p>Top 5 Ranking Keywords:</p>
-                                    <h2>16,718</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row get_started_btn_div">
-                        <div class="top_cta">
-                            <a class="mainbtn big" style={{ marginTop: "0", marginBottom: "15px" }} href="https://escortmarketing.agency/contact-us/" target="_blank" rel="noopener" plerdy-tracking-id="65531133701">CONTACT US TO OUTRANK YOUR COMPETITORS</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="faq_home">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="top_head_cont">
+            <section className="faq_home">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="top_head_cont">
                                 <h2>Frequently Asked <span>Questions</span></h2>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="accordion">
-                                <ul class="faq_list">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="accordion">
+                                <ul className="faq_list">
                                     <li>
-                                        <div class="heading">What is adult content writing?</div>
-                                        <div class="contents">
+                                        <div className="heading">What is adult content writing?</div>
+                                        <div className="contents">
                                             <p>
-                                                <p class="my-0">Adult content writing involves creating engaging, professional, and SEO-optimized text for websites, blogs, product descriptions, and other platforms within the adult industry. It aims to attract
+                                                <p className="my-0">Adult content writing involves creating engaging, professional, and SEO-optimized text for websites, blogs, product descriptions, and other platforms within the adult industry. It aims to attract
                                                     targeted audiences while adhering to industry standards.</p>
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="heading"> What types of content do you provide for adult websites?</div>
-                                        <div class="contents">
+                                        <div className="heading"> What types of content do you provide for adult websites?</div>
+                                        <div className="contents">
                                             <p>
                                                 <p>We offer services such as blog writing, authority articles, product descriptions, press releases, and web copy tailored specifically for adult businesses.</p>
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="heading">How do you ensure discretion and professionalism in your services?</div>
-                                        <div class="contents">
+                                        <div className="heading">How do you ensure discretion and professionalism in your services?</div>
+                                        <div className="contents">
                                             <p>
                                                 <p data-start="1261" data-end="1710">Our team follows strict guidelines to maintain professionalism and confidentiality, ensuring high-quality content that aligns with your brand image.</p>
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="heading"> How does adult content writing improve user engagement?</div>
-                                        <div class="contents">
+                                        <div className="heading"> How does adult content writing improve user engagement?</div>
+                                        <div className="contents">
                                             <p>
                                                 <p data-start="1788" data-end="2164">High-quality, engaging content builds trust with visitors, keeps them on the site longer, and encourages repeat visits or purchases by addressing their needs effectively.</p>
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="heading">How do you tailor content to match my brand’s tone of voice?</div>
-                                        <div class="contents">
+                                        <div className="heading">How do you tailor content to match my brand’s tone of voice?</div>
+                                        <div className="contents">
                                             <p>
                                                 <p data-start="2261" data-end="2606">We work closely with clients to understand their preferences and brand identity, ensuring all content reflects the desired tone and style.</p>
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="heading">How long does it take to deliver a project?</div>
-                                        <div class="contents">
+                                        <div className="heading">How long does it take to deliver a project?</div>
+                                        <div className="contents">
                                             <p>
-                                                <p class="my-0">Delivery timelines depend on the scope of the project but are typically completed within agreed deadlines without compromising quality.</p>
+                                                <p className="my-0">Delivery timelines depend on the scope of the project but are typically completed within agreed deadlines without compromising quality.</p>
                                             </p>
                                         </div>
                                     </li>
@@ -1557,12 +1495,12 @@ const Socialmediamarketing = () => {
                 </div>
             </section>
 
-            <div class="container custom-container">
-                <div class="row">
-                    <div class="col-md-4 left-section">
-                        <img alt="SEO results showing a high grade and website performance metrics" class="img-fluid" src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" style={{ padding: " 20px" }} />
+            <div className="container custom-container">
+                <div className="row">
+                    <div className="col-md-4 left-section">
+                        <img alt="SEO results showing a high grade and website performance metrics" className="img-fluid" src="https://escortmarketing.agency/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-28-at-12.53.45_9750cb13.jpg" style={{ padding: " 20px" }} />
                     </div>
-                    <div class="col-md-6 right-section">
+                    <div className="col-md-6 right-section">
                         <h2>
                             No obligation, 100% customized plan
                         </h2>
@@ -1570,12 +1508,12 @@ const Socialmediamarketing = () => {
                             No obligation, 100% customized plan </p>
 
 
-                        <div class="wpcf7 no-js" id="wpcf7-f6758-o4" lang="en-US" dir="ltr">
-                            <div class="screen-reader-response">
+                        <div className="wpcf7 no-js" id="wpcf7-f6758-o4" lang="en-US" dir="ltr">
+                            <div className="screen-reader-response">
                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                 <ul></ul>
                             </div>
-                            <form action="/adult-social-media-marketing/#wpcf7-f6758-o4" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                            <form action="/adult-social-media-marketing/#wpcf7-f6758-o4" method="post" className="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                 <div style={{ display: " none" }}>
                                     <input type="hidden" name="_wpcf7" value="6758" />
                                     <input type="hidden" name="_wpcf7_version" value="5.7.7" />
@@ -1585,18 +1523,18 @@ const Socialmediamarketing = () => {
                                     <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                     <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                                 </div>
-                                <p><span class="wpcf7-form-control-wrap" data-name="text-968"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="audit_first_name" aria-required="true" aria-invalid="false" placeholder="First Name" value="" type="text" name="text-968" /></span><br
+                                <p><span className="wpcf7-form-control-wrap" data-name="text-968"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="audit_first_name" aria-required="true" aria-invalid="false" placeholder="First Name" value="" type="text" name="text-968" /></span><br
                                 />
-                                    <span class="wpcf7-form-control-wrap" data-name="text-14"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="audit_last_name" aria-required="true" aria-invalid="false" placeholder="Last Name" value="" type="text" name="text-14" /></span><br
+                                    <span className="wpcf7-form-control-wrap" data-name="text-14"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="audit_last_name" aria-required="true" aria-invalid="false" placeholder="Last Name" value="" type="text" name="text-14" /></span><br
                                     />
-                                    <span class="wpcf7-form-control-wrap" data-name="text-154"><input size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span><br
+                                    <span className="wpcf7-form-control-wrap" data-name="text-154"><input size="40" className="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Enter URL" value="" type="text" name="text-154" /></span><br
                                     />
-                                    <span class="wpcf7-form-control-wrap" data-name="email-364"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="audit_email" aria-required="true" aria-invalid="false" placeholder="Email Address" value="" type="email" name="email-364" /></span>
+                                    <span className="wpcf7-form-control-wrap" data-name="email-364"><input size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="audit_email" aria-required="true" aria-invalid="false" placeholder="Email Address" value="" type="email" name="email-364" /></span>
                                 </p>
 
-                                <p><input class="wpcf7-form-control has-spinner wpcf7-submit sbmt btn-custom" type="submit" value="GET FREE REPORT NOW" />
+                                <p><input className="wpcf7-form-control has-spinner wpcf7-submit sbmt btn-custom" type="submit" value="GET FREE REPORT NOW" />
                                 </p>
-                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                <div className="wpcf7-response-output" aria-hidden="true"></div>
                             </form>
                         </div>
                     </div>

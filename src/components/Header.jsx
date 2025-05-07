@@ -39,13 +39,13 @@ const Header = () => {
 
               <div className="menu-main-menu-container">
                 <ul id="menu-main-menu" className="nav-menu">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about-us">About</a></li>
+                  <li><a href="/" target="_blank" rel="noopener noreferrer">Home</a></li>
+                  <li><a href="/about-us" target="_blank" rel="noopener noreferrer">About</a></li>
 
                   {/* Services Menu with Submenu */}
                   <li className={`menu-item-has-children ${isSubMenuOpen ? 'open' : ''}`}>
                     <div className="services-menu">
-                      <a href="#">Services</a>
+                      <a href="#" target="_blank" rel="noopener noreferrer">Services</a>
                       <button
                         className="sub-menu-toggle"
                         aria-expanded={isSubMenuOpen}
@@ -62,33 +62,32 @@ const Header = () => {
                     {/* Submenu */}
                     {isSubMenuOpen && (
                       <ul className="sub-menu">
-                        <li><Link to="/independent-escort-seo">Independent Escort SEO</Link></li>
-                        <li><Link to="/escortdirectoryseo">Escort Directory SEO</Link></li>
-                        <li><Link to="/escortseo">Escort SEO</Link></li>
-                        <li><Link to="/enterpriseseoservices">Enterprise SEO Services</Link></li>
-                        <li><Link to="/adultseo">Adult SEO</Link></li>
-                        <li><Link to="/adultlinkbuilding">Adult Link Building</Link></li>
-                        <li><Link to="/ecommerceSEO">Adult E-Commerce SEO</Link></li>
-                        <li><Link to="/porntubeSEO">Porn Tube SEO</Link></li>
-                        <li><Link to="/adultweb">Adult Website Design</Link></li>
-                        <li><Link to="/adultwebcam">Adult Webcams SEO</Link></li>
-                        <li><Link to="/socialmediamarketing">Escort Social Media Marketing</Link></li>
-                        <li><Link to="/androidappdev">Adult Android App Development Agency</Link></li>
-                        <li><Link to="/adultdating">Adult Dating SEO</Link></li>
-                        <li><Link to="/contentwriting">Adult Content Writing Services</Link></li>
-                        <li><Link to="/pornstar">Porn Star SEO</Link></li>
-                        <li><Link to="/eroticmessage">Erotic Massage SEO</Link></li>
-                        <li><Link to="/strippers">Strippers SEO</Link></li>
-                        <li><Link to="/brothel">Brothel SEO</Link></li>
+                        <li><Link to="/independent-escort-seo" target="_blank" rel="noopener noreferrer">Independent Escort SEO</Link></li>
+                        <li><Link to="/escort-directory-seo" target="_blank" rel="noopener noreferrer">Escort Directory SEO</Link></li>
+                        <li><Link to="/escort-seo" target="_blank" rel="noopener noreferrer">Escort SEO</Link></li>
+                        <li><Link to="/enterprise-seo-services" target="_blank" rel="noopener noreferrer">Enterprise SEO Services</Link></li>
+                        <li><Link to="/adult-seo" target="_blank" rel="noopener noreferrer">Adult SEO</Link></li>
+                        <li><Link to="/adult-link-building" target="_blank" rel="noopener noreferrer">Adult Link Building</Link></li>
+                        <li><Link to="/ecommerceSEO" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</Link></li>
+                        <li><Link to="/porn-tube-seo" target="_blank" rel="noopener noreferrer">Porn Tube SEO</Link></li>
+                        <li><Link to="/webcams-seo" target="_blank" rel="noopener noreferrer">Adult Webcams SEO</Link></li>
+                        <li><Link to="/adult-social-media-marketing" target="_blank" rel="noopener noreferrer">Escort Social Media Marketing</Link></li>
+                        <li><Link to="/adult-android-app-development-agency" target="_blank" rel="noopener noreferrer">Adult Android App Development Agency</Link></li>
+                        <li><Link to="/adult-dating-websites-seo" target="_blank" rel="noopener noreferrer">Adult Dating SEO</Link></li>
+                        <li><Link to="/adult-content-writing-services" target="_blank" rel="noopener noreferrer">Adult Content Writing Services</Link></li>
+                        <li><Link to="/pornstar-seo" target="_blank" rel="noopener noreferrer">Porn Star SEO</Link></li>
+                        <li><Link to="/erotic-massage-seo" target="_blank" rel="noopener noreferrer">Erotic Massage SEO</Link></li>
+                        <li><Link to="/strippers-seo" target="_blank" rel="noopener noreferrer">Strippers SEO</Link></li>
+                        <li><Link to="/brothel-seo" target="_blank" rel="noopener noreferrer">Brothel SEO</Link></li>
                       </ul>
                     )}
                   </li>
 
-                  <li><a href="/faqs">FAQ</a></li>
-                  <li><a href="/blog">Blog</a></li>
-                  <li><Link to="/pricing">Pricing</Link></li>
-                  <li><Link to="/contact-us">Contact</Link></li>
-                  <li><a href="/contact-us">Get a Quote</a></li>
+                  <li><a href="/faqs" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+                  <li><a href="/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                  <li><Link to="/pricing" target="_blank" rel="noopener noreferrer">Pricing</Link></li>
+                  <li><Link to="/contact-us" target="_blank" rel="noopener noreferrer">Contact</Link></li>
+                  <li><a href="/contact-us" target="_blank" rel="noopener noreferrer">Get a Quote</a></li>
                 </ul>
               </div>
 

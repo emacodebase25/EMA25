@@ -9,6 +9,7 @@ import Testimonials from "../components/Testimonials";
 import PlatformLogoCarousel from "../components/PlatfromLogoCarousal"
 import { useParams } from "react-router-dom";
 import seoPageData from "../data/seo_data";
+import EscortNotFoundpage from "../components/NotFoundPage";
 
 
 
@@ -18,7 +19,7 @@ const EscortSEOLayOutPage = () => {
     const pageData = seoPageData[slug];
     
     if (!pageData) {
-        return <div>404 - Page Not Found</div>;
+        return (<EscortNotFoundpage />);
       }
 
 

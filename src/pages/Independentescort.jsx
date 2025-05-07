@@ -1,6 +1,8 @@
 import React from 'react';
 import '../assets/css/Independentescort.css';
 import Testimonials from '../components/Testimonials';
+import BlogArea from '../components/BlogArea';
+import SEOLogos from '../components/SEOLogos';
 
 const Independentescort = () => {
     return (
@@ -1811,105 +1813,8 @@ const Independentescort = () => {
 
 
 
-            <section class="blog_area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="text-center">Latest News & Updates</h2>
-
-
-                            <ul class="">
-                                <li>
-
-                                    <figure><a href="https://escortmarketing.agency/how-to-grow-your-escort-business-in-greece-with-local-seo/"><img width="1040" height="500" src="https://escortmarketing.agency/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-13.34.40_ab583890.webp" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="How to Grow Your Escort Business in Greece with Local SEO" decoding="async" loading="lazy" srcset="https://escortmarketing.agency/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-13.34.40_ab583890.webp 1040w, https://escortmarketing.agency/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-13.34.40_ab583890-300x144.webp 300w, https://escortmarketing.agency/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-13.34.40_ab583890-1024x492.webp 1024w, https://escortmarketing.agency/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-13.34.40_ab583890-768x369.webp 768w" sizes="(max-width: 1040px) 100vw, 1040px" style={{ width: "100%", height: "48.08%", maxwidth: "1040px" }} /></a>
-                                        <label>2 May</label>
-                                    </figure>
-                                    <div class="dtls_more">
-                                        <h3> <a href="https://escortmarketing.agency/how-to-grow-your-escort-business-in-greece-with-local-seo/">How to Grow Your Escort Business in Greece with Local SEO ( 2025 ) </a></h3>
-                                        <p>Greece, with its rich history, stunning landscapes, and vibrant nightlife, has long been a magnet for tourists and locals alike.&hellip; </p>
-                                        <a href="https://escortmarketing.agency/how-to-grow-your-escort-business-in-greece-with-local-seo/" class="cta">Read More <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989592 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"></path>
-                                        </svg></a>
-
-
-                                    </div>
-                                </li>
-                                <li>
-
-                                    <figure><a href="https://escortmarketing.agency/boost-your-queens-escort-directory-rankings-on-google/"><img width="1040" height="500" src="https://escortmarketing.agency/wp-content/uploads/2025/05/Queens.webp" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="Boost Your Queens Escort Directory Rankings on Google [ 2025 ]" decoding="async" loading="lazy" srcset="https://escortmarketing.agency/wp-content/uploads/2025/05/Queens.webp 1040w, https://escortmarketing.agency/wp-content/uploads/2025/05/Queens-300x144.webp 300w, https://escortmarketing.agency/wp-content/uploads/2025/05/Queens-1024x492.webp 1024w, https://escortmarketing.agency/wp-content/uploads/2025/05/Queens-768x369.webp 768w" sizes="(max-width: 1040px) 100vw, 1040px" style={{ width: "100%", height: "48.08%", maxwidth: "1040px" }} /></a>
-                                        <label>2 May</label>
-                                    </figure>
-                                    <div class="dtls_more">
-                                        <h3> <a href="https://escortmarketing.agency/boost-your-queens-escort-directory-rankings-on-google/">Boost Your Queens Escort Directory Rankings on Google [ 2025 ] </a></h3>
-                                        <p>Though adult entertainment never stopped glittering and pulsed, to only become listed in a Queens escort directory is like appearing&hellip; </p>
-                                        <a href="https://escortmarketing.agency/boost-your-queens-escort-directory-rankings-on-google/" class="cta">Read More <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989592 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"></path>
-                                        </svg></a>
-
-
-                                    </div>
-                                </li>
-                                <li>
-
-                                    <figure><a href="https://escortmarketing.agency/from-strip-clubs-to-sensual-spas-where-to-advertise-in-nycs-adult-scene/"><img width="1040" height="500" src="https://escortmarketing.agency/wp-content/uploads/2025/04/From-Strip-Clubs-to-Sensual-Spas-Where-to-Advertise-in-NYCs-Adult-Scene-1.jpg" class="attachment-single-post-thumbnail size-single-post-thumbnail wp-post-image" alt="From Strip Clubs to Sensual Spas: Where to Advertise in NYCs Adult Scene" decoding="async" loading="lazy" srcset="https://escortmarketing.agency/wp-content/uploads/2025/04/From-Strip-Clubs-to-Sensual-Spas-Where-to-Advertise-in-NYCs-Adult-Scene-1.jpg 1040w, https://escortmarketing.agency/wp-content/uploads/2025/04/From-Strip-Clubs-to-Sensual-Spas-Where-to-Advertise-in-NYCs-Adult-Scene-1-300x144.jpg 300w, https://escortmarketing.agency/wp-content/uploads/2025/04/From-Strip-Clubs-to-Sensual-Spas-Where-to-Advertise-in-NYCs-Adult-Scene-1-1024x492.jpg 1024w, https://escortmarketing.agency/wp-content/uploads/2025/04/From-Strip-Clubs-to-Sensual-Spas-Where-to-Advertise-in-NYCs-Adult-Scene-1-768x369.jpg 768w" sizes="(max-width: 1040px) 100vw, 1040px" style={{ width: "100%", height: "48.08%", maxwidth: "1040px" }} /> </a>
-                                        <label>30 Apr</label>
-                                    </figure>
-                                    <div class="dtls_more">
-                                        <h3> <a href="https://escortmarketing.agency/from-strip-clubs-to-sensual-spas-where-to-advertise-in-nycs-adult-scene/">From Strip Clubs to Sensual Spas: Where to Advertise in NYC’s Adult Scene </a></h3>
-                                        <p>When it comes to advertising one&#8217;s business on the adult scene in New York City, it is a space with&hellip; </p>
-                                        <a href="https://escortmarketing.agency/from-strip-clubs-to-sensual-spas-where-to-advertise-in-nycs-adult-scene/" class="cta">Read More <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989592 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"></path>
-                                        </svg></a>
-
-
-                                    </div>
-                                </li>
-                            </ul>
-
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="what_offer seo_logos">
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2>We use the most popular tools to rank you higher.</h2>
-
-                            <ul class="logo_list location_logo">
-
-
-                                <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/03/semrush.png" alt="" /></figure>
-                                </li>
-
-                                <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/03/moz.png" alt="" /></figure>
-                                </li>
-
-                                <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/03/ranking.png" alt="" /></figure>
-                                </li>
-                                <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/05/gtrend.png" alt="" /></figure>
-                                </li>
-                                <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2024/05/ahrefs.png" alt="" /></figure>
-                                </li>
-
-
-                            </ul>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </section>
+            <BlogArea />
+            <SEOLogos />
 
         </>
     );
