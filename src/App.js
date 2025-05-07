@@ -32,7 +32,7 @@ import Escortdirectoryseo from './pages/escortdirectoryseo';
 import Adultlinkbuilding from './pages/Adultlinkbuilding';
 import Adultseo from './pages/adultseo';
 import Enterpriseseoservices from './pages/Enterpriseseoservices';
-import EcommerceSEO from './pages/Ecommerceseo';
+import EcommerceSEO from './pages/EcommerceSEO';
 import PorntubeSEO from './pages/porntubeseo';
 import Adultwebcam from './pages/Adultwebcam';
 import Androidappdev from './pages/Androidappdev';
@@ -98,7 +98,7 @@ function App() {
             element={<Enterpriseseoservices />}
           />
 
-          <Route path='/ecommerceSEO' element={<EcommerceSEO />} />
+          <Route path='/adult-e-commerce-seo' element={<EcommerceSEO />} />
 
           <Route path='/porn-tube-seo' element={<PorntubeSEO />} />
           <Route path='/webcams-seo' element={<Adultwebcam />} />

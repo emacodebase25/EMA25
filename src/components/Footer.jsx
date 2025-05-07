@@ -193,7 +193,7 @@ const Footer = () => {
                 <a href="/adult-seo/" target="_blank" rel="noopener noreferrer">Adult SEO</a>
               </li>
               <li>
-                <a href="/adult-e-commerce/" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</a>
+                <a href="/adult-e-commerce-seo/" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</a>
               </li>
               <li>
                 <a href="/escort-seo/" target="_blank" rel="noopener noreferrer">Escort SEO</a>

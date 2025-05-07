@@ -68,7 +68,7 @@ const Header = () => {
                         <li><Link to="/enterprise-seo-services" target="_blank" rel="noopener noreferrer">Enterprise SEO Services</Link></li>
                         <li><Link to="/adult-seo" target="_blank" rel="noopener noreferrer">Adult SEO</Link></li>
                         <li><Link to="/adult-link-building" target="_blank" rel="noopener noreferrer">Adult Link Building</Link></li>
-                        <li><Link to="/ecommerceSEO" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</Link></li>
+                        <li><Link to="/adult-e-commerce-seo" target="_blank" rel="noopener noreferrer">Adult E-Commerce SEO</Link></li>
                         <li><Link to="/porn-tube-seo" target="_blank" rel="noopener noreferrer">Porn Tube SEO</Link></li>
                         <li><Link to="/webcams-seo" target="_blank" rel="noopener noreferrer">Adult Webcams SEO</Link></li>
                         <li><Link to="/adult-social-media-marketing" target="_blank" rel="noopener noreferrer">Escort Social Media Marketing</Link></li>
