@@ -9037,3 +9037,46 @@ ol li {
   padding: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.blg-search {
+  position: relative;
+}
+.blg-search input {
+  border: 1px solid #be4c46 !important;
+  border-radius: 2px !important;
+  padding: 5px 40px 5px 15px;
+}
+.blg-search span {
+  display: flex;
+  width: 34px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #be4c46;
+  position: absolute;
+  right: 13px;
+  top: 0px;
+}
+.blg-search span svg {
+  display: block;
+  width: 22px;
+}
+.blg-search span svg path {
+  fill: white;
+}
+.blog-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.blog-card-meta {
+  font-size: 14px;
+  color: #777;
+}
+.blog-card {
+  margin-bottom: 20px;
+}
+.blog_list_area .contact_form p {
+  text-align: left !important;
+}
