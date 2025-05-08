@@ -109,9 +109,11 @@ const EscortBlogPage = () => {
                   const img =
                     blog._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
                     "Not found";
-                  const formattedDate = new Date(
-                    blog.date
-                  ).toLocaleDateString();
+                    const formattedDate = new Date(blog.date).toLocaleDateString("en-US", {
+                      month: "long", 
+                      day: "numeric", 
+                      year: "numeric", 
+                    });
 
                   return (
                     <BlogCard
