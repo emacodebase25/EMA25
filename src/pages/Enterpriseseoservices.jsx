@@ -17,7 +17,7 @@ const Enterpriseseoservices = () => {
                   className="first-line-award"
                   plerdy-tracking-id="33700645801"
                 >
-                  #Leading Enterprise SEO Services for Escort Agencies
+                  #1 Leading Enterprise SEO Services for Escort Agencies
                 </h1>
                 <h2 className="ppc-step" plerdy-tracking-id="42548861701">
                   Achieve Market Dominance with Scalable Enterprise SEO
@@ -523,7 +523,7 @@ const Enterpriseseoservices = () => {
                 <li>
                   <figure>
                     <img
-                      src="https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png"
+                      src="./images/nich.png"
                       alt=""
                     />
                   </figure>
@@ -542,7 +542,7 @@ const Enterpriseseoservices = () => {
                 <li>
                   <figure>
                     <img
-                      src="https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png"
+                      src="./images/Analytics-and-Continuous-Improvement.png"
                       alt=""
                     />
                   </figure>
@@ -973,7 +973,7 @@ const Enterpriseseoservices = () => {
                     className="fa"
                     style={{
                       backgroundimage:
-                        "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png);",
+                        "url(./images/Additional-Relevant-Channels.png);",
                     }}
                   ></i>
                 </div>
@@ -1000,7 +1000,7 @@ const Enterpriseseoservices = () => {
                     className="fa"
                     style={{
                       backgroundimage:
-                        "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png);",
+                        "url(./images/Analytics-and-Continuous-Improvement.png);",
                     }}
                   ></i>
                 </div>
@@ -1026,7 +1026,7 @@ const Enterpriseseoservices = () => {
                     className="fa"
                     style={{
                       backgroundimage:
-                        "url(https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png)",
+                        "url(./images/nich.png)",
                     }}
                   ></i>
                 </div>
@@ -1052,7 +1052,7 @@ const Enterpriseseoservices = () => {
                     className="fa"
                     style={{
                       backgroundimage:
-                        "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png)",
+                        "url(./images/Social-Media-Promotion.png)",
                     }}
                   ></i>
                 </div>

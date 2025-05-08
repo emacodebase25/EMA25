@@ -491,7 +491,7 @@ const Socialmediamarketing = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundiimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png)" }}></i>
+                                    <i className="fa" style={{ backgroundiimage: "url(./images/Additional-Relevant-Channels.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -507,7 +507,7 @@ const Socialmediamarketing = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/Analytics-and-Continuous-Improvement.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -523,7 +523,7 @@ const Socialmediamarketing = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/nich.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -539,7 +539,7 @@ const Socialmediamarketing = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/Social-Media-Promotion.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">

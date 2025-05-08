@@ -2720,7 +2720,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/cash-flow.png)"
+                      "url(./images/cash-flow.png)"
                   }}
                 />
               </div>
@@ -2742,7 +2742,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/seo.png)"
+                      "url(./images/seo.png)"
                   }}
                 />
               </div>
@@ -2764,7 +2764,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/specialist.png)"
+                      "url(./images/specialist.png)"
                   }}
                 />
               </div>
@@ -2788,7 +2788,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/cash-flow.png)"
+                      "url(./images/cash-flow.png)"
                   }}
                 />
               </div>
@@ -2809,7 +2809,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/specialist.png)"
+                      "url(./images/specialist.png)"
                   }}
                 />
               </div>
@@ -2831,7 +2831,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/seo.png)"
+                      "url(./images/seo.png)"
                   }}
                 />
               </div>
@@ -2852,7 +2852,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/specialist.png)"
+                      "url(./images/specialist.png)"
                   }}
                 />
               </div>
@@ -2874,7 +2874,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/seo.png)"
+                      "url(./images/seo.png)"
                   }}
                 />
               </div>
@@ -2895,7 +2895,7 @@ const EcommerceSEO = () => {
                   className="fa"
                   style={{
                     backgroundImage:
-                      "url(https://escortmarketing.agency/wp-content/uploads/2025/01/cash-flow.png)"
+                      "url(./images/cash-flow.png)"
                   }}
                 />
               </div>

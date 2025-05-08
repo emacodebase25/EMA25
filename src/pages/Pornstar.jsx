@@ -301,7 +301,7 @@ const Pornstar = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png" alt="" /></figure>
+                                    <figure><img src="./images/Social-Media-Promotion.png" alt="" /></figure>
                                     <div className="dtls">
                                         <h3>AI-Driven Analytics</h3>
                                         <p>
@@ -311,7 +311,7 @@ const Pornstar = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png" alt="" /></figure>
+                                    <figure><img src="./images/Analytics-and-Continuous-Improvement.png" alt="" /></figure>
                                     <div className="dtls">
                                         <h3>Technical SEO Optimization</h3>
                                         <p>
@@ -321,7 +321,7 @@ const Pornstar = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png" alt="" /></figure>
+                                    <figure><img src="./images/nich.png" alt="" /></figure>
                                     <div className="dtls">
                                         <h3>Reputation Management</h3>
                                         <p>
@@ -331,7 +331,7 @@ const Pornstar = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <figure><img src="https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png" alt="" /></figure>
+                                    <figure><img src="./images/Additional-Relevant-Channels.png" alt="" /></figure>
                                     <div className="dtls">
                                         <h3>Secure Payment Integration</h3>
                                         <p>
@@ -444,7 +444,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/01/specialist.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/specialist.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -460,7 +460,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/01/seo.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/seo.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -476,7 +476,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/01/cash-flow.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/cash-flow.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -492,7 +492,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Analytics-and-Continuous-Improvement.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/Analytics-and-Continuous-Improvement.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -507,7 +507,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/nich.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/nich.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -522,7 +522,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Social-Media-Promotion.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/Social-Media-Promotion.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
@@ -537,7 +537,7 @@ const Pornstar = () => {
                         <div className="col-sm-3">
                             <div className="service-con">
                                 <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                    <i className="fa" style={{ backgroundimage: "url(https://escortmarketing.agency/wp-content/uploads/2025/02/Additional-Relevant-Channels.png)" }}></i>
+                                    <i className="fa" style={{ backgroundimage: "url(./images/Additional-Relevant-Channels.png)" }}></i>
                                 </div>
                                 <h4 className="fw-semibold mb-0 text-body-emphasis">
                                     <a href="">
