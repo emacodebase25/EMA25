@@ -5,6 +5,7 @@ import BannerSection from "../components/Bannar";
 import FAQSection from "../components/FAQComponent";
 import BlogArea from "../components/BlogArea";
 import SEOLogos from "../components/SEOLogos";
+import StickyAuditForm from "../components/StickyAuditForm";
 
 const EscortFAQPage = () => {
   const [activeTab, setActiveTab] = useState("seo");
@@ -72,6 +73,78 @@ const EscortFAQPage = () => {
       },
     ],
     app: [
+      {
+        question:
+          "Can adult Android apps incorporate features for user-controlled data sharing and revocation?",
+        answer:
+          "<p>Yes, adult Android apps can incorporate features for user-controlled data sharing and revocation. Here's how:</p><ul><li><strong>Permission Management</strong>: Implement a robust permission management system within the app that allows users to control what data they share with the app.</li><li><strong>Granular Controls</strong>: Offer granular controls within the app settings, allowing users to enable or disable specific permissions as desired.</li><li><strong>Data Revocation</strong>: Enable users to revoke previously granted permissions at any time.</li></ul>",
+      },
+      {
+        question:
+          "Are there any age verification mechanisms required for adult Android apps?",
+        answer:
+          "<p>Yes, age verification mechanisms are often required for adult Android apps to comply with legal regulations and to ensure that only adults can access the content. Google Play Store policies require developers to implement age verification mechanisms for apps that contain adult content or are targeted towards mature audiences. Some common age verification methods used in adult Android apps include:</p><ul><li><strong>Age Gates</strong>: A simple age gate requires users to confirm their age before accessing the app.</li><li><strong>Account Verification</strong>: Apps may require users to create an account and verify their age during the registration process.</li></ul>",
+      },
+      {
+        question:
+          "Are there any specific SEO strategies for promoting adult Android apps?",
+        answer:
+          "<p>Yes, promoting adult Android apps requires specialized SEO strategies due to the unique nature of the adult entertainment industry. Here are some specific strategies you can consider:</p><ul><li><strong>Keyword Optimization</strong>: Conduct keyword research to identify relevant and high-volume keywords related to adult entertainment and your specific app niche.</li><li><strong>App Store Optimization (ASO)</strong>: Optimize your app store listing by crafting a compelling title, engaging description, and attractive visuals.</li></ul>",
+      },
+      {
+        question:
+          "What are the options for incorporating video streaming features into adult apps?",
+        answer:
+          "<p>Incorporating video streaming features into adult apps can greatly enhance user engagement and satisfaction. Here are several options for integrating video streaming functionalities:</p><ul><li><strong>Custom Video Player Integration</strong>: Develop a custom video player within the app that supports streaming of adult content.</li><li><strong>Third-Party Video Hosting Services</strong>: Integrate with third-party video hosting platforms specialized in adult content.</li><li><strong>Live Streaming Capabilities</strong>: Implement live streaming features that enable users to broadcast their own content or engage with live streams from other users.</li></ul>",
+      },
+      {
+        question:
+          "Can adult Android apps incorporate features for user-controlled data sharing and revocation?",
+        answer:
+          "<p>Yes, adult Android apps can incorporate features for user-controlled data sharing and revocation. Here's how:</p><ul><li><strong>Permission Management</strong>: Implement a robust permission management system within the app that allows users to control what data they share with the app.</li><li><strong>Granular Controls</strong>: Offer granular controls within the app settings, allowing users to enable or disable specific permissions as desired.</li><li><strong>Data Revocation</strong>: Enable users to revoke previously granted permissions at any time.</li></ul>",
+      },
+      {
+        question:
+          "Are there any age verification mechanisms required for adult Android apps?",
+        answer:
+          "<p>Yes, age verification mechanisms are often required for adult Android apps to comply with legal regulations and to ensure that only adults can access the content. Google Play Store policies require developers to implement age verification mechanisms for apps that contain adult content or are targeted towards mature audiences. Some common age verification methods used in adult Android apps include:</p><ul><li><strong>Age Gates</strong>: A simple age gate requires users to confirm their age before accessing the app.</li><li><strong>Account Verification</strong>: Apps may require users to create an account and verify their age during the registration process.</li></ul>",
+      },
+      {
+        question:
+          "Are there any specific SEO strategies for promoting adult Android apps?",
+        answer:
+          "<p>Yes, promoting adult Android apps requires specialized SEO strategies due to the unique nature of the adult entertainment industry. Here are some specific strategies you can consider:</p><ul><li><strong>Keyword Optimization</strong>: Conduct keyword research to identify relevant and high-volume keywords related to adult entertainment and your specific app niche.</li><li><strong>App Store Optimization (ASO)</strong>: Optimize your app store listing by crafting a compelling title, engaging description, and attractive visuals.</li></ul>",
+      },
+      {
+        question:
+          "What are the options for incorporating video streaming features into adult apps?",
+        answer:
+          "<p>Incorporating video streaming features into adult apps can greatly enhance user engagement and satisfaction. Here are several options for integrating video streaming functionalities:</p><ul><li><strong>Custom Video Player Integration</strong>: Develop a custom video player within the app that supports streaming of adult content.</li><li><strong>Third-Party Video Hosting Services</strong>: Integrate with third-party video hosting platforms specialized in adult content.</li><li><strong>Live Streaming Capabilities</strong>: Implement live streaming features that enable users to broadcast their own content or engage with live streams from other users.</li></ul>",
+      },
+      {
+        question:
+          "Can adult Android apps incorporate features for user-controlled data sharing and revocation?",
+        answer:
+          "<p>Yes, adult Android apps can incorporate features for user-controlled data sharing and revocation. Here's how:</p><ul><li><strong>Permission Management</strong>: Implement a robust permission management system within the app that allows users to control what data they share with the app.</li><li><strong>Granular Controls</strong>: Offer granular controls within the app settings, allowing users to enable or disable specific permissions as desired.</li><li><strong>Data Revocation</strong>: Enable users to revoke previously granted permissions at any time.</li></ul>",
+      },
+      {
+        question:
+          "Are there any age verification mechanisms required for adult Android apps?",
+        answer:
+          "<p>Yes, age verification mechanisms are often required for adult Android apps to comply with legal regulations and to ensure that only adults can access the content. Google Play Store policies require developers to implement age verification mechanisms for apps that contain adult content or are targeted towards mature audiences. Some common age verification methods used in adult Android apps include:</p><ul><li><strong>Age Gates</strong>: A simple age gate requires users to confirm their age before accessing the app.</li><li><strong>Account Verification</strong>: Apps may require users to create an account and verify their age during the registration process.</li></ul>",
+      },
+      {
+        question:
+          "Are there any specific SEO strategies for promoting adult Android apps?",
+        answer:
+          "<p>Yes, promoting adult Android apps requires specialized SEO strategies due to the unique nature of the adult entertainment industry. Here are some specific strategies you can consider:</p><ul><li><strong>Keyword Optimization</strong>: Conduct keyword research to identify relevant and high-volume keywords related to adult entertainment and your specific app niche.</li><li><strong>App Store Optimization (ASO)</strong>: Optimize your app store listing by crafting a compelling title, engaging description, and attractive visuals.</li></ul>",
+      },
+      {
+        question:
+          "What are the options for incorporating video streaming features into adult apps?",
+        answer:
+          "<p>Incorporating video streaming features into adult apps can greatly enhance user engagement and satisfaction. Here are several options for integrating video streaming functionalities:</p><ul><li><strong>Custom Video Player Integration</strong>: Develop a custom video player within the app that supports streaming of adult content.</li><li><strong>Third-Party Video Hosting Services</strong>: Integrate with third-party video hosting platforms specialized in adult content.</li><li><strong>Live Streaming Capabilities</strong>: Implement live streaming features that enable users to broadcast their own content or engage with live streams from other users.</li></ul>",
+      },
       {
         question:
           "Can adult Android apps incorporate features for user-controlled data sharing and revocation?",
@@ -208,80 +281,7 @@ const EscortFAQPage = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="audit_form faq-audit-frm ">
-                {/* sticky_2 */}
-                <h3>Free Audit Now</h3>
-                <form onSubmit={handleSubmit}>
-                  <ul className="row">
-                    <li className="col-lg-12">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Enter Name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        className="form-control"
-                      />
-                    </li>
-                    <li className="col-lg-12">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Enter Email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        className="form-control"
-                      />
-                    </li>
-                    <li className="col-lg-12">
-                      <input
-                        type="number"
-                        name="phone"
-                        placeholder="Enter Phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        className="form-control"
-                      />
-                    </li>
-                    <li className="col-lg-12">
-                      <input
-                        type="text"
-                        name="website"
-                        placeholder="Enter Website Url"
-                        value={formData.website}
-                        onChange={handleChange}
-                        className="form-control"
-                      />
-                    </li>
-                    <li className="col-lg-12">
-                      <textarea
-                        name="message"
-                        placeholder="Enter Message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        rows="5"
-                        className="form-control"
-                      ></textarea>
-                    </li>
-                    <li
-                      className="col-lg-12"
-                      style={{
-                        flex: "inherit",
-                        width: "400px",
-                        margin: "0 auto",
-                      }}
-                    >
-                      <input
-                        type="submit"
-                        value="Send"
-                        className="btn btn-primary faq-btn"
-                      />
-                    </li>
-                  </ul>
-                </form>
-              </div>
+              <StickyAuditForm />
             </div>
           </div>
         </div>
