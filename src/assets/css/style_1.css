@@ -1246,7 +1246,10 @@ h2 span {
   font-size: 20px;
 }
 
-.top_overview .text_lft {
+.top_overview {
+  width: 100%;
+  float: left;
+  padding: 60px 0 0;
 }
 
 .top_overview .text_lft ul {
@@ -2780,6 +2783,8 @@ ul.logo_list li figure img {
   padding: 60px 0;
   background: linear-gradient(rgba(235, 245, 255, 0), #ffe0e7 69%);
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .faq_home label {
@@ -9027,3 +9032,8 @@ ol li {
   top: 150px;
 }
 /* 07-05 */
+.audit_form.faq-audit-frm {
+  background: #f9f9f9;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}

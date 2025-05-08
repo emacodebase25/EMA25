@@ -2,12 +2,12 @@ import React from "react";
 import { useEffect } from "react";
 import useBlogStore from "../stores/blogStore";
 
-const BlogArea = () => {
-  const {latestBlogs, fetchBlogs} = useBlogStore();
- 
+const BlogArea = ({ sticky_class }) => {
+  const { latestBlogs, fetchBlogs } = useBlogStore();
+
   useEffect(() => {
     if (latestBlogs.length === 0) {
-      fetchBlogs(); 
+      fetchBlogs();
     }
   }, []);
 
@@ -19,10 +19,8 @@ const BlogArea = () => {
     return words.join(" ") + (words.length === wordLimit ? "..." : "");
   };
 
-
-
   return (
-    <section className="blog_area">
+    <section className="blog_area" style={{ sticky_class }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -63,7 +61,12 @@ const BlogArea = () => {
                       </h3>
                       {/* <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} /> */}
                       <p>{getExcerptPreview(post.excerpt.rendered)}</p>
-                      <a href={post.link} className="cta" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={post.link}
+                        className="cta"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Read More
                         <svg
                           width="25"

@@ -803,21 +803,21 @@ img.bnr_img {
 }
 
 /*.main_bnr::before {
-        width: 220px;
-        height: 220px;
-        border-radius: 50%;
-        content: '';
-        position: absolute;
-         background: transparent linear-gradient(90deg,  #da1c4a 0%,  #fc45ff 50%,  #542877 100%) 0% 0% no-repeat;
-        right: -160px;
-        top: 80px;
-        z-index: 99;
-         animation-name:  rotate;
-         animation-duration:  10s;
-         animation-iteration-count:  infinite;
-        animation-timing-function:  linear;
-    }
-    */
+          width: 220px;
+          height: 220px;
+          border-radius: 50%;
+          content: '';
+          position: absolute;
+           background: transparent linear-gradient(90deg,  #da1c4a 0%,  #fc45ff 50%,  #542877 100%) 0% 0% no-repeat;
+          right: -160px;
+          top: 80px;
+          z-index: 99;
+           animation-name:  rotate;
+           animation-duration:  10s;
+           animation-iteration-count:  infinite;
+          animation-timing-function:  linear;
+      }
+      */
 .plan_bnr::before {
   width: 220px;
   height: 220px;
@@ -1246,7 +1246,10 @@ h2 span {
   font-size: 20px;
 }
 
-.top_overview .text_lft {
+.top_overview {
+  width: 100%;
+  float: left;
+  padding: 60px 0 0;
 }
 
 .top_overview .text_lft ul {
@@ -1406,16 +1409,16 @@ ul.info_graphic li {
 }
 
 /*ul.info_graphic li::before {
-       content: '';
-        position: absolute;
-        background: url(https://digitalcheckpoint.com/demo/maxi-van/wp-content/uploads/2023/07/shadow.png) no-repeat;
-        background-position: center;
-        width: 100%;
-        height: 15px;
-        left: 0;
-        bottom: 55px;
-    }
-    */
+         content: '';
+          position: absolute;
+          background: url(https://digitalcheckpoint.com/demo/maxi-van/wp-content/uploads/2023/07/shadow.png) no-repeat;
+          background-position: center;
+          width: 100%;
+          height: 15px;
+          left: 0;
+          bottom: 55px;
+      }
+      */
 
 ul.info_graphic li figure {
   width: 100%;
@@ -1739,7 +1742,7 @@ ul.logo_list li figure img {
   content: "";
 
   /* background:  url(../images/list_arrow.png) no-repeat;
-        */
+          */
   position: absolute;
 
   width: 19px;
@@ -2540,16 +2543,16 @@ ul.logo_list li figure img {
 }
 
 /* .mid_project::after {
-        content: '';
-        background: url(../images/mid_project.png) no-repeat right;
-        background-size: cover;
-        position: absolute;
-        width: 35%;
-        height: 100%;
-        right: 0;
-        top: 0;
-     }
-    */
+          content: '';
+          background: url(../images/mid_project.png) no-repeat right;
+          background-size: cover;
+          position: absolute;
+          width: 35%;
+          height: 100%;
+          right: 0;
+          top: 0;
+       }
+      */
 .mid_project .cta {
   width: 100%;
   float: left;
@@ -2780,6 +2783,8 @@ ul.logo_list li figure img {
   padding: 60px 0;
   background: linear-gradient(rgba(235, 245, 255, 0), #ffe0e7 69%);
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .faq_home label {
@@ -3115,14 +3120,14 @@ ul.logo_list li figure img {
 }
 
 /* .talk_us .talk_box {
-        width: 100%;
-        float: left;
-        background: #E9E9E9 url(../images/talk_us.jpg) no-repeat right;
-        min-height: 500px;
-        background-size: auto 100%;
-        padding: 50px;
-    }
-    */
+          width: 100%;
+          float: left;
+          background: #E9E9E9 url(../images/talk_us.jpg) no-repeat right;
+          min-height: 500px;
+          background-size: auto 100%;
+          padding: 50px;
+      }
+      */
 .talk_us .talk_box .part_01 {
   width: 50%;
   float: left;
@@ -3689,7 +3694,7 @@ footer p {
   width: 100%;
 
   /* float:  left;
-        */
+          */
   padding: 0;
 
   margin: 0;
@@ -5480,12 +5485,12 @@ ul.form_area {
 .world_map_area ul.form_area li .form-control,
 .world_map_area ul.form_area li select {
   width: 100%;
-
   float: left;
-
   height: 40px;
-
   padding: 0 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
 }
 .wpcf7 input[type="url"],
 .wpcf7 input[type="email"],
@@ -5508,18 +5513,19 @@ ul.form_area {
   resize: none;
 
   border-radius: 3px;
+
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
 }
 .world_map_area ul.form_area li label {
   width: 100%;
-
   float: left;
-
   font-weight: 700;
-
   color: #fff;
-
   margin: 0 0 3px;
   text-align: left;
+  font-size: 14px;
 }
 .world_map_area ul.form_area li span {
   margin: 0 10px 0 0;
@@ -6196,13 +6202,13 @@ footer .address_detials ul li i {
 }
 
 /* .audit_form ul li:nth-child(5) {
-        flex: 0 0 50%;
-    }
-    
-    .audit_form ul li:nth-child(6) {
-        flex: 0 0 15%;
-    }
-    */
+          flex: 0 0 50%;
+      }
+      
+      .audit_form ul li:nth-child(6) {
+          flex: 0 0 15%;
+      }
+      */
 .audit_form ul li input,
 .audit_form ul li textarea {
   height: 45px;
@@ -7437,11 +7443,11 @@ ul.logo_list.location_logo li figure {
 }
 
 /*--.txt-top  {
-        position: relative;
-        top: -9px;
-        left: -15px;
-    }
-    --*/
+          position: relative;
+          top: -9px;
+          left: -15px;
+      }
+      --*/
 .content_area article .txt-top {
   position: relative;
   top: 15px;
@@ -7615,13 +7621,30 @@ ul.logo_list.location_logo li figure {
   border: solid 1px #da1c4a;
   box-shadow: none;
   color: #da1c4a;
+  padding: 10px 1.5em;
+  position: relative;
+  overflow: hidden;
 }
-
+.content_area nav ul li a::after {
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 9px;
+  background: #d2d8d6;
+  content: "";
+  transition: background-color 0.3s, transform 0.3s;
+  transition-timing-function: ease, cubic-bezier(0.7, 0, 0.3, 1);
+  transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
 .content_area nav ul li a span {
   color: #da1c4a;
   font-weight: 600;
 }
-
+.content_area nav ul li.tab-current a {
+  background: #da1c4a;
+}
 .content_area nav ul li.tab-current a span {
   color: #fff;
 }
@@ -8258,12 +8281,12 @@ section.banner-div-all {
 }
 
 /* .background-3 {
-         background-image:  url(../assets/back_cta3.png);
-           padding:  4rem 0;
-       background-repeat:  no-repeat;
-       background-position:  100%;
-    }
-    */
+           background-image:  url(../assets/back_cta3.png);
+             padding:  4rem 0;
+         background-repeat:  no-repeat;
+         background-position:  100%;
+      }
+      */
 
 .banr-div-btm {
   background: #ebebeb !important;
@@ -8685,7 +8708,7 @@ section.banner-div-all {
 
 .whyChoose ul li {
   /*color:  rgba(97, 97, 97, .7);
-       */
+         */
   color: #000;
 
   display: block;
@@ -8956,8 +8979,61 @@ ol li {
   object-fit: contain;
 }
 .home_port .carousel-control-prev {
-    left: -45px;
+  left: -45px;
 }
 .home_port .carousel-control-next {
-   right: -45px;
+  right: -45px;
+}
+/* 07-05 */
+.feature-icon-small.text-bg-primary {
+  background-color: transparent !important;
+}
+
+.audit_form.faq-audit-frm ul li {
+  margin: 9px 0px;
+  flex: 0 0 100%;
+}
+.faq-audit-frm {
+  position: sticky;
+  top: 150px;
+  width: 100%;
+  float: left;
+  max-width: 300px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 #ccc;
+}
+.audit_form ul li input,
+.audit_form ul li textarea {
+  height: 45px;
+  color: #000;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.faq-btn {
+  font-size: 18px !important ;
+  width: 100% !important;
+  float: left;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #000;
+  color: white !important;
+  border: 0px solid transparent !important;
+}
+.faq-btn:hover {
+  background-color: #da1c4a;
+}
+.sticky_2 {
+  position: fixed;
+  top: 150px;
+}
+/* 07-05 */
+.audit_form.faq-audit-frm {
+  background: #f9f9f9;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
 }

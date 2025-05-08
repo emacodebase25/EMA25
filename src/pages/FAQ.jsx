@@ -288,7 +288,7 @@ const EscortFAQPage = () => {
       </section>
 
       {/* blogger */}
-      <BlogArea />
+      <BlogArea sticky_class={"z-index:99"} />
 
       {/* seoicon */}
       <SEOLogos />

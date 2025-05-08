@@ -522,10 +522,7 @@ const Enterpriseseoservices = () => {
                 </li>
                 <li>
                   <figure>
-                    <img
-                      src="./images/nich.png"
-                      alt=""
-                    />
+                    <img src="./images/nich.png" alt="" />
                   </figure>
                   <div className="dtls">
                     <h3>Discreet Social Amplification </h3>
@@ -972,8 +969,8 @@ const Enterpriseseoservices = () => {
                   <i
                     className="fa"
                     style={{
-                      backgroundimage:
-                        "url(./images/Additional-Relevant-Channels.png);",
+                      backgroundImage:
+                        "url('/images/Additional-Relevant-Channels.png')",
                     }}
                   ></i>
                 </div>
@@ -999,8 +996,8 @@ const Enterpriseseoservices = () => {
                   <i
                     className="fa"
                     style={{
-                      backgroundimage:
-                        "url(./images/Analytics-and-Continuous-Improvement.png);",
+                      backgroundImage:
+                        "url('/images/Analytics-and-Continuous-Improvement.png')",
                     }}
                   ></i>
                 </div>
@@ -1025,8 +1022,7 @@ const Enterpriseseoservices = () => {
                   <i
                     className="fa"
                     style={{
-                      backgroundimage:
-                        "url(./images/nich.png)",
+                      backgroundImage: "url('/images/nich.png')",
                     }}
                   ></i>
                 </div>
@@ -1051,8 +1047,8 @@ const Enterpriseseoservices = () => {
                   <i
                     className="fa"
                     style={{
-                      backgroundimage:
-                        "url(./images/Social-Media-Promotion.png)",
+                      backgroundImage:
+                        "url('/images/Social-Media-Promotion.png')",
                     }}
                   ></i>
                 </div>
