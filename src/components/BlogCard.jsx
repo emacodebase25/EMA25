@@ -12,7 +12,8 @@ const BlogCard = ({ title, imageUrl, date, link }) => {
         />
       </a>
       <div className="blog-card-title">
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={link}  rel="noopener noreferrer">
+        {/* <a href={link} target="_blank" rel="noopener noreferrer"> */}
           {title}
         </a>
       </div>

@@ -44,6 +44,7 @@ import Strippers from './pages/Strippers';
 import EroticMessage from './pages/Eroticmessage';
 import Adultweb from './pages/Adultweb';
 import Brothel from './pages/Brothel';
+import EscortBlogViewPage from './pages/Blogview';
 
 function App() {
   return (
@@ -122,6 +123,7 @@ function App() {
           <Route path='/erotic-massage-seo' element={<EroticMessage />} />
           <Route path='/adult-website-design' element={<Adultweb />} />
           <Route path='/brothel-seo' element={<Brothel />} />
+          <Route path='/blogs/:id' element={<EscortBlogViewPage />} />
 
           <Route path='*' element={<EscortNotFoundpage />} />
         </Routes>

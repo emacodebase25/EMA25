@@ -9037,3 +9037,116 @@ ol li {
   padding: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.doc_info_area {
+  width: 100%;
+  float: left;
+  background: #f7f7f7;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px 0;
+}
+
+.top_doctor figure img {
+  height: 159px !important;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+  width: 150px;
+  object-fit: cover;
+}
+
+.addtoany_content {
+  clear: both;
+  margin: 16px auto;
+}
+
+.a2a_kit, .a2a_menu, .a2a_modal, .a2a_overlay {
+  touch-action: manipulation;
+  outline: 0;
+}
+
+.content_area {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  width: 100%;
+  float: left;
+  margin: 0 0 25px;
+  padding: 0 0 0px;
+}
+
+#ez-toc-container {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  display: table;
+  margin-bottom: 1em;
+  padding: 10px 20px 10px 10px;
+  position: relative;
+  width: auto;
+}
+
+/* for blog comment and quote */
+
+.blog_coment {
+  padding: 80px 0 0 0;
+  float: left;
+  width: 100%;
+}
+
+.blog_coment .form-submit [type=submit] {
+  background: #da1c4a;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer_cta_blog {
+  background: #da1c4a;
+  float: left;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.quote-section {
+  background-color: #fff6f8;
+  padding: 40px;
+  border: 1px solid #b0bec5;
+  border-radius: 8px;
+  display: flex
+;
+  /* box-shadow: 0 0 15px 3px #f5f5f5; */
+  align-items: center;
+}
+
+.quote-section .btn-quote {
+  background-color: #da1c4a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.quote-section .quote-timer {
+  text-align: center;
+  border: 1px solid #da1c4a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center !important;
+}
