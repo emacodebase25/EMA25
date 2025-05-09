@@ -9080,3 +9080,73 @@ ol li {
 .blog_list_area .contact_form p {
   text-align: left !important;
 }
+.ez-toc-title-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+div#ez-toc-container .ez-toc-title {
+  font-weight: 500;
+  font-size: 120%;
+  text-align: left;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+}
+#ez-toc-container {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  display: table;
+  margin-bottom: 1em;
+  padding: 10px 20px 10px 10px;
+  position: relative;
+  width: 100%;
+}
+.content_area nav ul.ez-toc-list {
+  list-style-type: decimal !important;
+}
+.content_area nav ul.ez-toc-list li {
+  width: 100%;
+}
+.content_area nav ul.ez-toc-list li a {
+  width: 100%;
+  border: none;
+  outline: none;
+  position: relative;
+  background-color: transparent;
+  padding: 0px !important;
+  color: #444;
+  box-shadow: none;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 16px;
+  border-radius: 0px !important;
+}
+.content_area nav ul.ez-toc-list li a::after {
+  display: none;
+}
+/* .content_area nav ul.ez-toc-list li a::before {
+  content: counter(item, numeric) ". ";
+  margin-right: 0.2em;
+  counter-increment: item;
+  flex-grow: 0;
+  flex-shrink: 0;
+  float: left;
+} */
+
+.ez-toc-wrap-left-text nav {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.ez-toc-wrap-left-text nav.ez-container-closed {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}

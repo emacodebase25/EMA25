@@ -9038,115 +9038,115 @@ ol li {
   transition: all 0.3s ease-in-out;
 }
 
-.doc_info_area {
-  width: 100%;
-  float: left;
-  background: #f7f7f7;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 25px 0;
+.blg-search {
+  position: relative;
 }
-
-.top_doctor figure img {
-  height: 159px !important;
-  max-width: 100%;
-  height: auto;
-  border-radius: 100%;
-  width: 150px;
-  object-fit: cover;
+.blg-search input {
+  border: 1px solid #be4c46 !important;
+  border-radius: 2px !important;
+  padding: 5px 40px 5px 15px;
 }
-
-.addtoany_content {
-  clear: both;
-  margin: 16px auto;
+.blg-search span {
+  display: flex;
+  width: 34px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #be4c46;
+  position: absolute;
+  right: 13px;
+  top: 0px;
 }
-
-.a2a_kit, .a2a_menu, .a2a_modal, .a2a_overlay {
-  touch-action: manipulation;
-  outline: 0;
+.blg-search span svg {
+  display: block;
+  width: 22px;
 }
-
-.content_area {
+.blg-search span svg path {
+  fill: white;
+}
+.blog-card-title {
   font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
-  width: 100%;
-  float: left;
-  margin: 0 0 25px;
-  padding: 0 0 0px;
+  font-weight: bold;
+  margin-top: 10px;
 }
-
+.blog-card-meta {
+  font-size: 14px;
+  color: #777;
+}
+.blog-card {
+  margin-bottom: 20px;
+}
+.blog_list_area .contact_form p {
+  text-align: left !important;
+}
+.ez-toc-title-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+div#ez-toc-container .ez-toc-title {
+  font-weight: 500;
+  font-size: 120%;
+  text-align: left;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+}
 #ez-toc-container {
   background: #f9f9f9;
   border: 1px solid #aaa;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   display: table;
   margin-bottom: 1em;
   padding: 10px 20px 10px 10px;
   position: relative;
-  width: auto;
-}
-
-/* for blog comment and quote */
-
-.blog_coment {
-  padding: 80px 0 0 0;
-  float: left;
   width: 100%;
 }
-
-.blog_coment .form-submit [type=submit] {
-  background: #da1c4a;
-  padding: 12px 25px;
-  border-radius: 30px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
-  display: inline-block;
-  letter-spacing: 1px;
-  border: none;
-  cursor: pointer;
+.content_area nav ul.ez-toc-list {
+  list-style-type: decimal !important;
 }
-
-.footer_cta_blog {
-  background: #da1c4a;
-  float: left;
-  padding: 80px 0;
+.content_area nav ul.ez-toc-list li {
   width: 100%;
 }
-
-.quote-section {
-  background-color: #fff6f8;
-  padding: 40px;
-  border: 1px solid #b0bec5;
-  border-radius: 8px;
-  display: flex
-;
-  /* box-shadow: 0 0 15px 3px #f5f5f5; */
-  align-items: center;
-}
-
-.quote-section .btn-quote {
-  background-color: #da1c4a;
-  color: #fff;
+.content_area nav ul.ez-toc-list li a {
+  width: 100%;
   border: none;
-  padding: 10px 20px;
+  outline: none;
+  position: relative;
+  background-color: transparent;
+  padding: 0px !important;
+  color: #444;
+  box-shadow: none;
+  text-decoration: none;
+  text-shadow: none;
   font-size: 16px;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 0px !important;
 }
-
-.quote-section .quote-timer {
-  text-align: center;
-  border: 1px solid #da1c4a;
-  padding: 20px;
-  border-radius: 8px;
+.content_area nav ul.ez-toc-list li a::after {
+  display: none;
 }
+/* .content_area nav ul.ez-toc-list li a::before {
+  content: counter(item, numeric) ". ";
+  margin-right: 0.2em;
+  counter-increment: item;
+  flex-grow: 0;
+  flex-shrink: 0;
+  float: left;
+} */
 
-.justify-content-center {
-  -ms-flex-pack: center!important;
-  justify-content: center !important;
+.ez-toc-wrap-left-text nav {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.ez-toc-wrap-left-text nav.ez-container-closed {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
 }
