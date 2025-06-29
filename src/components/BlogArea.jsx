@@ -11,7 +11,7 @@ const BlogArea = ({ sticky_class }) => {
     }
   }, []);
 
-  const getExcerptPreview = (html, wordLimit = 50) => {
+  const getExcerptPreview = (html, wordLimit = 30) => {
     const tempElement = document.createElement("div");
     tempElement.innerHTML = html;
     const plainText = tempElement.textContent || tempElement.innerText || "";
@@ -26,7 +26,7 @@ const BlogArea = ({ sticky_class }) => {
           <div className="col-lg-12">
             <h2 className="text-center">Latest News & Updates</h2>
             <ul>
-              {latestBlogs.map((post, index) => {
+              {latestBlogs.slice(0,3).map((post, index) => {
                 const img =
                   post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
                   "Not found";
